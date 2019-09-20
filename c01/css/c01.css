@@ -25,5 +25,7 @@ h1 {
     height: 175px;
     background-image: url("../images/constructive-logo.gif");
     background-repeat: no-repeat;
-    
+    text-indent: -9999px;
+    text-indent: 1px solid #bcbdc0
+
 }

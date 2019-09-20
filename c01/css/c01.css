@@ -26,6 +26,7 @@ h1 {
     background-image: url("../images/constructive-logo.gif");
     background-repeat: no-repeat;
     text-indent: -9999px;
-    text-indent: 1px solid #bcbdc0
+    border-top: 1px solid #bcbdc0;
+    border-left: 1px solid #bcbdc0;
 
 }

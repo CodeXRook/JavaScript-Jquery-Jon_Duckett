@@ -42,3 +42,7 @@ h3 {
     text-transform: uppercase;
     border-left: 1px solid #bcbdc0;
     border-right: 1px solid #bcbdc0;}
+
+p {
+    margin: 0 0 0 50px;
+}

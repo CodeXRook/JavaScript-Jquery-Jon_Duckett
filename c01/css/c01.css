@@ -11,3 +11,7 @@ body {
     background-size: cover;
     margin: 0;
     padding: 0;}
+
+h1, h3, p {
+    float: left;
+}

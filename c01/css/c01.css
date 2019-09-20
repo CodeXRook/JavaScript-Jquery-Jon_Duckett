@@ -4,4 +4,10 @@
 
 body {
     font-family: "Courier New", Courier, monospace;
-}
+    background: url("../images/constructive-backdrop.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-saize: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;}

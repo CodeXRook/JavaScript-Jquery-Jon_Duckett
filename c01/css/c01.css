@@ -14,4 +14,8 @@ body {
 
 h1, h3, p {
     float: left;
+    clear: left;
+    width: 320px;
+    background-color: #fff;
+    color: #5a514c;
 }

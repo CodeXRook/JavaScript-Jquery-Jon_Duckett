@@ -114,4 +114,5 @@ body:before, body:after {
     background: #fff;
     left: 0;
     right: 0;
+    height: 20px;
 }

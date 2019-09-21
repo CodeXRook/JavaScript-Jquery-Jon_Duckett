@@ -44,3 +44,7 @@ h2 {
     height: 18px;
     margin: 0 auto 20px auto;
     background: url('../images/custom-sign.png') no-repeat center center;}
+
+#title {
+    font-size: 120%;
+    font-weight: bold;}

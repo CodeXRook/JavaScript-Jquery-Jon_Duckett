@@ -116,3 +116,6 @@ body:before, body:after {
     right: 0;
     height: 20px;
 }
+
+body:before {
+    top: 0;}

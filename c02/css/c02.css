@@ -5,4 +5,6 @@ body {
     background-color: #b6a996;
     background: url('../images/hobart.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }

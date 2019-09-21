@@ -48,3 +48,7 @@ h2 {
 #title {
     font-size: 120%;
     font-weight: bold;}
+
+#cost, .action{
+    background-color: #f84c53;
+}

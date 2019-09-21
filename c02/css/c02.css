@@ -80,4 +80,5 @@ a {
 
 .true, .false {
     background: url("../images/tick-cross.png");
+    display: block;
 }

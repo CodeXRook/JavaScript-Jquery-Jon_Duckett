@@ -106,5 +106,10 @@ table {
 
 tr td:first-child {
     font-weight: bold;
-    padding-right: 20px;
+    padding-right: 20px;}
+
+body:before, body:after {
+    content: "";
+    position: fixed;
+    background: #fff;
 }

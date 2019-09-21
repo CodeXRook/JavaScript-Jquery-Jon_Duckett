@@ -56,3 +56,6 @@ h2 {
     height: 1em;
     padding: 0.5em 0.75em;
     float: right;}
+#cost{
+    position: relative;
+}

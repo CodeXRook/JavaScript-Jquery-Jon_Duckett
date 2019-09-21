@@ -22,5 +22,6 @@ body {
         display: inline-block;
         padding: 30px 50px;
         margin: 20px auto 50px auto;
+        max-width: 580px;
         
     }

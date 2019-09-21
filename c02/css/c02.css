@@ -51,4 +51,6 @@ h2 {
 
 #cost, .action{
     background-color: #f84c53;
+    color: #fff;
+    width: auto;
 }

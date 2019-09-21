@@ -119,3 +119,12 @@ body:before, body:after {
 
 body:before {
     top: 0;}
+
+body:after{
+    bottom: 0;
+}
+
+body {
+    border-left: 20px solid #fff;
+    border-right: 20px solid #fff;
+}

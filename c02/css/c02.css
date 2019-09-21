@@ -93,4 +93,4 @@ a {
     height: 2em;
     display: block;
     clear: left;
-}
+    min-width: 10em;}

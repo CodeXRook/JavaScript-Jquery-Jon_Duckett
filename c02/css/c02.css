@@ -18,4 +18,6 @@ body {
     #content {
         background-color: #fff;
         border: 3px double #31373f;
+        color: #31373f;
+        display: inline-block;
     }

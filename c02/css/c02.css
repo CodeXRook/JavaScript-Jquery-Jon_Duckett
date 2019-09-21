@@ -79,5 +79,5 @@ a {
     text-decoration:none;}
 
 .true, .false {
-    
+    background: url("../images/tick-cross.png");
 }

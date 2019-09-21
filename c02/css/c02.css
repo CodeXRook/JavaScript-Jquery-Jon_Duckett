@@ -17,4 +17,5 @@ body {
 
     #content {
         background-color: #fff;
+        border: 3px double #31373f;
     }

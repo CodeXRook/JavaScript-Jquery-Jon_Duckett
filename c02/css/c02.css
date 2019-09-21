@@ -86,3 +86,7 @@ a {
     width: 25px;}
 .false{
     background-position: 0 -25px;}
+
+.message{
+    font-weight: bold;
+}

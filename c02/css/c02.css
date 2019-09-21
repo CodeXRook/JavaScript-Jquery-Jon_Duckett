@@ -91,4 +91,5 @@ a {
     font-weight: bold;
     line-height: 1.5em;
     height: 2em;
+    display: block;
 }

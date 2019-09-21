@@ -105,5 +105,5 @@ table {
       margin: 20px 100px 0 100px;}
 
 tr td:first-child {
-    
+    font-weight: bold;
 }

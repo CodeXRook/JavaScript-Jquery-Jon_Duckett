@@ -112,4 +112,6 @@ body:before, body:after {
     content: "";
     position: fixed;
     background: #fff;
+    left: 0;
+    right: 0;
 }

@@ -29,4 +29,5 @@ body {
     
 h1, h2 {
     text-indent: 100%;
+    white-space: nowrap;
 }

@@ -58,4 +58,5 @@ h2 {
     float: right;}
 #cost{
     position: relative;
+    top: 1em;
 }

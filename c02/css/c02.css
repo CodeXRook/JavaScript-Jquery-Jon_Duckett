@@ -94,3 +94,6 @@ a {
     display: block;
     clear: left;
     min-width: 10em;}
+
+.message span {
+    font-weight: normal;}

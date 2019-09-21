@@ -31,3 +31,7 @@ h1, h2 {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;}
+
+h1{
+    width: 278px;
+}

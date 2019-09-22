@@ -27,3 +27,7 @@ h2{
     margin: 1.75em 0 0 0;
     color: #adffda;
     font-weight: normal;}
+
+h2 + p{
+    
+}

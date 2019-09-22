@@ -6,3 +6,5 @@ function Hotel(name, rooms, booked) {
         return this.rooms - this.booked
     };
 }
+
+var quayHotel = new Hotel('Quay', 40, 25);

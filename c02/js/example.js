@@ -9,3 +9,4 @@ var welcome = greeting + name + message;
 var sign = 'Montague House';
 var tiles = sign.length;
 var subTotal = tiles * 5;
+var shipping = 7;

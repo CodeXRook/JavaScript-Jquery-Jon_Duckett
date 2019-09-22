@@ -8,3 +8,4 @@ function Hotel(name, rooms, booked) {
 }
 
 var quayHotel = new Hotel('Quay', 40, 25);
+var parkHotel = new Hotel('Park', 120, 77);

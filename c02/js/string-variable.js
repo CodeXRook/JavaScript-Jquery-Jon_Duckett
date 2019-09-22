@@ -1,3 +1,4 @@
 var username;
 var message;
-username ='Moly';
+username ='Molly';
+message ='See our upcoming range';

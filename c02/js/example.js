@@ -14,3 +14,4 @@ var grandTotal = subTotal + shipping;
 
 // Get the element that has an id of greeting
 var el = document.getElementById('greeting');
+// Replace the content of that element with the personalized welcome message

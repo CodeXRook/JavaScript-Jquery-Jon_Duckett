@@ -3,5 +3,7 @@ which helps protect the scope od variables */
 
 (function() {
   // PART ONE: CREATE HOTEL OBJECT AND WRITE OUT THE OFFER DETAILS
-  var hotel = 
+  var hotel = {
+    name: 'Park',
+  }
 }

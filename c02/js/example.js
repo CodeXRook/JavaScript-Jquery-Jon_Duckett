@@ -7,3 +7,4 @@ var welcome = greeting + name + message;
 
 // Create variables to hold details about the sign
 var sign = 'Montague House';
+var tiles = sign.length;

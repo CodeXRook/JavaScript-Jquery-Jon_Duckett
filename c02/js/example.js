@@ -26,3 +26,4 @@ var elSubtotal = document.getElementById('subTotal');
 elSubtotal.textContent = '$' + subTotal;
 
 // Get the element that has an id of shipping then update its contents
+var elShipping = document.getElementById('shipping');

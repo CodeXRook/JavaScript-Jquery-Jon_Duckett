@@ -53,4 +53,5 @@ p + h2 {
     width: 200px;
     padding: 0 15px;
     text-align: center;
+    min-height: 100%;
 }

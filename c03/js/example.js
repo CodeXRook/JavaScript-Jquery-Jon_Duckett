@@ -42,5 +42,6 @@ which helps protect the scope od variables */
   // Collects the parts of the date to show on the page
 
   day = dayNames[weekFromToday.getDay()];
+  date = weekFromToday.getDate();
   }
 }

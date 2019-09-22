@@ -43,5 +43,6 @@ which helps protect the scope od variables */
 
   day = dayNames[weekFromToday.getDay()];
   date = weekFromToday.getDate();
+  month = monthNames[weekFromToday.getMonth()];
   }
 }

@@ -50,4 +50,5 @@ which helps protect the scope od variables */
   expiryMsg += day + ' <br />(' + date + ' ' + month + ' ' + year +')';
   return expiryMsg;
   }
+  today = new Date();    // Put today's date i variable
 }

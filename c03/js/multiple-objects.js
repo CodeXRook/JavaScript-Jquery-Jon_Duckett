@@ -13,3 +13,4 @@ var parkHotel = new Hotel('Park', 120, 77);
 var details1 = quayHotel.name + ' rooms: ';
   details1 += quayHotel.checkAvailability();
 var elHotel1 = document.getElementById('hotel1');
+elHotel1.textContent = details1;

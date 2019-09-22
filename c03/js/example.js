@@ -33,5 +33,7 @@ which helps protect the scope od variables */
   // Declare variables within the function for local scope
   var weekFromToday, day, date, month, year, dayNames, monthNames;
 
+  // Add 7 days time (added in milliseconds)
+  weekFromToday = new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000);
   }
 }

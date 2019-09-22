@@ -6,3 +6,4 @@ var hotel = {
 
 hotel.gym= true;
 hotel.pool = false;
+delete hotel.booked;

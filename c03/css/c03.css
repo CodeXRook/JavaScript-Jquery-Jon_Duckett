@@ -93,3 +93,7 @@ hotel2 {
     float: left;
     padding-top: 10px;
 }
+
+#specialRate {
+    font-size: 440%;
+}

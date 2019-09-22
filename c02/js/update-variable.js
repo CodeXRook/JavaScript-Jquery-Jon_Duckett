@@ -13,3 +13,5 @@ shipping =true;
 
 var elStock = document.getElementById('stock');
 elStock.className = inStock;
+var elShip = document.getElementById('shippng');
+elShip.className= shipping;

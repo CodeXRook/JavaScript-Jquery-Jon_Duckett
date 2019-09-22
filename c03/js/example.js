@@ -27,4 +27,5 @@ which helps protect the scope od variables */
   // PART TWO: CALCULATE AND WRITE OUT THE EXPIRY DETAILS FOR THE OFFER
   var expiryMsg; //Message display to users
   var today; // Today's date
+  var elEnds; // The element that shows the message about the offer ending
 }

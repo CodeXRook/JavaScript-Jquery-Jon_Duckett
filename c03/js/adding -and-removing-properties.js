@@ -1,3 +1,4 @@
 var hotel = {
-    name: 'Park'
+    name: 'Park',
+    rooms : 120,
 }

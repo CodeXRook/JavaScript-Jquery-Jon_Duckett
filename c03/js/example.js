@@ -51,4 +51,5 @@ which helps protect the scope od variables */
   return expiryMsg;
   }
   today = new Date();    // Put today's date i variable
+  elEnds = document.getElementById('offerEnds'); // Get the  offerEnds element
 }

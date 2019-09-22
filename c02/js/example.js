@@ -13,3 +13,4 @@ var shipping = 7;
 var grandTotal = subTotal + shipping;
 
 // Get the element that has an id of greeting
+var el = document.getElementById('greeting');

@@ -91,4 +91,5 @@ hotel2 {
     text-decoration: line-through;
     display: inline-block;
     float: left;
+    padding-top: 10px;
 }

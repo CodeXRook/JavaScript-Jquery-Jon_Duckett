@@ -38,4 +38,5 @@ p + h2 {
   /* message under the logo */
 #message{
     float: left;
+    clear: left;
 }

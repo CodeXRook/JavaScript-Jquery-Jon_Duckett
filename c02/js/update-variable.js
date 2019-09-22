@@ -9,3 +9,4 @@ as a result, the script might need to change
 these values */
 
 inStock = false;
+shipping =true;

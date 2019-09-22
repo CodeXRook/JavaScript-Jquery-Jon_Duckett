@@ -19,4 +19,6 @@ which helps protect the scope od variables */
   hotelName = document.getElementById('hotelName');       // Get elements
   roomRate = document.getElementById('roomRate');
   specialRate = document.getElementById('specialRate');
+
+  hotelName.textContent = hotel.name;             //Write hotel name
 }

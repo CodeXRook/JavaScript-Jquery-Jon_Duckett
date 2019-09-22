@@ -49,4 +49,5 @@ p + h2 {
 /* black bar across the right hand side of the page */
 #info{
     background-color: #1e1b1e;
+    color: #fff;
 }

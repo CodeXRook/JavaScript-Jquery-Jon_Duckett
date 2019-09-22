@@ -11,3 +11,5 @@ var tiles = sign.length;
 var subTotal = tiles * 5;
 var shipping = 7;
 var grandTotal = subTotal + shipping;
+
+// Get the element that has an id of greeting

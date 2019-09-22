@@ -4,3 +4,4 @@ var total = price * quantity;
 
 var price, quantity, total;
 price = 5;
+quantity = 14;

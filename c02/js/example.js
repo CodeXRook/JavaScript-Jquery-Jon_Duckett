@@ -30,4 +30,5 @@ var elShipping = document.getElementById('shipping');
 elShipping.textContent ='$' + shipping;
 
 // Get the elemen that has an id of grandTotal then update ots contents
+var elGrandTotal = document.getElementById('grandTotal');
 

@@ -15,5 +15,7 @@ which helps protect the scope od variables */
 
   // Write out the hotel name, standard rate, and the special rate
   var hotelName, roomRate, specialRate;    //Declare variables
+
   hotelName = document.getElementById('hotelName');       // Get elements
+  roomRate = document.getElementById('roomRate');
 }

@@ -1,0 +1,1 @@
+/* The script is placed inside an immediately invoked function expression

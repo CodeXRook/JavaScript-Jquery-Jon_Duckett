@@ -15,3 +15,4 @@ var elPool = document.getElementById('pool');
 elPool.textContent = hotel.pool;
 
 var elGym = document.getElementById('gym');
+elGym.textContent = hotel.gym;

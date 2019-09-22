@@ -7,3 +7,5 @@ var hotel = {
 hotel.gym= true;
 hotel.pool = false;
 delete hotel.booked;
+
+var elName = document.getElementById('hotelName');

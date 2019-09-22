@@ -56,4 +56,5 @@ p + h2 {
     min-height: 100%;
     position: absolute;
     top: 0;
+    right: 15%;
 }

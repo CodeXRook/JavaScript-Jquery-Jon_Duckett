@@ -7,3 +7,5 @@ var hotel = {
     }
     
 };
+
+var elName = document.getElementById('hotelName');

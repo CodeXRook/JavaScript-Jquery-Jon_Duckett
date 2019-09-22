@@ -1,1 +1,3 @@
-function
+function Hotel(name, rooms, booked) {
+    
+}

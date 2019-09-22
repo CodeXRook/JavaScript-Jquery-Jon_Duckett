@@ -16,3 +16,4 @@ var elHotel1 = document.getElementById('hotel1');
 elHotel1.textContent = details1;
 
 var details2 = parkHotel.name + ' rooms: ';
+   details2 += parkHotel.checkAvailability(); 

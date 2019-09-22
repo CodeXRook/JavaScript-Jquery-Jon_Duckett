@@ -1,1 +1,2 @@
-var colors = new Array
+var colors = new Array ( 'white','black','cusotm');
+

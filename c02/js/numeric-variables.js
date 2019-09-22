@@ -3,3 +3,4 @@ var quantity;
 var total;
 
 price = 5;
+quantity = 14;

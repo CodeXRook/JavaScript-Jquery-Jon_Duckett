@@ -52,4 +52,5 @@ which helps protect the scope od variables */
   }
   today = new Date();    // Put today's date i variable
   elEnds = document.getElementById('offerEnds'); // Get the  offerEnds element
+  elEnds.innerHTML = offerExpries(today); // Add the expiry message
 }

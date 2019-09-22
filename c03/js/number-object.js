@@ -1,1 +1,1 @@
-var 
+var originalNumber = 10.23456;

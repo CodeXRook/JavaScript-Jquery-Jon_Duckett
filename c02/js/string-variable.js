@@ -1,1 +1,2 @@
 var username;
+var message;

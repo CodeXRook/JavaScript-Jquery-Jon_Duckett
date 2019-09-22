@@ -61,5 +61,5 @@ p + h2 {
 
 /* details in the black bar */
 #hotelName{
-    
+    text-transform: uppercase;
 }

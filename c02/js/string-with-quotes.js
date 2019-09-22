@@ -1,0 +1,2 @@
+var title;
+var message;

@@ -122,3 +122,7 @@ hotel2 {
 }
 
 /* footer */
+
+#footer {
+    position: absolute;
+}

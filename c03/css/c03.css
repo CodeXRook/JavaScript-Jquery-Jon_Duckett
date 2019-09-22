@@ -34,3 +34,8 @@ h2 + p{
         margin: 0;}
 p + h2 {
   margin: 10px 0 0 0;}
+
+  /* message under the logo */
+#message{
+    float: left;
+}

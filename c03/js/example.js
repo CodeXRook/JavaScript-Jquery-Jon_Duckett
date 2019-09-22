@@ -37,5 +37,6 @@ which helps protect the scope od variables */
   weekFromToday = new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000);
 
   // Create arrarys to hold the names of days / months
+  dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   }
 }

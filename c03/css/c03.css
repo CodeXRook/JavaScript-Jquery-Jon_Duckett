@@ -114,4 +114,5 @@ hotel2 {
     text-align: left;
     background-image: url("../images/check-cross.png");
     background-position: 120px 0;
+    background-repeat: no-repeat;
 }

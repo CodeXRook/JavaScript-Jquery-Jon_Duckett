@@ -86,3 +86,7 @@ hotel2 {
     display: inline-block;
     margin: 0;
 }
+
+#roomRate{
+    text-decoration: line-through;
+}

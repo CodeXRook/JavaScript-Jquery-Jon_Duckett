@@ -10,3 +10,6 @@ these values */
 
 inStock = false;
 shipping =true;
+
+var elStock = document.getElementById('stock');
+elStock.className = inStock;

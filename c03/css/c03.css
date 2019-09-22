@@ -113,4 +113,5 @@ hotel2 {
     line-height: 28px;
     text-align: left;
     background-image: url("../images/check-cross.png");
+    background-position: 120px 0;
 }

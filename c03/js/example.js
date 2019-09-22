@@ -48,5 +48,6 @@ which helps protect the scope od variables */
   //Create the message
   expiryMsg = 'Offer expires next ';
   expiryMsg += day + ' <br />(' + date + ' ' + month + ' ' + year +')';
+  return expiryMsg;
   }
 }

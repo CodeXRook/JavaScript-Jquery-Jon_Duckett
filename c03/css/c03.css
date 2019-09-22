@@ -130,3 +130,7 @@ hotel2 {
     width: 100%;
     background-color: #adffda;
 }
+
+#footer p {
+    padding: 10px;
+}

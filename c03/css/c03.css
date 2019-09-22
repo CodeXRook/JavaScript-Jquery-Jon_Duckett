@@ -39,4 +39,5 @@ p + h2 {
 #message{
     float: left;
     clear: left;
+    background-color: #ffb87a;
 }

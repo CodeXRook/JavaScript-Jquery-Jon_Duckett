@@ -45,5 +45,6 @@ which helps protect the scope od variables */
   date = weekFromToday.getDate();
   month = monthNames[weekFromToday.getMonth()];
   year = weekFromToday.getFullYear();
+  //Create the message
   }
 }

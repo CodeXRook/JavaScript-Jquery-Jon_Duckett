@@ -5,4 +5,5 @@
 
 body{
     background-color: #fff;
+    background: url("../images/travelworthy-backdrop.jpg") no-repeat center center fixed;
 }

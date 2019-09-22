@@ -1,1 +1,1 @@
-var hotel 
+var hotel = new Object();

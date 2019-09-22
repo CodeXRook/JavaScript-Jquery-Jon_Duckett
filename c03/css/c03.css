@@ -63,4 +63,5 @@ p + h2 {
 #hotelName{
     text-transform: uppercase;
     text-align: center; 
+    font-size: 120%;
 }

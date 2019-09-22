@@ -90,4 +90,5 @@ hotel2 {
 #roomRate{
     text-decoration: line-through;
     display: inline-block;
+    float: left;
 }

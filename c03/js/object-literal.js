@@ -1,1 +1,3 @@
-var hotel =
+var hotel = {
+    name: 'Quary',
+}

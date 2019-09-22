@@ -9,3 +9,4 @@ hotel.pool = false;
 delete hotel.booked;
 
 var elName = document.getElementById('hotelName');
+elName.textContent = hotel.name;

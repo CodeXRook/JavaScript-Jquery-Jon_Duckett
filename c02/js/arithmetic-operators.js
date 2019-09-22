@@ -5,3 +5,5 @@ var total = subtotal + shipping; // Total is 77
 
 var elSub = document.getElementById('subtotal');
 elShip.textContent = shipping;
+
+var elTotal = document.getElementById('total');

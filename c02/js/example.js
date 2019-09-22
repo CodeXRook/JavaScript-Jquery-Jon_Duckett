@@ -10,3 +10,4 @@ var sign = 'Montague House';
 var tiles = sign.length;
 var subTotal = tiles * 5;
 var shipping = 7;
+var grandTotal = subTotal + shipping;

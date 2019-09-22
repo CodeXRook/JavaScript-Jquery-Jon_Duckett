@@ -7,3 +7,4 @@ var elSub = document.getElementById('subtotal');
 elShip.textContent = shipping;
 
 var elTotal = document.getElementById('total');
+elTotal.textContent = total;

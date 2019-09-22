@@ -11,5 +11,8 @@ which helps protect the scope od variables */
         var offerRate = this.roomRate * ((100 - this.discount) / 100); 
         return offerRate; 
     }
-  }
+  };
+
+  // Write out the hotel name, standard rate, and the special rate
+  var hotelName, roomRate, specialRate;    //Declare variables
 }

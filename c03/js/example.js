@@ -7,5 +7,8 @@ which helps protect the scope od variables */
     name: 'Park',
     roomRate: 240, // Amount in dollars
     discount: 15,
+    offerPrice: function(){
+        
+    }
   }
 }

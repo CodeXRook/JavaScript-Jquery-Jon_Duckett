@@ -18,3 +18,4 @@ var el = document.getElementById('greeting');
 // el.textContent = welcome;
 
 // Get the elelment that has an id of userSing then updated its contents
+var elTiles = document.getElementById('tiles');

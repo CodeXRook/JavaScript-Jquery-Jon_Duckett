@@ -22,3 +22,4 @@ var elTiles = document.getElementById('tiles');
 elTiles.textContent = tiles;
 
 // Get the element that has an id of subtotal then update its contents
+var elSubtotal = document.getElementById('subTotal');

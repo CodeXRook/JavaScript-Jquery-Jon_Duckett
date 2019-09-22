@@ -22,4 +22,5 @@ which helps protect the scope od variables */
 
   hotelName.textContent = hotel.name;             //Write hotel name
   roomRate.textContent = '$' + hotel.roomRate.toFixed(2);  // Write room rate
+  specialRate.textContent = '$' + hotel.offerPrice();    // Write offer price
 }

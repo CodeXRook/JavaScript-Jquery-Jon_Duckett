@@ -5,3 +5,4 @@ var hotel = {
 };
 
 hotel.gym= true;
+hotel.pool = false;

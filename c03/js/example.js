@@ -8,7 +8,8 @@ which helps protect the scope od variables */
     roomRate: 240, // Amount in dollars
     discount: 15,
     offerPrice: function(){
-        var offerRate = this.roomRate * ((100 - this.discount) / 100);  
+        var offerRate = this.roomRate * ((100 - this.discount) / 100); 
+        return offerRate; 
     }
   }
 }

@@ -47,5 +47,6 @@ which helps protect the scope od variables */
   year = weekFromToday.getFullYear();
   //Create the message
   expiryMsg = 'Offer expires next ';
+  expiryMsg += day + ' <br />(' + date + ' ' + month + ' ' + year +')';
   }
 }

@@ -29,7 +29,9 @@ which helps protect the scope od variables */
   var today; // Today's date
   var elEnds; // The element that shows the message about the offer ending
 
-  function offerExpries(today){
-      
+  function offerExpires(today){
+  // Declare variables within the function for local scope
+  var weekFromToday, day, date, month, year, dayNames, monthNames;
+
   }
 }

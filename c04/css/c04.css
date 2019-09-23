@@ -15,16 +15,14 @@ h1 {
     overflow: hidden;
     height: 109px;
     width: 643px;
-    margin: 40px auto;
-}
+    margin: 40px auto;}
 
 #teacher{
     float:right;
     margin:0px 30px 0px 0px;}
 #teacher2{
     float:right;
-    margin:135px 30px 0px 0px;
-}
+    margin:135px 30px 0px 0px;}
 
 #page1, #page2 {
     background-color: #fecc6f;
@@ -33,3 +31,7 @@ h1 {
     min-width: 779px;}
 #page2 {
     height: 730px;}
+
+ #answer{
+     
+ }

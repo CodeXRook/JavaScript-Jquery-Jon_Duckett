@@ -1,1 +1,1 @@
-var saying
+var saying = 'Home sweet home ' ;

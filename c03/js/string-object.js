@@ -12,3 +12,4 @@ msg += '<h2>character index: 8-14</h2><p>' + saying.substring(8, 14) + '</p>';
 msg += '<h2>replace</h2><p>' + saying.replace('me', 'w') + '</p>';
 
 var el = document.getElementById('info');
+el.innerHTML = msg;

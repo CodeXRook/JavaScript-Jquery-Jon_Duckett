@@ -6,3 +6,5 @@ msg += '<h2>lowercase</h2><p>' + saying.toUpperCase() + '</p>';
 
 msg += '<h2>character index: 12</h2><p>' + saying.charAt(12) + '</p>';
 msg += '<h2>fisrt ee</h2><p>' + saying.indexOf('ee') + '</p>';
+
+msg += '<h2>last e</h2><p>' + saying.lastIndexOf('e') + '</p>';

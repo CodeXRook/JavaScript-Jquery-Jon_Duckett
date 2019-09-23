@@ -9,3 +9,5 @@ var hotel = {
 
 var elName = document.getElementById('hotelName');
 elName.textContent = hotel.name;
+
+var elRooms = document.getElementById('rooms');

@@ -6,3 +6,4 @@ msg += '<h2>screen</h2> <p> width: ' + window.screen.width + '</p>';
 msg += '<p> height: ' + window.screen.height + '</p>';
 
 var el = document.getElementById('info');
+el.innerHTML = msg;

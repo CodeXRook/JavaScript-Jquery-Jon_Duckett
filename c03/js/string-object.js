@@ -8,3 +8,4 @@ msg += '<h2>character index: 12</h2><p>' + saying.charAt(12) + '</p>';
 msg += '<h2>fisrt ee</h2><p>' + saying.indexOf('ee') + '</p>';
 
 msg += '<h2>last e</h2><p>' + saying.lastIndexOf('e') + '</p>';
+msg += '<h2>character index: 8-14</h2><p>' + saying.substring(8, 14) + '</p>';

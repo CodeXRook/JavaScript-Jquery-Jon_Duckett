@@ -8,3 +8,4 @@ var hotel = {
 };
 
 var elName = document.getElementById('hotelName');
+elName.textContent = hotel.name;

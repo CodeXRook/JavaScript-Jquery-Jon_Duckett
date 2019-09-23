@@ -9,4 +9,5 @@ body{
 
 h1 {
     background-image: url('../images/bullseye-logo.png');
+    background-repeat: no-repeat;
 }

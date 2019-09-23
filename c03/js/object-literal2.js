@@ -5,4 +5,6 @@ var hotel = {
     checkAvailability: function(){
         return this.rooms - this.booked;
     }
-}
+};
+
+var elName = document.getElementById('hotelName');

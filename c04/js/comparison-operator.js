@@ -1,0 +1,1 @@
+var pass = 50; // Pass mark

@@ -1,1 +1,1 @@
-var scores 
+var scores = [24, 32, 17];      // Array of scores

@@ -4,4 +4,9 @@ var roundNumber = 0;            // Current round
 var msg = '';                   // Message
 
 // Loop through the items in the array
-for (var i = 0; i < arrayLength; i++)
+for (var i = 0; i < arrayLength; i++) {
+
+     // Arrays are zero based (so 0 is round 1)
+  // Add 1 to the current round
+  roundNumber = (i + 1);
+}

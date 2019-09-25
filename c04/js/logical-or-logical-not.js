@@ -8,3 +8,5 @@ var minPass = ((score1 >= pass1 ) || (score2 >= pass2));
 
 // Create message 
 var msg = 'Result required: ' + !minPass;
+
+// Write the message into the page

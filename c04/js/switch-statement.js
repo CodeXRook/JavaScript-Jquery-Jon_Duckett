@@ -19,3 +19,5 @@ default:
     msg ='Good luck!';
     break;
 }
+
+var el = document.getElementById('answer');

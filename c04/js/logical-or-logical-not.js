@@ -1,1 +1,1 @@
-var 
+var score1 = 8; // Round 1 score

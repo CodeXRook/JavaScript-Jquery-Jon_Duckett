@@ -11,3 +11,4 @@ var msg = 'Result required: ' + !minPass;
 
 // Write the message into the page
 var el = document.getElementById('answer');
+el.textContent = msg;

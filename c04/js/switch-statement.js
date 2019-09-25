@@ -21,3 +21,4 @@ default:
 }
 
 var el = document.getElementById('answer');
+el.textContent = msg;

@@ -7,3 +7,4 @@ if (score >= 50){// If score is 50 or higher
 }
 
 var el = document.getElementById('answer');
+el.textContent = msg; 

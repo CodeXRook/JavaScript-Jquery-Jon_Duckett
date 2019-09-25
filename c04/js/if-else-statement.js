@@ -6,5 +6,5 @@ var msg; // Message
 if (score >= pass){
     msg = 'Congratulations, you passed!';
 } else {
-    msg =
+    msg = 'Have another go!';
 }

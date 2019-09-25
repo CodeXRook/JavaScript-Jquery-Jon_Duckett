@@ -16,3 +16,4 @@ for (var i = 0; i < arrayLength; i++) {
      // Get the score from the scores array
   msg += scores[i] + '<br />';
 }
+document.getElementById('answer').innerHTML = msg;

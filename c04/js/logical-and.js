@@ -8,3 +8,5 @@ var passBoth = (score1 >= pass1) && (score2 >= pass2);
 
 // Create message
 var msg = 'Both rounds passed: ' + passBoth;
+
+//Write the message into the page

@@ -3,3 +3,4 @@ var arrayLength = scores.length;// Items in array
 var roundNumber = 0;            // Current round
 var msg = '';                   // Message
 
+// Loop through the items in the array

@@ -1,1 +1,1 @@
-var score1
+var score1 = 90; //Round 1 score

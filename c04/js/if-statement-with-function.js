@@ -11,3 +11,4 @@ if (score >= 50) { //If score is 50 or more
 }
 
 var el = document.getElementById('answer');
+el.textContent = msg;

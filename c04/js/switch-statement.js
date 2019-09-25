@@ -17,4 +17,5 @@ case 3:
 
 default: 
     msg ='Good luck!';
+    break;
 }

@@ -8,3 +8,4 @@ if (score >= pass){
 } else {
     msg = 'Have another go!';
 }
+var el = document.getElementById('answer');

@@ -9,4 +9,9 @@ if (operator === 'addition'){
       msg += i + ' + ' + table + ' = ' + (i + table) + '<br />';
       i++;    
      }
+}  else {
+    // Do multiplication
+    while (i < 11) {
+        
+    }
 }

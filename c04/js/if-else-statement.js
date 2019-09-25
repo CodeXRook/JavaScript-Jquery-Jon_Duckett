@@ -3,4 +3,6 @@ var score = 75; //Current score
 var msg; // Message
 
 //Select message to write base on score
-if (score >= pass)
+if (score >= pass){
+    msg = 'Congratulations, you passed!';
+}

@@ -1,1 +1,1 @@
-var score
+var score = 75; // Score

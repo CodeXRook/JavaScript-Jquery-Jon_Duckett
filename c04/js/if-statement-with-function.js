@@ -5,6 +5,6 @@ function congratulate() {
     msg += 'Congratulations! ';
 }
 
-if (score >= 50) {
-    
+if (score >= 50) { //If score is 50 or more
+    congratulate();
 }

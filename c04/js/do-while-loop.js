@@ -4,4 +4,5 @@ var msg = '';    // Message
 // Store 5 times table in a variable
 do {
     msg += i + ' x 5 = ' + (i * 5) + '<br />'; 
+    i++;
 }

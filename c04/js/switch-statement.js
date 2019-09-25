@@ -9,5 +9,5 @@ case 1:
 
     case 2:
         msg = 'Second of three - keep going!';
-        
+        break;
 }

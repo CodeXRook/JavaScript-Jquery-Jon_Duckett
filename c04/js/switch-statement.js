@@ -14,4 +14,7 @@ case 2:
 case 3:
     msg = 'Final round, almost there!';
     break;
+
+default: 
+    msg ='Good luck!';
 }

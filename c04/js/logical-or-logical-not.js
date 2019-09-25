@@ -7,3 +7,4 @@ var pass2 = 6; // Round 2 pass mark
 var minPass = ((score1 >= pass1 ) || (score2 >= pass2));
 
 // Create message 
+var msg = 'Result required: ' + !minPass;

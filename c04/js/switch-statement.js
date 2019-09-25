@@ -11,6 +11,7 @@ case 2:
     msg = 'Second of three - keep going!';
     break;
 
-case 3
+case 3:
     msg = 'Final round, almost there!';
+    break;
 }

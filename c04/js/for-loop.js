@@ -12,4 +12,7 @@ for (var i = 0; i < arrayLength; i++) {
 
     // Write the current round to message
     msg += 'Round ' + roundNumber + ': ';
+
+     // Get the score from the scores array
+  msg += scores[i] + '<br />';
 }

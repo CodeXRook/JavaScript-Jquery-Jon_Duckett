@@ -8,3 +8,4 @@ var comparison = (score1 + score2) > (highScore1 + highScore2);
 
 // Write the message into the page
 var el = document.getElementById('answer');
+el.textContent = 'New high score: ' + comparison;

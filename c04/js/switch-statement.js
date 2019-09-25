@@ -6,4 +6,8 @@ switch (level){
 case 1:
     msg = 'Good luck on the first test';
     break;
+
+    case 2:
+        msg = 'Second of three - keep going!';
+        
 }

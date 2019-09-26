@@ -1,2 +1,2 @@
 //querySelector() only returns the first match
-var el =
+var el = document.querySelector('li.hot');

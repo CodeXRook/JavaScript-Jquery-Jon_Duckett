@@ -1,1 +1,1 @@
-var elements
+var elements = document.getElementsByTagName('li'); // Find <li> elements

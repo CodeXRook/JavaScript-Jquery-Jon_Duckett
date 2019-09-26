@@ -2,3 +2,4 @@
 var el = document.getElementById('one');       
 
 // Change the value of the class attribute.
+el.className = 'cool';

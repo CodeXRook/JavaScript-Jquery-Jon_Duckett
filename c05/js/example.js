@@ -22,4 +22,4 @@ listItems[i].className = 'cool';  // Change class to cool
 }
 
 // ADD NUMBER OF ITEMS IN THE LIST TO THE HEADING
-var heading
+var heading = document.querySelector('h2'); 

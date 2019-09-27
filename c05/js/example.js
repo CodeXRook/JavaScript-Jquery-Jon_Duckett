@@ -10,4 +10,4 @@ list.appendChild(newItemLast);   // Add element end of list
 // ADD NEW ITEM START OF LIST
 var newItemFirst = document.createElement('li');  // Create element
 var newTextFirst = document.createTextNode('kale'); // Create text node
-newItemFirst.appendChild(newTextFirst); 
+newItemFirst.appendChild(newTextFirst); // Add text node to element

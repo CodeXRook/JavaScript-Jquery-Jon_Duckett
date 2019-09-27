@@ -14,3 +14,5 @@ newItemFirst.appendChild(newTextFirst); // Add text node to element
 list.insertBefore(newItemFirst, list.firstChild);  // Add element to list
 
 var listItems = document.querySelectorAll('li');  // All <li> elements
+
+// ADD A CLASS OF COOL TO ALL LIST ITEMS

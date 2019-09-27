@@ -1,2 +1,2 @@
 var itemTwo = document.getElementById('two');  // Get second list item
-var elText
+var elText = itemTwo.firstChild.nodeValue;

@@ -1,2 +1,2 @@
 // ADDING ITEMS TO START AND END OF LIST
-var lsit
+var list = document.getElementsByTagName('ul')[0];  

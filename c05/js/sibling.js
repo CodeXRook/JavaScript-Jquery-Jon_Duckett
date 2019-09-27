@@ -5,4 +5,4 @@ var nextItem = startItem.nextSibling;
 
 // Change the values of the siblings' class attributes.
 prevItem.className = 'complete';
-nextItem.className
+nextItem.className  = 'cool';

@@ -1,1 +1,1 @@
-var 
+var hotItems = documents.querySelectorAll('li.hot');//Store Nodelist in array

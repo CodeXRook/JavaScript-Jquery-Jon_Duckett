@@ -4,3 +4,4 @@ var showInnerText = firstItem.innerText;  // Get value of innerText
 
 // Show the content of these two properties at the end of the list
 var msg = '<p>textContent: ' + showTextContent + '</p>';
+    msg += '<p>innerText: ' + showInnerText + '</p>';

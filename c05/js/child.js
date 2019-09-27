@@ -5,3 +5,4 @@ var lastItem = startItem.lastChild;
 
 // Change the values of the children's class attributes.
 firstItem.className = 'complete';
+lastItem.className = 'cool';

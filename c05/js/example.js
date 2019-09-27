@@ -4,4 +4,4 @@ var list = document.getElementsByTagName('ul')[0];   // Get the <ul> element
 // ADD NEW ITEM TO END OF LIST
 var newItemLast = document.createElement('li');    // Create element
 var newTextLast = document.createTextNode('cream'); // Create text node
-newItemLast.appendChild(newTextLast); 
+newItemLast.appendChild(newTextLast);   // Add text node to element

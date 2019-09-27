@@ -3,5 +3,6 @@ var firstItem =document.getElementById('one')//Get first list item
     var attr = firstItem.getAttribute('class') //Get the attribute
 
     // Add the value of the attribute after the list
+    var el =
 
  }

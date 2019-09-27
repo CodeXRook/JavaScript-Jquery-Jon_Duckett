@@ -1,2 +1,2 @@
 var firstItem = document.getElementById('one'); // Get the first item
-firstItem.className = 'complete';  
+firstItem.className = 'complete';   // Change its class attribute

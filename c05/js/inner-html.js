@@ -2,3 +2,4 @@
 var firstItem = document.getElementById('one');
 
 // Get the content of the first list item
+var itemContent

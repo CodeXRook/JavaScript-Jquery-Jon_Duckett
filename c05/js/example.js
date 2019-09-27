@@ -17,5 +17,8 @@ var listItems = document.querySelectorAll('li');  // All <li> elements
 
 // ADD A CLASS OF COOL TO ALL LIST ITEMS
 var i;                                   // Counter variable
-for (i = 0; i < listItems.length; i++)   // Loop through elements
+for (i = 0; i < listItems.length; i++){ // Loop through elements
 listItems[i].className = 'cool';  // Change class to cool
+}
+
+// ADD NUMBER OF ITEMS IN THE LIST TO THE HEADING

@@ -1,1 +1,1 @@
-var firstItem
+var firstItem = document.getElementById('one');

@@ -18,3 +18,4 @@ var listItems = document.querySelectorAll('li');  // All <li> elements
 // ADD A CLASS OF COOL TO ALL LIST ITEMS
 var i;                                   // Counter variable
 for (i = 0; i < listItems.length; i++)   // Loop through elements
+listItems[i].className = 'cool';

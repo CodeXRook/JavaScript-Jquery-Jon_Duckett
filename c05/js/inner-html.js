@@ -3,3 +3,5 @@ var firstItem = document.getElementById('one');
 
 // Get the content of the first list item
 var itemContent = firstItem.innerHTML;
+
+// Update the content of the first list item so it is a link

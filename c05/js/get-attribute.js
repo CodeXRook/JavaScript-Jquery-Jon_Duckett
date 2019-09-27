@@ -4,5 +4,6 @@ var firstItem =document.getElementById('one')//Get first list item
 
     // Add the value of the attribute after the list
     var el = document.getElementById('scriptResults');
+    el.innerHTML
 
  }

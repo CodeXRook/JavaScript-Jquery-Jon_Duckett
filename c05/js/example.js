@@ -24,3 +24,4 @@ listItems[i].className = 'cool';  // Change class to cool
 // ADD NUMBER OF ITEMS IN THE LIST TO THE HEADING
 var heading = document.querySelector('h2'); // h2 element
 var headingText = heading.firstChild.nodeValue; //h2 text
+var totalItems

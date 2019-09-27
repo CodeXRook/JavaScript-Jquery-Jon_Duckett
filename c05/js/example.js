@@ -13,4 +13,4 @@ var newTextFirst = document.createTextNode('kale'); // Create text node
 newItemFirst.appendChild(newTextFirst); // Add text node to element
 list.insertBefore(newItemFirst, list.firstChild);  // Add element to list
 
-var listItems 
+var listItems = document.querySelectorAll('li');  

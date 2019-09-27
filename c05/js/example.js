@@ -26,4 +26,4 @@ var heading = document.querySelector('h2'); // h2 element
 var headingText = heading.firstChild.nodeValue; //h2 text
 var totalItems = listItems.length; // No. of <li> elements
 var newHeading =  headingText + '<span>' + totalItems + '</span>'; // Content
-heading.innerHTML
+heading.innerHTML = newHeading; 

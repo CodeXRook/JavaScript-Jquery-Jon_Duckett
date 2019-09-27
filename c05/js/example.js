@@ -16,5 +16,5 @@ list.insertBefore(newItemFirst, list.firstChild);  // Add element to list
 var listItems = document.querySelectorAll('li');  // All <li> elements
 
 // ADD A CLASS OF COOL TO ALL LIST ITEMS
-var i; 
+var i;                                   // Counter variable
 for (i = 0; i < listItems.length; i++) 

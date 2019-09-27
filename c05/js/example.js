@@ -5,4 +5,5 @@ var list = document.getElementsByTagName('ul')[0];   // Get the <ul> element
 var newItemLast = document.createElement('li');    // Create element
 var newTextLast = document.createTextNode('cream'); // Create text node
 newItemLast.appendChild(newTextLast);   // Add text node to element
-list.appendChild(newItemLast); 
+list.appendChild(newItemLast);   // Add element end of list
+

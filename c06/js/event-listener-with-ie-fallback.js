@@ -1,1 +1,1 @@
-var elUsername = document.getElementById
+var elUsername = document.getElementById('username'); // Get username input

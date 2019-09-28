@@ -9,4 +9,7 @@ function checkUsername(minLength) {              // Declare funcion
         elMsg.innerHTML = '';                       // Clear message
     }
 }
-if(elUsername.addEventListener)
+if(elUsername.addEventListener) {                  // If event listener supported
+    elUsername.
+
+}

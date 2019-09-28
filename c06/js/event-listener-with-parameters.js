@@ -8,5 +8,5 @@ function checkUsername(minLength)  {              // Declare function
     } else {                                    //Otherwise
       elMsg.innerHTML = '';                     // Clear msg
     }
-
 }
+elUsername

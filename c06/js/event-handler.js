@@ -9,4 +9,4 @@ function checkUsername(){           // Declare function
 }
 
 var elUsername = document.getElementById('username'); // Get username input
-elUsername.onblur = checkUsername;
+elUsername.onblur = checkUsername; // When it loses focus call checkuserName()

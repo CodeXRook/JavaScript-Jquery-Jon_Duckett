@@ -6,3 +6,5 @@ function checkUsername() {       // Declare function
        elMsg.textContent = '';                     // Clear msg
    }
 }
+
+var elUsername = document.

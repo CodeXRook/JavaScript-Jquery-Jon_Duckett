@@ -10,10 +10,13 @@ function checkUsername(minLength) {              // Declare funcion
     }
 }
 if(elUsername.addEventListener) {                     // If event listener supported
-    elUsername.addEventListener('blur', function(){  // When username loses focus
-      checkUsername(5);                             // Call checkUsername()
-    }, false);                                     // Capture during bubble phase
- }else {                                          // Otherwise
-    elUsername.attachEvent
+    elUsername.addEventListener('blur', function(){      // When username loses focus
+      checkUsername(5);                                  // Call checkUsername()
+    }, false);                                          // Capture during bubble phase
+ }else {                                                // Otherwise
+    elUsername.attachEventv('onblur', function(){       // IE fallback: on blur
+        checkUsername(5);                                // Call checkUsername()
+ 
+    }
 
  }

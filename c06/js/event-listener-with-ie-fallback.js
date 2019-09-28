@@ -9,10 +9,11 @@ function checkUsername(minLength) {              // Declare funcion
         elMsg.innerHTML = '';                       // Clear message
     }
 }
-if(elUsername.addEventListener) {                  // If event listener supported
-    elUsername.addEventListener('blur', function(){// When username loses focus
-      checkUsername(5);                         // Call checkUsername()
-    }, false);                                // Capture during bubble phase
- }else {
-     
+if(elUsername.addEventListener) {                     // If event listener supported
+    elUsername.addEventListener('blur', function(){  // When username loses focus
+      checkUsername(5);                             // Call checkUsername()
+    }, false);                                     // Capture during bubble phase
+ }else {                                          // Otherwise
+    elUsername.attachEvent
+
  }

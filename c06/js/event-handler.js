@@ -9,3 +9,4 @@ function checkUsername(){           // Declare function
 }
 
 var elUsername = document.getElementById('username'); // Get username input
+elUsername.onblur

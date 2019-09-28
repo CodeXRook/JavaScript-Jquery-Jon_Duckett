@@ -1,3 +1,3 @@
-function checkUsername() {
-    var elMsg = document.getElementById
+function checkUsername() { // Declar function
+    var elMsg = document.getElementById('feddback');
 }

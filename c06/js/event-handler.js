@@ -1,3 +1,3 @@
 function checkUsername(){           // Declare function
-  var elMsg
+  var elMsg = document.getElementById('feedback'); //Get feedback element
 }

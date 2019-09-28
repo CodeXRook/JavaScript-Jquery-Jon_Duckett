@@ -7,4 +7,4 @@ function checkUsername() {       // Declare function
    }
 }
 
-var elUsername = document.
+var elUsername = document.getElementById

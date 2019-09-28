@@ -1,3 +1,3 @@
 function checkUsername() {
-   var elMsg
+   var elMsg = document.getElementById()
 }

@@ -7,4 +7,5 @@ function checkUsername() {       // Declare function
    }
 }
 
-var elUsername = document.getElementById('username');
+var elUsername = document.getElementById('username'); // Get username input
+// When it loses focus call checkUsername()

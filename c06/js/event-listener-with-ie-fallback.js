@@ -10,6 +10,8 @@ function checkUsername(minLength) {              // Declare funcion
     }
 }
 if(elUsername.addEventListener) {                  // If event listener supported
-    elUsername.
+    elUsername.addEventListener('blur', function(){
+        
+    }
 
 }

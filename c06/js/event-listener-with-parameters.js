@@ -9,6 +9,6 @@ function checkUsername(minLength)  {              // Declare function
       elMsg.innerHTML = '';                     // Clear msg
     }
 }
-elUsername.addEventListener('blur', function() {
-    
+elUsername.addEventListener('blur', function() { // When it loses focus
+    checkUsername(5);                                     
 }

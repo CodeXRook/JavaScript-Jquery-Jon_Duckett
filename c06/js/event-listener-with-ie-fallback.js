@@ -17,6 +17,5 @@ if(elUsername.addEventListener) {                     // If event listener suppo
     elUsername.attachEventv('onblur', function(){       // IE fallback: on blur
         checkUsername(5);                                // Call checkUsername()
  
-    }
-
+    });
  }

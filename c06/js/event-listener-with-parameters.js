@@ -1,1 +1,1 @@
-var elUsername 
+var elUsername = document.getElementById('username')

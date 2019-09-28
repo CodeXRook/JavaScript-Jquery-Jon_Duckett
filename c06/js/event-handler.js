@@ -8,4 +8,4 @@ function checkUsername(){           // Declare function
   }
 }
 
-var elUsername 
+var elUsername = document.getElementById()

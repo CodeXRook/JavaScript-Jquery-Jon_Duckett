@@ -1,1 +1,1 @@
-var elUsername = document
+var elUsername = document.getElementById

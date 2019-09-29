@@ -32,7 +32,6 @@ var el = document.getElementById('shoppingList');  // Get shopping list
 if(el.addEventListener){                             // If event listeners work
     el.addEventListener('click', function(e){       // Add listener on click
         itemDone(e);                                // It calls itemDone()
-
-    }
+    }, false); 
 
 }

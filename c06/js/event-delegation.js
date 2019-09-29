@@ -21,7 +21,7 @@ function itemDone(e) {                           // Declare function
         elList.removeChild(elListItem);            // Remove list item from list
     }
     // Prevent the link from taking you elsewhere
-    if(e.preventDefault){
-        
+    if(e.preventDefault){                          // If preventDefault() works
+        e.preventDefault(); 
     }
 }

@@ -16,6 +16,8 @@ if (el.value.length < minLength) {          // If length is too short set msg
 var elUsername  = document.getElementById('username'); // Get username input
 if(elUsername.addEventListener){                       // If event listener supported
   elUsername.addEventListener('blur', function(e) {   // On blur event
+    // NOTE: This function is checkLength() - not checkUsername()
+    checkLength(e, 5); 
 
   }
 }

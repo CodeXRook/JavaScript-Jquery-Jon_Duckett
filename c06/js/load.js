@@ -1,3 +1,4 @@
 function setup() {   // Declare function
-    var textInput;    
+    var textInput;    // Create variable
+    textInput
 }

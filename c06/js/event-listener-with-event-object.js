@@ -13,4 +13,4 @@ if (el.value.length < minLength) {          // If length is too short set msg
   }
 }
 
-var elUsername  = document.getElementById
+var elUsername  = document.getElementById('username');

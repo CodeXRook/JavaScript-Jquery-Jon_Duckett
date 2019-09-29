@@ -23,5 +23,7 @@ function itemDone(e) {                           // Declare function
     // Prevent the link from taking you elsewhere
     if(e.preventDefault){                          // If preventDefault() works
         e.preventDefault();                        // Use preventDefault() 
+    } else {                                        // Otherwise
+
     }
 }

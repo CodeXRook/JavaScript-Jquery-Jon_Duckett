@@ -18,6 +18,5 @@ if(elUsername.addEventListener){                       // If event listener supp
   elUsername.addEventListener('blur', function(e) {   // On blur event
     // NOTE: This function is checkLength() - not checkUsername()
     checkLength(e, 5);                                // Call checkLength()
-
-  }
+  }, false);
 }

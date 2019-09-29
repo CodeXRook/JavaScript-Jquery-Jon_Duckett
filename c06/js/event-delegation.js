@@ -1,3 +1,5 @@
 function getTarget(e) {                      // Declare function
-    if ()
+    if (!e) {                                 // If there is no event object
+
+    }
 }

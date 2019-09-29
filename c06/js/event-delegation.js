@@ -28,4 +28,4 @@ function itemDone(e) {                           // Declare function
     }
 }
 // Set up event listeners to call itemDone() on click
-var 
+var el = document.getElementById

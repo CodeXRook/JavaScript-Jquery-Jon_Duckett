@@ -35,4 +35,5 @@ if(el.addEventListener){                             // If event listeners work
     }, false);                                      // Use bubbling phase for flow
 }  else {                                           // Otherwise
    el.attachEvent('onclick', function(e)             // Use old IE model: onclick
+   itemDone(e);                                       // Call itemDone()
 }

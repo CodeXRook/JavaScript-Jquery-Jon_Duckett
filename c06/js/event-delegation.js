@@ -1,1 +1,3 @@
-function getTarget(e) 
+function getTarget(e) {                      // Declare function
+    if ()
+}

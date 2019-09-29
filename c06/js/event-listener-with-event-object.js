@@ -1,2 +1,2 @@
 function checkLength(e, minLength)    // Declare function
-var el, elMsg;
+var el, elMsg;                         // Declare variables

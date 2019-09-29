@@ -10,5 +10,7 @@ function itemDone(e) {                           // Declare function
     var target, elParent, elGrandparent;         // Declare variables 
     target = getTarget(e);                      // Get the item clicked link
   
-    if(target.nodeName.toLowerCase() == "a" )
+    if(target.nodeName.toLowerCase() == "a" ) { // If user clicked on an a element
+
+    }
 }

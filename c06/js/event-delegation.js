@@ -4,3 +4,5 @@ function getTarget(e) {                      // Declare function
     }
     return e.target || e.srcElement;          // Get the target of event
 }
+
+function 

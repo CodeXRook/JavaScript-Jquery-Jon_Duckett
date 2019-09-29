@@ -18,7 +18,7 @@ function itemDone(e) {                           // Declare function
     if(target.nodeName.toLowerCase() == "em" ) { // If the user clicked on an em element
         elListItem = target.parentNode.parentNode;  // Get its li element
         elList = elListItem.parentNode;            // Get the ul element
-        elList.removeChild(elListItem);     
-
+        elList.removeChild(elListItem);            // Remove list item from list
     }
+    // Prevent the link from taking you elsewhere
 }

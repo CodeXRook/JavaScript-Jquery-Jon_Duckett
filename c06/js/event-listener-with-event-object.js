@@ -6,4 +6,6 @@ e = window.event;                         // Use IE fallback
 el = e.target || e.srcElement;            // Get target of event
 elMsg = el.nextSibling;                    // Get its next sibling
 
-if 
+if (el.value.length < minLength) {
+    
+}

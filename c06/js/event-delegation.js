@@ -7,5 +7,5 @@ function getTarget(e) {                      // Declare function
 
 function itemDone(e) {                           // Declare function
     // Remove item from the list
-    var
+    var target, elParent, elGrandparent;  
 }

@@ -27,3 +27,5 @@ function itemDone(e) {                           // Declare function
         e.returnValue = false;                       // Use old IE version               
     }
 }
+// Set up event listeners to call itemDone() on click
+var 

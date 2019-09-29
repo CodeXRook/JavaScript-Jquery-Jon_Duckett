@@ -22,6 +22,7 @@ if(elUsername.addEventListener){                       // If event listener supp
 } else {                                            // Otherwise
     elUsername.attachEvent('onblur', function(e) {  // IE fallback onblur
         // NOTE: This function is checkLength() - not checkUsername()
+        checkLength(e, 5);                             // Call checkLength()
 
-    }
+    });
 }

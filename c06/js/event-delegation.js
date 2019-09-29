@@ -24,6 +24,6 @@ function itemDone(e) {                           // Declare function
     if(e.preventDefault){                          // If preventDefault() works
         e.preventDefault();                        // Use preventDefault() 
     } else {                                        // Otherwise
-        e.returnValue = false;                      
+        e.returnValue = false;                       // Use old IE version               
     }
 }

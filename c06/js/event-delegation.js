@@ -31,7 +31,7 @@ function itemDone(e) {                           // Declare function
 var el = document.getElementById('shoppingList');  // Get shopping list
 if(el.addEventListener){                             // If event listeners work
     el.addEventListener('click', function(e){       // Add listener on click
-        itemDone(e);
+        itemDone(e);                                // It calls itemDone()
 
     }
 

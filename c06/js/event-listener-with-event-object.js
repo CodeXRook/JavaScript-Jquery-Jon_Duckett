@@ -14,3 +14,6 @@ if (el.value.length < minLength) {          // If length is too short set msg
 }
 
 var elUsername  = document.getElementById('username'); // Get username input
+if(){
+    
+}

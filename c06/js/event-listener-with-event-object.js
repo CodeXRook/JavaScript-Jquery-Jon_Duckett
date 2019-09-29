@@ -1,0 +1,1 @@
+function checkLength(e, minLength)

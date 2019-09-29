@@ -7,5 +7,6 @@ el = e.target || e.srcElement;            // Get target of event
 elMsg = el.nextSibling;                    // Get its next sibling
 
 if (el.value.length < minLength) {          // If length is too short set msg
+    elMsg.innerHTML = 'Username must be ' + minLength + ' characters or more';
 
 }

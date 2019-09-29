@@ -15,5 +15,7 @@ function itemDone(e) {                           // Declare function
       elList = elListItem.parentNode;              // Get the ul element
       elList.removeChild(elListItem);              // Remove list item from list
     }
-    if()
+    if(target.nodeName.toLowerCase() == "em" ) { 
+
+    }
 }

@@ -1,1 +1,1 @@
-function checkLength(e, minLength)
+function checkLength(e, minLength)    // Declare function

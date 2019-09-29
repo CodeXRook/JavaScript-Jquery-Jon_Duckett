@@ -1,3 +1,3 @@
-function setup() {
-    
+function setup() {   // Declare function
+
 }

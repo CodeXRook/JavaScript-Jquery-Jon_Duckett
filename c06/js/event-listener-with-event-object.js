@@ -13,4 +13,4 @@ if (el.value.length < minLength) {          // If length is too short set msg
   }
 }
 
-var
+var elUsername

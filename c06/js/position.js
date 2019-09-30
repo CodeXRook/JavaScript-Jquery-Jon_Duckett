@@ -5,3 +5,4 @@ var py = document.getElementById('py');            // Element to hold pageY
 var cx = document.getElementById('cx');           // Element to hold clientX
 var cy  = document.getElementById('cy');          // Element to hold clientY
 
+function showPosition()

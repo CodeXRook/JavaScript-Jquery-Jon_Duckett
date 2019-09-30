@@ -1,2 +1,2 @@
 var sx = document.getElementById('sx');         // Element to hold screenX
-var sy
+var sy = document.getElementById

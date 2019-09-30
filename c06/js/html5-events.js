@@ -5,4 +5,4 @@ function setup(){
 }
 window.addEventListener('DOMContentLoaded', setup, false);
 
-window.addEventListener
+window.addEventListener('beforeunload', function(event) 

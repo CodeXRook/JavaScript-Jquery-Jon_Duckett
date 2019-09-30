@@ -5,9 +5,10 @@ var py = document.getElementById('py');            // Element to hold pageY
 var cx = document.getElementById('cx');           // Element to hold clientX
 var cy  = document.getElementById('cy');          // Element to hold clientY
 
-function showPosition(){                          // Declare function
-  sx.value = event.screenX;                       // Update element with screenX
-  sy.value = event.screenY;                       // Update element with screenY
+function showPosition(){                           // Declare function
+  sx.value = event.screenX;                        // Update element with screenX
+  sy.value = event.screenY;                        // Update element with screenY
   px.value = event.pageX;                          // Update element with pageX
-  py.value = event.pageY;                           // Update element with pageY
+  py.value = event.pageY;                          // Update element with pageY
+  cx.value = event.clientX;                        // Update element with clientX
 }

@@ -1,3 +1,3 @@
 function setup(){
-    
+    var textInput;
 }

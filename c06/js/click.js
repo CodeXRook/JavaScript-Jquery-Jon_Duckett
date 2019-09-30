@@ -14,3 +14,4 @@ function dismissNote9(){                    // Declare function
 }
 
 var elClose = document.getElementById('close');  // Get the close button
+elClose.addEventListener('click', dismissNote, false);// Click close-clear note

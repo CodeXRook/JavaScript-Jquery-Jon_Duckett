@@ -8,6 +8,6 @@ function checkUsername(){  // Declare function
     }
 }
 
-function  tipUsername(){
-    
+function  tipUsername(){                                // Declare function
+
 }

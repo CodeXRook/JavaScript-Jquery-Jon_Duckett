@@ -21,3 +21,5 @@ function checkTerms(event){                             // Declare function
         event.preventDefault();                              // Don't submit form
     }
 }
+
+//Create event listeners: submit calls checkTerms(), change calls packageHint()

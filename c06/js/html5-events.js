@@ -1,4 +1,4 @@
 function setup(){
     var textInput;
-    textInput
+    textInput = document.getElementById('message');
 }

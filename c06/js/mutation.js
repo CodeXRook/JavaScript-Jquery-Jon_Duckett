@@ -14,5 +14,5 @@ function addItem(e){                                       // Declare function
 
 function updateCount() {                                   // Declare function
   listItems = elList.getElementsByTagName('li').length;    // Get total of <li>s
-  counter.innerHTML = listItems; 
+  counter.innerHTML = listItems;                           // Update counter
 }

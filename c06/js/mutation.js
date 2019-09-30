@@ -18,3 +18,4 @@ function updateCount() {                                   // Declare function
 }
 
 addLink.addEventListener('click', addItem, false);       // Click on button
+elList.addEventListener('DOMNodeInserted', updateCount, false); // DOM updated

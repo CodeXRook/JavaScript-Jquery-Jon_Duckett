@@ -6,4 +6,5 @@ counter = document.getElementById('counter');              // Get item counter
 
 function addItem(e){                                       // Declare function
     e.preventDefault();                                    // Prevent link action
+    newEl
 }

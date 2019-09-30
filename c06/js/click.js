@@ -10,6 +10,7 @@ elNote.innerHTML = msg;                      // Add the message
 document.body.appendChild(elNote);           // Add it to the page
 
 function dismissNote9(){                    // Declare function
-   document.body.removeChild
-
+   document.body.removeChild                // Remove the note
 }
+
+var elClose = document.getElementById

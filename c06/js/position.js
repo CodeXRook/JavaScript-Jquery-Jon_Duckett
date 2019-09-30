@@ -3,4 +3,5 @@ var sy = document.getElementById('sy');            // Element to hold screenY
 var px = document.getElementById('px');            // Element to hold pageX
 var py = document.getElementById('py');            // Element to hold pageY
 var cx = document.getElementById('cx');           // Element to hold clientX
-var cy  = document.getElementById('cy');
+var cy  = document.getElementById('cy');          // Element to hold clientY
+

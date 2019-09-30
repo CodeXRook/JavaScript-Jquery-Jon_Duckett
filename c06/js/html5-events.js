@@ -4,3 +4,5 @@ function setup(){
     textInput.focus();
 }
 window.addEventListener('DOMContentLoaded', setup, false);
+
+window.addEventListener

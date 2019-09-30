@@ -16,6 +16,8 @@ function packageHint (){                 // Declare function
 }
 
 function checkTerms(event){                             // Declare function
-    var  pack = this.options[this.selectedIndex].value; // Get selected option
-    if (pack === 'monthly')
+    if (!elTerms.checked) {                                // If checkbox ticked
+        elTermsHint.innerHTML = 'You must agree to the terms.'; // Show message
+        event.preventDefault();                              // Don't submit form
+    }
 }

@@ -8,5 +8,5 @@ var cy  = document.getElementById('cy');          // Element to hold clientY
 function showPosition(){                          // Declare function
   sx.value = event.screenX;                       // Update element with screenX
   sy.value = event.screenY;                       // Update element with screenY
-  px.value = event.pageX; 
+  px.value = event.pageX;                          // Update element with pageX
 }

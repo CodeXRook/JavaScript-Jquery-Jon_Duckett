@@ -4,6 +4,7 @@ function checkUsername(){  // Declare function
         elMsg.className = 'warning';   // Change class on message
         elMsg.textContent = 'Not long enough, yet...';// Update message
     } else {                                                    // Otherwise
+        elMsg.textContent = '';                 
 
     }
 }

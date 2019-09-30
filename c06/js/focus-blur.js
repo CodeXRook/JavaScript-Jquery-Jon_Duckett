@@ -13,4 +13,4 @@ function  tipUsername(){                                // Declare function
     elMsg.innerHTML = 'Username must be at least 5 characters'; // Add message
 }
 
-var el = document.getElementById
+var el = document.getElementById('username');     // Username input

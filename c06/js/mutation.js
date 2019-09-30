@@ -11,3 +11,5 @@ function addItem(e){                                       // Declare function
     newEl.appendChild(newText);                            // Add text to <li>
     elList.appendChild(newEl);                              // Add <li> to list
 }
+
+function

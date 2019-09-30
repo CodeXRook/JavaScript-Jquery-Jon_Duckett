@@ -3,6 +3,7 @@ function checkUsername(){  // Declare function
     if(username.length < 5){   // If username < 5 characters
         elMsg.className = 'warning';   // Change class on message
         elMsg.textContent = 'Not long enough, yet...';// Update message
-
+    } else {
+        
     }
 }

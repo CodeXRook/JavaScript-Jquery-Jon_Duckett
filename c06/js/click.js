@@ -13,4 +13,4 @@ function dismissNote9(){                    // Declare function
    document.body.removeChild                // Remove the note
 }
 
-var elClose = document.getElementById
+var elClose = document.getElementById('close');  // Get the close button

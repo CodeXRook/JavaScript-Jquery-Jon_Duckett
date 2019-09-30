@@ -1,1 +1,1 @@
-var elForm, elSelectPackage, elPackageHint, elTerms, elTermsHint;
+var elForm, elSelectPackage, elPackageHint, elTerms, elTermsHint;  // Declare variables

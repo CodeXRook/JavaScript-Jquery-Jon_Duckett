@@ -9,7 +9,9 @@ function addItem(e){                                       // Declare function
     newEl = document.createElement('li');                  // New <li> element
     newText = document.createTextNode('New list item');    // New text node
     newEl.appendChild(newText);                            // Add text to <li>
-    elList.appendChild(newEl);                              // Add <li> to list
+    elList.appendChild(newEl);                             // Add <li> to list
 }
 
-function
+function updateCount() {                                   // Declare function
+
+}

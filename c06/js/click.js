@@ -6,4 +6,5 @@ msg += 'During this time, there may be minor disruptions to service.</div>';
 
 var elNote = document.createElement('div');   // Create a new element
 elNote.setAttribute('id', 'note');           // Add an id of note
-elNote.innerHTML 
+elNote.innerHTML = msg;                      // Add the message
+d

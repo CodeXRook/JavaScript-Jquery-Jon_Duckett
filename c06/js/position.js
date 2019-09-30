@@ -13,4 +13,4 @@ function showPosition(){                           // Declare function
   cx.value = event.clientX;                        // Update element with clientX
 }
 
-var el 
+var el = document.getElementById('body');

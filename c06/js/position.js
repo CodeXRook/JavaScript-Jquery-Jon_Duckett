@@ -14,4 +14,4 @@ function showPosition(){                           // Declare function
 }
 
 var el = document.getElementById('body');          // Get body Element
-el.addEventListener('mousemove', showPosition, false);
+el.addEventListener('mousemove', showPosition, false);  // Move updates position

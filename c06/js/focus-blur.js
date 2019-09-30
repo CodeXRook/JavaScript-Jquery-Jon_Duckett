@@ -17,4 +17,6 @@ var el = document.getElementById('username');     // Username input
 var elMsg = document.getElementById('feedback')   // Element to hold message
 
 // When the username input gains / loses focus call functions above:
-el.addEventListener('focus', tipUsername, false); 
+el.addEventListener('focus', tipUsername, false); // focus call tipUsername()
+el.addEventListener
+e

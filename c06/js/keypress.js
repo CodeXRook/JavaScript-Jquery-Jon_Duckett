@@ -1,1 +1,3 @@
-var el; 
+var el;                               // Declare variables
+
+function

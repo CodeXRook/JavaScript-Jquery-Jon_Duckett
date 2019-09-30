@@ -1,1 +1,3 @@
-function checkUsername()
+function checkUsername(){  // Declare function
+
+}

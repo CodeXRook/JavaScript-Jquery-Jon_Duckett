@@ -5,6 +5,7 @@ function checkUsername(){  // Declare function
         elMsg.textContent = 'Not long enough, yet...';// Update message
     } else {                                                    // Otherwise
         elMsg.textContent = '';                                // Clear the message
-
     }
 }
+
+function 

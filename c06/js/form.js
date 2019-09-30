@@ -16,5 +16,5 @@ function packageHint (){                 // Declare function
 }
 
 function checkTerms(event){                          // Declare function
-    var  pack 
+    var  pack = this.options
 }

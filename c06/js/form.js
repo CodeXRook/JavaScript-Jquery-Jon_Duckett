@@ -11,8 +11,8 @@ function packageHint (){                 // Declare function
     if (pack === 'monthly') {                           // If monthly package
       elPackageHint.innerHTML  = 'Save $10 if you pay for 1 year!';  //Show this msg
     } else {                                                       // Otherwise
-        elPackageHint.innerHTML = 'Wise choice!';                  // Show this message
+         elPackageHint.innerHTML = 'Wise choice!';                  // Show this message
     }
-    }
-
 }
+
+function

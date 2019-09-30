@@ -15,4 +15,4 @@ function packageHint (){                 // Declare function
     }
 }
 
-function
+function checkTerms(event)

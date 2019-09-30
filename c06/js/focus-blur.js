@@ -12,4 +12,5 @@ function  tipUsername(){                                // Declare function
     elMsg.className = 'tip';                            // Change class for message
     elMsg.innerHTML = 'Username must be at least 5 characters'; // Add message
 }
-}
+
+var el

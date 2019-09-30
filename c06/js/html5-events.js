@@ -3,3 +3,4 @@ function setup(){
     textInput = document.getElementById('message');
     textInput.focus();
 }
+window.addEventListener('DOMContentLoaded', setup, false);

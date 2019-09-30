@@ -9,5 +9,5 @@ function showPosition(){                          // Declare function
   sx.value = event.screenX;                       // Update element with screenX
   sy.value = event.screenY;                       // Update element with screenY
   px.value = event.pageX;                          // Update element with pageX
-  py.value = event.pageY;                          
+  py.value = event.pageY;                           // Update element with pageY
 }

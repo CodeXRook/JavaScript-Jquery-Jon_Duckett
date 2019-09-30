@@ -1,1 +1,1 @@
-var elList, addLink, newEl, 
+var elList, addLink, newEl, newText

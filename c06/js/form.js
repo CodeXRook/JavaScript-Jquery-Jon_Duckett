@@ -6,4 +6,7 @@ elTerms         = document.getElementById('terms');
 elTermsHint     = document.getElementById('termsHint');
 
 
-function packageHint ()
+function packageHint (){                 // Declare function
+    var
+
+}

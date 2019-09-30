@@ -7,6 +7,6 @@ elTermsHint     = document.getElementById('termsHint');
 
 
 function packageHint (){                 // Declare function
-    var pack  = this.options[this.selectedIndex].value;
+    var pack  = this.options[this.selectedIndex].value;  // Get selected option
 
 }

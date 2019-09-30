@@ -9,3 +9,4 @@ function charCount(e){                 // Declare function
   lastkey = document.getElementById('lastKey');              // Get last key elem
   lastkey.textContent = 'Last key in ASCII code: ' + e.keyCode; // Create msg 
 }
+el

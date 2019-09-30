@@ -1,1 +1,1 @@
-var 
+var elForm, elSelectPackage, elPackageHint, elTerms, elTermsHint;

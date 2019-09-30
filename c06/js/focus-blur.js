@@ -1,3 +1,3 @@
 function checkUsername(){  // Declare function
-    var
+    var username
 }

@@ -23,3 +23,4 @@ function checkTerms(event){                             // Declare function
 }
 
 //Create event listeners: submit calls checkTerms(), change calls packageHint()
+elForm.addEventListener

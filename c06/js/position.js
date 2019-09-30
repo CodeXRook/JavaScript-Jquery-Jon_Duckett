@@ -12,3 +12,5 @@ function showPosition(){                           // Declare function
   py.value = event.pageY;                          // Update element with pageY
   cx.value = event.clientX;                        // Update element with clientX
 }
+
+var el 

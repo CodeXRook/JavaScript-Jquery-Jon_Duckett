@@ -1,3 +1,3 @@
 var el;                               // Declare variables
 
-function
+function charCount(e)

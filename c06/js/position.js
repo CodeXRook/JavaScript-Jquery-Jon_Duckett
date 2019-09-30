@@ -14,3 +14,4 @@ function showPosition(){                           // Declare function
 }
 
 var el = document.getElementById('body');          // Get body Element
+el.addEventListener

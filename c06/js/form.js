@@ -7,6 +7,6 @@ elTermsHint     = document.getElementById('termsHint');
 
 
 function packageHint (){                 // Declare function
-    var
+    var pack
 
 }

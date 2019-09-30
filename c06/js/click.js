@@ -9,4 +9,6 @@ elNote.setAttribute('id', 'note');           // Add an id of note
 elNote.innerHTML = msg;                      // Add the message
 document.body.appendChild(elNote);           // Add it to the page
 
-function dismissNote9()
+function dismissNote9(){                    // Declare function
+
+}

@@ -1,1 +1,1 @@
-var elList
+var elList, addLink

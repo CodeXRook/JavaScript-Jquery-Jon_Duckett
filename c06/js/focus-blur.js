@@ -9,5 +9,5 @@ function checkUsername(){  // Declare function
 }
 
 function  tipUsername(){                                // Declare function
-    elMsg.className = 'tip';
+    elMsg.className = 'tip';                            // Change class for message
 }

@@ -6,5 +6,6 @@ var cx = document.getElementById('cx');           // Element to hold clientX
 var cy  = document.getElementById('cy');          // Element to hold clientY
 
 function showPosition(){                          // Declare function
-
+  sx.value = event.screenX;                       // Update element with screenX
+  sy.value = event.screenY;
 }

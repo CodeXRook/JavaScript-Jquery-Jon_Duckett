@@ -13,5 +13,5 @@ function addItem(e){                                       // Declare function
 }
 
 function updateCount() {                                   // Declare function
-
+  listItems = elList.getElementsByTagName
 }

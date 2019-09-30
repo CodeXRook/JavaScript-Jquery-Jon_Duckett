@@ -7,5 +7,5 @@ function charCount(e){                 // Declare function
   counter  = (180 - (textEntered.length));                    // Num of chars left
   charDisplay.textContent = counter;                         // Show chars left
   lastkey = document.getElementById('lastKey');              // Get last key elem
- 
+  lastkey.textContent
 }

@@ -3,4 +3,4 @@ elForm          = document.getElementById('formSignup');             // Store el
 elSelectPackage = document.getElementById('package')
 elPackageHint   = document.getElementById('packageHint');
 elTerms         = document.getElementById('terms');
-elTermsHint     = document.getElementById
+elTermsHint     = document.getElementById('termsHint');

@@ -14,3 +14,4 @@ function  tipUsername(){                                // Declare function
 }
 
 var el = document.getElementById('username');     // Username input
+var 

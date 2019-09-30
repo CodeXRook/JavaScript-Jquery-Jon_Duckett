@@ -5,5 +5,5 @@ function charCount(e){                 // Declare function
   textEntered = document.getElementById('message').value;  // User's text
   charDisplay = document.getElementById('charactersLeft');  // Counter element
   counter  = (180 - (textEntered.length));                    // Num of chars left
-  charDisplay.textContent = counter; 
+  charDisplay.textContent = counter;                         // Show chars left
 }

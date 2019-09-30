@@ -1,3 +1,4 @@
 var elList, addLink, newEl, newText, counter, listItems;  // Declare variables
 
-elList = document.getElementById()
+elList = document.getElementById('list');                  // Get list
+addLink = 

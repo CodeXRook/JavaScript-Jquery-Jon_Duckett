@@ -15,4 +15,6 @@ function packageHint (){                 // Declare function
     }
 }
 
-function checkTerms(event)
+function checkTerms(event){                          // Declare function
+
+}

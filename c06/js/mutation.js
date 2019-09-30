@@ -1,1 +1,1 @@
-var elList, addLink, newEl, newText, counter,
+var elList, addLink, newEl, newText, counter, listItems;

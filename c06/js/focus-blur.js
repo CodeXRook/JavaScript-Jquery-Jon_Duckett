@@ -1,1 +1,1 @@
-function checkUsername
+function checkUsername()

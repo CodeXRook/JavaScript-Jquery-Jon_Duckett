@@ -1,1 +1,1 @@
-var sx
+var sx = document.getElementById('sx');

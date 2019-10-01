@@ -29,6 +29,6 @@ function recorderControls(e) {                      // Declare recorderControls(
         break;                                       // Exit function to where called
       case 'stop':                                   // If its value is stop
         stop(target);                                // Call the stop() function
-        break;                                      
+        break;                                       // Exit function to where called
     }
 }

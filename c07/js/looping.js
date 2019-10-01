@@ -1,1 +1,1 @@
-$ ('li em').addClass
+$ ('li em').addClass('seasonal');

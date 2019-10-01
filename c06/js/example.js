@@ -9,4 +9,5 @@ function writeLabel(e) {                             // Declare function
     }
     target = e.target || e.srcElement;              // Get target of event
     textEntered = target.value;                     // Value of that element
+    noteName.textContent = textEntered;             // Update note text
 }

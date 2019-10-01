@@ -1,1 +1,3 @@
-var noteInput, noteName, textEntered, target; 
+var noteInput, noteName, textEntered, target;     // Declare variables
+
+noteName

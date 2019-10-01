@@ -1,1 +1,1 @@
-$()
+$(':header').addClass('headline');

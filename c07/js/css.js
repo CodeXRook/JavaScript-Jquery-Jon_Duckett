@@ -8,6 +8,7 @@ $(function() {
 
     // Set several properties on all list items.
     $('li').css ({
-        'background-color'
+        'background-color': '#c5a996',
+        'border': '1px solid #fff',
     })
 }

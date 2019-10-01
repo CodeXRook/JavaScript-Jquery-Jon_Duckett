@@ -1,1 +1,1 @@
-$ ()
+$ ('li em').addClass

@@ -7,5 +7,7 @@ $(function() {
     $('ul').append('<p>Color was: ' + backgroundColor + '</p>');
 
     // Set several properties on all list items.
-    $('li').css
+    $('li').css ({
+        'background-color'
+    })
 }

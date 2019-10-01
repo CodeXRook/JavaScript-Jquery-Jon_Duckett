@@ -1,2 +1,2 @@
 $('li em').addClass('seasonal');
-$('li.hot)
+$('li.hot').addClass('favorite');

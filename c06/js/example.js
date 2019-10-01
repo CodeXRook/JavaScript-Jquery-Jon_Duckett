@@ -34,6 +34,6 @@ function recorderControls(e) {                      // Declare recorderControls(
     }
 }
 
-function  record(target) {
-    
+function record(target) {                           // Declare function
+
 }

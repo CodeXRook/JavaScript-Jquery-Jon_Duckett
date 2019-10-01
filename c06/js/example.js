@@ -1,1 +1,1 @@
-var 
+var noteInput, noteName,

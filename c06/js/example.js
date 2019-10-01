@@ -43,3 +43,5 @@ function stop(target) {
     target.setAttribute('data-state', 'record');   //Set data-state attr to record
     target.textContent = 'record';                 // Set text to 'record'
 }
+
+if ()

@@ -7,5 +7,6 @@ function writeLabel(e) {                             // Declare function
     if (!e) {                                        // If event object not present
      e = window.event;                               // Use IE5-8 fallback
     }
-    target = e.target || e.srcElement;   
+    target = e.target || e.srcElement;              // Get target of event
+ 
 }

@@ -5,4 +5,4 @@ function showElement() {
 el = document.getElementById("list"); // <<< el is reused and not defined
 el.addEventListener('click', showElement, false);
 
-el = document.getElementById
+el = document.getElementById("item");

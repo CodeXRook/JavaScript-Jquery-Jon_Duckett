@@ -1,3 +1,3 @@
 function showElement() {
-    alert();
+    alert(this.innerHTML);
 }

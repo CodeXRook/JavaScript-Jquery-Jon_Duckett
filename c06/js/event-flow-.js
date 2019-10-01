@@ -7,3 +7,5 @@ el.addEventListener('click', showElement, false);
 
 el = document.getElementById("item");
 el.addEventListener('click', showElement, false);
+
+el

@@ -2,4 +2,4 @@ function showElement() {
     alert(this.innerHTML);
 }
 
-el = document.getElementById
+el = document.getElementById("list"); 

@@ -20,6 +20,6 @@ function recorderControls(e) {                      // Declare recorderControls(
     if (e.preventDefault) {                         // If preventDefault() supported
       e.preventDefault();                           // Stop default action
     } else {                                        // Otherwise
-
+      e.returnValue = false;  
     }
 }

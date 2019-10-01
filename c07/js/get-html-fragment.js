@@ -1,4 +1,4 @@
 $(function() {
   var $listHTML = $('ul').html();
-  $('ul')
-}
+  $('ul').append($listHTML);
+});

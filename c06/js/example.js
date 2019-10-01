@@ -12,4 +12,6 @@ function writeLabel(e) {                             // Declare function
     noteName.textContent = textEntered;             // Update note text
 }
 
-function recorderControls
+function recorderControls(e) {
+    
+}

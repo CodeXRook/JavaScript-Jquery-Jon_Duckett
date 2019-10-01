@@ -22,4 +22,5 @@ function recorderControls(e) {                      // Declare recorderControls(
     } else {                                        // Otherwise
       e.returnValue = false;                        // IE fallback: stop default action
     }
+    switch
 }

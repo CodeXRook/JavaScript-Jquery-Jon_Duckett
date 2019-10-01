@@ -44,4 +44,6 @@ function stop(target) {
     target.textContent = 'record';                 // Set text to 'record'
 }
 
-if (document.addEventListener)
+if (document.addEventListener) {                   // If event listener supported
+ document.addEventListener
+}

@@ -1,3 +1,3 @@
 $(function(){
-    var $listText
+    var $listText = $('ul').text();
 }

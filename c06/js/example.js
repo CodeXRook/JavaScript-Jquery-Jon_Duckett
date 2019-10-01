@@ -1,3 +1,3 @@
 var noteInput, noteName, textEntered, target;     // Declare variables
 
-noteName
+noteName = document.getElementById

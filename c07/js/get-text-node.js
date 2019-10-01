@@ -1,3 +1,3 @@
 $(function(){
-    var $listItemText
+    var $listItemText = $('li').text();
 }

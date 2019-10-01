@@ -12,5 +12,6 @@ $(function() {
         'border': '1px solid #fff',
         'color': '#000',
         'text-shadow': 'none',
+        'font-family': 'Georgia',
     })
 }

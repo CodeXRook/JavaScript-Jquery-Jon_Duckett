@@ -39,4 +39,6 @@ function record(target) {                           // Declare function
     target.textContent = 'stop';                    // Set text to 'stop'
 }
 
-function stop()
+function stop(target) {
+    target.setAttribute('data-state', 'record');
+}

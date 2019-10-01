@@ -23,7 +23,8 @@ function recorderControls(e) {                      // Declare recorderControls(
       e.returnValue = false;                        // IE fallback: stop default action
     }
 
-    switch(target.getAttribute('data-state')) {    // Get the data-state attribute
-    case 'record':                                 // If its value is record
+    switch(target.getAttribute('data-state')) {      // Get the data-state attribute
+      case 'record':                                 // If its value is record
+      record(target);                                
     }
 }

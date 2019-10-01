@@ -1,3 +1,3 @@
 $(function() {
-    var $listItemHTML
+    var $listItemHTML = $('li').html();
 }

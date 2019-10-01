@@ -13,5 +13,6 @@ $(function() {
         'color': '#000',
         'text-shadow': 'none',
         'font-family': 'Georgia',
+        'padding-left': '+=75'
     })
 }

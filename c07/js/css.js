@@ -5,4 +5,7 @@ $(function() {
 
     // Write what the background color was after the list.
     $('ul').append('<p>Color was: ' + backgroundColor + '</p>');
+
+    // Set several properties on all list items.
+    $('li').css
 }

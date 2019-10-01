@@ -5,6 +5,6 @@ noteInput  = document.getElementById('noteInput');   // Input for writing the no
 
 function writeLabel(e) {                             // Declare function
     if (!e) {                                        // If event object not present
-
+     e = window.event;                            // Use IE5-8 fallback
     }
 }

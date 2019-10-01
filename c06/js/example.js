@@ -16,4 +16,5 @@ function recorderControls(e) {                      // Declare recorderControls(
     if(!e){
       e = window.event;                             // If event object not present
     }
+    target = e.target || e.srcElement; 
 }

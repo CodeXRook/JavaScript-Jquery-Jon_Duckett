@@ -49,5 +49,5 @@ if (document.addEventListener) {                   // If event listener supporte
     recorderControls(e);                           // Call recorderControls()
  }, false);                                        // Capture during bubble phase
  // If input event fires on noteInput input call writeLabel()
- noteInput.addEventListener
+ noteInput.addEventListener('input', writeLabel, false); 
 }

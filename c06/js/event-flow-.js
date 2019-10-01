@@ -15,3 +15,4 @@ el = document.getElementById("list2");
 el.addEventListener('click', showElement, true);
 
 el = document.getElementById("item2");
+el.addEventListener

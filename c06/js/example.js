@@ -50,6 +50,7 @@ if (document.addEventListener) {                   // If event listener supporte
  }, false);                                        // Capture during bubble phase
  // If input event fires on noteInput input call writeLabel()
  noteInput.addEventListener('input', writeLabel, false); 
-} else {
-    
-}
+} else {                                           // Otherwise
+  document.attachEvent('onclick', function(e)
+
+});

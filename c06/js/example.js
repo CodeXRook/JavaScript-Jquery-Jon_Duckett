@@ -4,5 +4,7 @@ noteName = document.getElementById('noteName');      // Element that holds note
 noteInput  = document.getElementById('noteInput');   // Input for writing the note
 
 function writeLabel(e) {                             // Declare function
-    if ()
+    if (!e) {                                        // If event object not present
+
+    }
 }

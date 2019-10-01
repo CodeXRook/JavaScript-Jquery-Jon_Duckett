@@ -1,1 +1,1 @@
-var noteInput, noteName,
+var noteInput, noteName, textEntered,

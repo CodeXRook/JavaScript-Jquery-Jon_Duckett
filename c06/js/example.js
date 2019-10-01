@@ -13,5 +13,7 @@ function writeLabel(e) {                             // Declare function
 }
 
 function recorderControls(e) {                      // Declare recorderControls()
+    if(!e){
 
+    }
 }

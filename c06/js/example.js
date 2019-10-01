@@ -17,5 +17,7 @@ function recorderControls(e) {                      // Declare recorderControls(
       e = window.event;                             // If event object not present
     }
     target = e.target || e.srcElement;              // Get the target element
-    if (e.preventDefault)
+    if (e.preventDefault) {                         // If preventDefault() supported
+
+    }
 }

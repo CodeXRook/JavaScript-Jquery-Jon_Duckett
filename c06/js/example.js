@@ -45,5 +45,8 @@ function stop(target) {
 }
 
 if (document.addEventListener) {                   // If event listener supported
- document.addEventListener
+ document.addEventListener('click', function(e){   // For any click document
+    recorderControls(e);
+
+ }
 }

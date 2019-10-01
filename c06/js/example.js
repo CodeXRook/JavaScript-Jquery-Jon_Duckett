@@ -28,6 +28,6 @@ function recorderControls(e) {                      // Declare recorderControls(
         record(target);                              // Call the record() function
         break;                                       // Exit function to where called
       case 'stop':                                   // If its value is stop
-        stop(target); 
+        stop(target);                                // Call the stop() function
     }
 }

@@ -35,5 +35,5 @@ function recorderControls(e) {                      // Declare recorderControls(
 }
 
 function record(target) {                           // Declare function
-    target.setAttribute
+    target.setAttribute('data-state', 'stop'); 
 }

@@ -8,5 +8,5 @@ function writeLabel(e) {                             // Declare function
      e = window.event;                               // Use IE5-8 fallback
     }
     target = e.target || e.srcElement;              // Get target of event
- 
+    textEntered = target.value;                     // Value of that element
 }

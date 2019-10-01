@@ -10,5 +10,6 @@ $(function() {
     $('li').css ({
         'background-color': '#c5a996',
         'border': '1px solid #fff',
+        'color': '#000',
     })
 }

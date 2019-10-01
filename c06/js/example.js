@@ -1,6 +1,8 @@
-var noteInput, noteName, textEntered, target;     // Declare variables
+var noteInput, noteName, textEntered, target;        // Declare variables
 
-noteName = document.getElementById('noteName');   // Element that holds note
-noteInput  = document.getElementById('noteInput');// Input for writing the note
+noteName = document.getElementById('noteName');      // Element that holds note
+noteInput  = document.getElementById('noteInput');   // Input for writing the note
 
-function writeLabel(e) 
+function writeLabel(e) {                             // Declare function
+    if ()
+}

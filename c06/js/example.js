@@ -54,6 +54,6 @@ if (document.addEventListener) {                   // If event listener supporte
   document.attachEvent('onclick', function(e){    // IE fallback: any click
     recorderControls(e);                        // Calls recorderControls()
   });
-
-  
+ // If keyup event fires on noteInput call writeLabel()
+  noteInput.attachEvent('onkeyup', writeLabel);
 }

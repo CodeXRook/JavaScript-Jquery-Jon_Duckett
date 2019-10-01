@@ -30,5 +30,8 @@ function recorderControls(e) {                      // Declare recorderControls(
       case 'stop':                                   // If its value is stop
         stop(target);                                // Call the stop() function
         break;                                       // Exit function to where called
+         // More buttons could go here...
     }
 }
+
+function 

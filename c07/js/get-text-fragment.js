@@ -1,4 +1,4 @@
 $(function(){
     var $listText = $('ul').text();
-    $('ul').append
+    $('ul').append('<p>' + $listText  + '</p>');
 }

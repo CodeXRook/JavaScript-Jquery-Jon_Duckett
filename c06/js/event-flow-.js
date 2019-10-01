@@ -11,4 +11,4 @@ el.addEventListener('click', showElement, false);
 el = document.getElementById("link");
 el.addEventListener('click', showElement, false);
 
-el = document.getElementById
+el = document.getElementById("list2");

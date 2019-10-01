@@ -14,6 +14,6 @@ function writeLabel(e) {                             // Declare function
 
 function recorderControls(e) {                      // Declare recorderControls()
     if(!e){
-
+      e = window.event;                             // If event object not present
     }
 }

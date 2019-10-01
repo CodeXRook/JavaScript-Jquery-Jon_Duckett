@@ -12,4 +12,4 @@ el = document.getElementById("link");
 el.addEventListener('click', showElement, false);
 
 el = document.getElementById("list2");
-el.addEventListener
+el.addEventListener('click', showElement, true);

@@ -18,6 +18,7 @@ function recorderControls(e) {                      // Declare recorderControls(
     }
     target = e.target || e.srcElement;              // Get the target element
     if (e.preventDefault) {                         // If preventDefault() supported
-
+      e.preventDefault();                           // Stop default action
+ 
     }
 }

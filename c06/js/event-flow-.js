@@ -18,4 +18,4 @@ el = document.getElementById("item2");
 el.addEventListener('click', showElement, true);
 
 el = document.getElementById("link2");
-el.addEventListener
+el.addEventListener('click', showElement, true);

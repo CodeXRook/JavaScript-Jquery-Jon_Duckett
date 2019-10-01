@@ -11,3 +11,5 @@ function writeLabel(e) {                             // Declare function
     textEntered = target.value;                     // Value of that element
     noteName.textContent = textEntered;             // Update note text
 }
+
+function recorderControls

@@ -10,4 +10,4 @@ window.addEventListener('beforeunload', function(event) {
     var  message = 'You have changes that have not been saved';
     (event || window.event).returnValue = message;
      return message;
-}
+});

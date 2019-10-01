@@ -51,6 +51,9 @@ if (document.addEventListener) {                   // If event listener supporte
  // If input event fires on noteInput input call writeLabel()
  noteInput.addEventListener('input', writeLabel, false); 
 } else {                                           // Otherwise
-  document.attachEvent('onclick', function(e)
+  document.attachEvent('onclick', function(e){    // IE fallback: any click
+    recorderControls(e);                        // Calls recorderControls()
+  });
 
-});
+  
+}

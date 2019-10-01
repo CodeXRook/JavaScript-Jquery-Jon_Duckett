@@ -24,6 +24,6 @@ function recorderControls(e) {                      // Declare recorderControls(
     }
 
     switch(target.getAttribute('data-state')) {    // Get the data-state attribute
-
+    case 'record':  
     }
 }

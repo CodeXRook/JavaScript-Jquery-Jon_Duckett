@@ -40,5 +40,5 @@ function record(target) {                           // Declare function
 }
 
 function stop(target) {
-    target.setAttribute('data-state', 'record');
+    target.setAttribute('data-state', 'record');   //Set data-state attr to record
 }

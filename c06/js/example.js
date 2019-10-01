@@ -47,6 +47,7 @@ function stop(target) {
 if (document.addEventListener) {                   // If event listener supported
  document.addEventListener('click', function(e){   // For any click document
     recorderControls(e);                           // Call recorderControls()
-
- }
+ }, false);                                        // Capture during bubble phase
+ // If input event fires on noteInput input call writeLabel()
+ noteInput.addEventListener
 }

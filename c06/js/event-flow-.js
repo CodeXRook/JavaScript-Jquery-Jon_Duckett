@@ -2,4 +2,4 @@ function showElement() {
     alert(this.innerHTML);
 }
 
-el
+el = document.getElementById

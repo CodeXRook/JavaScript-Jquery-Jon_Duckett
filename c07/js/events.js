@@ -6,5 +6,7 @@ $(function(){
     ids = this.id;
     $listItems.children('span').remove();
     $(this).append(' <span class="priority">' + ids + '</span>');
-  }
+  });
+
+  $listItems.on
 }

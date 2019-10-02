@@ -14,5 +14,5 @@ $(function() {
         'text-shadow': 'none',
         'font-family': 'Georgia',
         'padding-left': '+=75'
-    })
-}
+    });
+});

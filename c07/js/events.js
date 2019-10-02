@@ -2,5 +2,7 @@ $(function(){
   var ids = '';
   var $listItems = $('li');
 
-  $listItems.on
+  $listItems.on('mouseover click', function(){
+      
+  }
 }

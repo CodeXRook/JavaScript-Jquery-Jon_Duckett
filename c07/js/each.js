@@ -1,3 +1,5 @@
 $(function() {
-    
+  $('li').each(function() {
+      
+  }
 }

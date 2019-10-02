@@ -1,3 +1,4 @@
 $(function(){
-  var ids =
+  var ids = '';
+  var $listItems = $('li');
 }

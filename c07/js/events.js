@@ -8,5 +8,8 @@ $(function(){
     $(this).append(' <span class="priority">' + ids + '</span>');
   });
 
-  $listItems.on
-}
+  $listItems.on('mouseout', function() {
+    $(this).append('<span class="priority">' + ids + '</span>');
+  });
+
+});

@@ -9,7 +9,7 @@ $(function(){
   });
 
   $listItems.on('mouseout', function() {
-    $(this).append('<span class="priority">' + ids + '</span>');
+    $(this).children('span').remove();
   });
 
 });

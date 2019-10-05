@@ -8,7 +8,7 @@ $(function() {
   $listItems.each(function(){
     var $this = $(this);
     if ($this.is('.hot')) {
-        
+        $this.prepend('Priority item: ');
     }
   }
 }

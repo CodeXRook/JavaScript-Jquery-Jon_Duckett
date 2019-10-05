@@ -7,4 +7,5 @@ $(function() {
     $p.remove();\$clonedQuote.insertAfter('h2');
 
     // Remove first item, and add it to the end of the list.
+    // Note how this happens in both lists.
 }

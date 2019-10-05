@@ -5,4 +5,6 @@ $(function() {
   <h2> element.
     var $clonedQuote = $p.clone();
     $p.remove();\$clonedQuote.insertAfter('h2');
+
+    // Remove first item, and add it to the end of the list.
 }

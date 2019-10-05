@@ -4,4 +4,6 @@ $(function(){
   var $textInput = $('input:text');
 
   $newItemButton.show();
+  $newItemForm.hide();
+
 }

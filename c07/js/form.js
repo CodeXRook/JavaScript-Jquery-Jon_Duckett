@@ -13,7 +13,7 @@ $(function(){
 
   $newItemForm.on('submit', function(e){
     e.preventDefault();
-    
+    var newText = $textInput.val();
   });
   
 });

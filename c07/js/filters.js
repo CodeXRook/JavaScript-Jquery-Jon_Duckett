@@ -6,6 +6,6 @@ $(function() {
   $listItems.has('em').addClass('complete');
 
   $listItems.each(function(){
-      
+    var $this = $(this);
   }
 }

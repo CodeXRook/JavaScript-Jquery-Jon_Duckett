@@ -17,6 +17,7 @@ $(function(){
     $('li:last').after('<li>' + newText + '</li>');
     $newItemForm.hide();
     $newItemButton.show();
+    $textInput.val('');
   });
   
 });

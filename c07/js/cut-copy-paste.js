@@ -9,4 +9,5 @@ $(function() {
     // Remove first item, and add it to the end of the list.
     // Note how this happens in both lists.
     var $moveItem = $('#one').detach();
-}
+    $moveItem.appendTo('ul');
+});

@@ -1,5 +1,7 @@
 $(function() {
  var listItem, itemStatus, eventType;
 
- $('ul').on
+ $('ul').on(
+   'click mouseover',
+ )
 }

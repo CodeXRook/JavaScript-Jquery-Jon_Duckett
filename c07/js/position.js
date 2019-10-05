@@ -5,5 +5,6 @@ $(function() {
 
   $window.on('scroll', function(){
     if (endZone < $window.scrollTop())
+    $slideAd.animate({ 'right': '0px' }, 250);
   }
 }

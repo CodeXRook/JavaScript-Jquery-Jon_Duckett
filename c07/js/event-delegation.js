@@ -4,5 +4,6 @@ $(function() {
  $('ul').on(
    'click mouseover',
    ':not(#four)'
+   {status: 'important'},
  )
 }

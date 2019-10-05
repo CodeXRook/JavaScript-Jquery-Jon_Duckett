@@ -10,5 +10,6 @@ $(function() {
     if ($this.is('.hot')) {
         $this.prepend('Priority item: ');
     }
-  }
-}
+  });
+  $('li:contains("honey")').append(' (local)');
+});

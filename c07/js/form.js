@@ -6,5 +6,8 @@ $(function(){
   $newItemButton.show();
   $newItemForm.hide();
 
-  $('#showForm').on('click', function()
+  $('#showForm').on('click', function(){
+    $newItemButton.hide();
+  }
+  
 }

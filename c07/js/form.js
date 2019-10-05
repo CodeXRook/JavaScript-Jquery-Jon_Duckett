@@ -15,6 +15,8 @@ $(function(){
     e.preventDefault();
     var newText = $textInput.val();
     $('li:last').after('<li>' + newText + '</li>');
+    $newItemForm.hide();
+    $newItemButton.show();
   });
   
 });

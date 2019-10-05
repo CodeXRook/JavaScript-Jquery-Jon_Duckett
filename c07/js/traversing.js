@@ -10,5 +10,4 @@ $(function() {
     .addClass('complete');
     $h2.find('a').fadeOut();
   });
-
-}
+});

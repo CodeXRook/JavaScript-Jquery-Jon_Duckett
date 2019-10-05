@@ -7,6 +7,6 @@ $(function() {
     if (endZone < $window.scrollTop())
     $slideAd.animate({ 'right': '0px' }, 250);
   } else {
-    
+    $slideAd.stop(true).animate({ 'right': '-360px' }, 250);
   }
 }

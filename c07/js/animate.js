@@ -4,7 +4,7 @@ $(function(){
       opacity: 0.0,
       paddingLeft: '+=80'
     }, 500, function() {
-        $(this).
-    }
-  }
-}
+        $(this).remove();
+    });
+  });
+})

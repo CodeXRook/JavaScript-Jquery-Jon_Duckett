@@ -8,6 +8,7 @@ $(function() {
     .fadeIn(500)
     .children('.hot')
     .addClass('complete');
+    $h2.find('a').fadeOut();
   });
 
 }

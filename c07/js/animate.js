@@ -1,3 +1,5 @@
 $(function(){
-  $('li')
+  $('li').on('click', function() {
+      
+  }
 }

@@ -3,7 +3,7 @@ $(function() {
 
  $('ul').on(
    'click mouseover',
-   ':not(#four)'
+   ':not(#four)',
    {status: 'important'},
    function(e) {
     listItem =  'Item: ' + e.target.textContent + '<br />';
@@ -11,5 +11,5 @@ $(function() {
     eventType = 'Event: ' + e.type;
     $('#notes').html(listItem + itemStatus + eventType);
    }
- ) ;
+ );
 });

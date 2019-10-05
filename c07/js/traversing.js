@@ -6,6 +6,7 @@ $(function() {
   $h2.on('click', function() {
     $h2.next('ul')
     .fadeIn(500)
+    .children('.hot')
   });
 
 }

@@ -4,6 +4,6 @@ $(function() {
   var endZone = $('#footer').offset().top - $window.height() - 500;
 
   $window.on('scroll', function(){
-    
+    if (endZone < $window.scrollTop())
   }
 }

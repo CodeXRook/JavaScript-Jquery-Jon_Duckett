@@ -1,3 +1,5 @@
 $(function) {
-   $ ('li').on('click', function(e)
+   $ ('li').on('click', function(e) {
+    $('li span').remove();
+   }
 }

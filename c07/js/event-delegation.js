@@ -6,7 +6,7 @@ $(function() {
    ':not(#four)'
    {status: 'important'},
    function(e) {
-    listItem =  ''
+    listItem =  'Item: ' + e.target.textContent + '<br />';
    }
  ) ;
 });

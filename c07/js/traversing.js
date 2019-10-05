@@ -7,6 +7,7 @@ $(function() {
     $h2.next('ul')
     .fadeIn(500)
     .children('.hot')
+    .addClass('complete');
   });
 
 }

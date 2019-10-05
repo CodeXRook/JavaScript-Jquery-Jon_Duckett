@@ -4,5 +4,8 @@ $(function() {
   $h2.append('<a class="show">show</a>');
 
   $h2.on('click', function() {
+    $h2.next('ul')
+    .fadeIn(500)
+  });
 
 }

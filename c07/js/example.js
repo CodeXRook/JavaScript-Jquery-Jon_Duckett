@@ -10,4 +10,5 @@ $(function() {
    $(this).delay(450 * index).fadeIn(1600);  // Then fade them in
   });
 
+  // ITEM COUNTER
 }

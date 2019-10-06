@@ -11,4 +11,7 @@ $(function() {
   });
 
   // ITEM COUNTER
+  function updateCount() {      // Create function to update counter
+
+  }
 }

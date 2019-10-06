@@ -48,3 +48,4 @@ $list.on('click', 'li', function() {
 } else {                           // Otherwise indicate it is complete
  item = $this.text();             // Get the text from the list item
  $this.remove();                  // Remove the list item
+ $list                            // Add back to end of list as complete

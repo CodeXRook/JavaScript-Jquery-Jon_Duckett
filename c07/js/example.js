@@ -50,3 +50,4 @@ $list.on('click', 'li', function() {
  $this.remove();                  // Remove the list item
  $list                            // Add back to end of list as complete
    .append('<li class=\"complete\">' + item + '</li>')
+   .hide().fadeIn(300);           // Hide it so it can be faded in

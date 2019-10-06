@@ -39,7 +39,7 @@ $list.on('click', 'li', function() {
   var complete = $this.hasClass('complete');  // Is item complete
 
   if (complete === true) {           // Check if item is complete
-
+    $this.animate({                  // If so, animate opacity + padding
   });
-  
+
 }):

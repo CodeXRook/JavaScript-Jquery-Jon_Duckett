@@ -4,4 +4,6 @@ $(function() {
   var item = '';            // item is an empty string
   $list = $('ul');         // Cache the unordered list
   $newItemForm = $('#newItemForm');    // Cache form to add new items
+  $newItemButton = $('#newItemButton');   // Cache button to show form
+
 }

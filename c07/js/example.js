@@ -35,5 +35,5 @@ $(function() {
 });
 // CLICK HANDLING - USES DELEGATION ON <ul> ELEMENT
 $list.on('click', 'li', function() {
-    
+  var $this = $(this);               // Cache the element in a jQuery object
 }):

@@ -30,5 +30,6 @@ $(function() {
   e.preventDefault();                         // Prevent form being submitted
   var text = $('input:text').val();           // Get value of text input
   $list.append('<li>' + text + '</li>');      // Add item to end of the list
+  $('input:text').val('');                    // Empty the text input
 
  }

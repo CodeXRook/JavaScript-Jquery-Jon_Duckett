@@ -42,6 +42,8 @@ $list.on('click', 'li', function() {
     $this.animate({                  // If so, animate opacity + padding
         opacity: 0.0,
         paddingLeft: '+=180'
+  }, 500, 'swing', function() {    // Use callback when animation completes
+    $this.remove();                // Then completely remove this item
   });
 
 }):

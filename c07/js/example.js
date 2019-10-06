@@ -45,5 +45,4 @@ $list.on('click', 'li', function() {
   }, 500, 'swing', function() {    // Use callback when animation completes
     $this.remove();                // Then completely remove this item
   });
-
-}):
+}else {                           // Otherwise indicate it is complete

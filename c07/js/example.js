@@ -45,4 +45,5 @@ $list.on('click', 'li', function() {
   }, 500, 'swing', function() {    // Use callback when animation completes
     $this.remove();                // Then completely remove this item
   });
-}else {                           // Otherwise indicate it is complete
+} else {                           // Otherwise indicate it is complete
+ item = $this.text();             // Get the text from the list item

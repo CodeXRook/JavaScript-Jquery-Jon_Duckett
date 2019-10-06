@@ -33,5 +33,7 @@ $(function() {
   $('input:text').val('');                    // Empty the text input
   updateCount();                              // Update the count
 });
-
- }
+// CLICK HANDLING - USES DELEGATION ON <ul> ELEMENT
+$list.on('click', 'li', function() {
+    
+}):

@@ -15,4 +15,5 @@ $(function() {
     var items = $('li[class!=complete]').length; // Number of items in list
     $('#counter').text(items);                   // Added into counter circle
   }
+  updateCount();                                 // Call the function
 }

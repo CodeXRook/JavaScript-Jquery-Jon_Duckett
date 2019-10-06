@@ -16,4 +16,7 @@ $(function() {
     $('#counter').text(items);                   // Added into counter circle
   }
   updateCount();                                 // Call the function
+
+  // SETUP FORM FOR NEW ITEMS
+  $newItemButton.show();                         // Show the button
 }

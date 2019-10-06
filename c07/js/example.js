@@ -19,4 +19,5 @@ $(function() {
 
   // SETUP FORM FOR NEW ITEMS
   $newItemButton.show();                         // Show the button
+  $newItemForm.hide();                           // Hide the form
 }

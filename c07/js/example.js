@@ -40,6 +40,8 @@ $list.on('click', 'li', function() {
 
   if (complete === true) {           // Check if item is complete
     $this.animate({                  // If so, animate opacity + padding
+        opacity: 0.0,
+        paddingLeft: '+=180'
   });
 
 }):

@@ -35,5 +35,11 @@ $(function() {
 });
 // CLICK HANDLING - USES DELEGATION ON <ul> ELEMENT
 $list.on('click', 'li', function() {
-  var $this = $(this);               // Cache the element in a jQuery object
+  var $this = $(this);  // Cache the element in a jQuery object
+  var complete = $this.hasClass('complete');  // Is item complete
+
+  if (complete === true) {           // Check if item is complete
+
+  });
+  
 }):

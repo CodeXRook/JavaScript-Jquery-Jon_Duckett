@@ -29,5 +29,6 @@ $(function() {
  $newItemForm.on('submit', function(e) {       // When a new item is submitted
   e.preventDefault();                         // Prevent form being submitted
   var text = $('input:text').val();           // Get value of text input
+  $list.append('<li>' + text + '</li>');      // Add item to end of the list
 
  }

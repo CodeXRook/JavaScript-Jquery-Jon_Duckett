@@ -21,4 +21,5 @@ $(function() {
   $newItemButton.show();                         // Show the button
   $newItemForm.hide();                           // Hide the form
   $('#showForm').on('click', function() {        // When click on add item button
+    $newItemButton.hide();                       // Hide the button
 }

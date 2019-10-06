@@ -24,3 +24,5 @@ $(function() {
     $newItemButton.hide();                       // Hide the button
     $newItemForm.show();                         // Show the form
 });
+
+ // ADDING A NEW LIST ITEM

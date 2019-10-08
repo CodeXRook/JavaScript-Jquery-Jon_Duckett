@@ -1,1 +1,1 @@
-var xhr = new XMLHttpRequest(); 
+var xhr = new XMLHttpRequest();   // Create XMLHttpRequest object

@@ -9,3 +9,8 @@ xhr.onload = function() {          // When response has loaded
 
 xhr.open('GET', 'data/data.html', true);        // Prepare the request
 xhr.send(null); 
+
+// NOTE: If you run this file locally
+// You will not get a server status
+// You can set the conditional statement to true on line 5 as shown below
+// if(true) {

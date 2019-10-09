@@ -3,3 +3,7 @@
 // Comment out lines 9 and 35 if you are working locally
 
 var xhr = new XMLHttpRequest();        // Create XMLHttpRequest object
+
+xhr.onload = function(){           // When response has loaded
+
+}

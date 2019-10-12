@@ -22,5 +22,5 @@ xhr.onload = function(){           // When response has loaded
       image.setAttribute('alt', getNodeValue(events[i], 'location'));
       container.appendChild(image);
 
-      
+      location = document.createElement('p');             // Add location data
 }

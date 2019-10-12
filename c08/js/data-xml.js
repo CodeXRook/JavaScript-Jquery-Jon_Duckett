@@ -20,4 +20,7 @@ xhr.onload = function(){           // When response has loaded
       image = document.createElement('img');              // Add map image
       image.setAttribute('src', getNodeValue(events[i], 'map'));
       image.setAttribute('alt', getNodeValue(events[i], 'location'));
+      container.appendChild(image);
+
+      
 }

@@ -27,4 +27,5 @@ xhr.onload = function(){           // When response has loaded
       newline = document.createElement('br');
       city.appendChild(document.createTextNode(getNodeValue(events[i], 'location')));
       location.appendChild(newline);
+      location.insertBefore(city, newline);
 }

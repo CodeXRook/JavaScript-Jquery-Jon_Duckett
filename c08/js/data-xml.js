@@ -10,4 +10,5 @@ xhr.onload = function(){           // When response has loaded
 
     // THIS PART IS DIFFERENT BECAUSE IT IS PROCESSING XML NOT HTML
     var response = xhr.responseXML;       // Get XML from the server
+    var events = response.getElementsByTagName('event'); // Find <event> elements
 }

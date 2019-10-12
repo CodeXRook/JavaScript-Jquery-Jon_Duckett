@@ -41,4 +41,7 @@ xhr.onload = function(){           // When response has loaded
 // THE FINAL PART IS THE SAME AS THE HTML EXAMPLE BUT IT REQUESTS AN XML FILE
 };
 
+hr.open('GET', 'data/data.xml', true);             // Prepare the request
+xhr.send(null);   
+
 

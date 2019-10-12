@@ -16,4 +16,6 @@ xhr.onload = function(){           // When response has loaded
       var container, image, location, city, newline;      // Declare variables
       container = document.createElement('div');          // Create <div> container
       container.className = 'event';                      // Add class attribute
+
+      image = document.createElement('img');              // Add map image
 }

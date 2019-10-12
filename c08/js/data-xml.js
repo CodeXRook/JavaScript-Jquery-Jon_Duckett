@@ -23,4 +23,5 @@ xhr.onload = function(){           // When response has loaded
       container.appendChild(image);
 
       location = document.createElement('p');             // Add location data
+      city = document.createElement('b');
 }

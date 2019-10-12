@@ -13,4 +13,5 @@ xhr.onload = function(){           // When response has loaded
     var events = response.getElementsByTagName('event'); // Find <event> elements
 
     for (var i = 0; i < events.length; i++) {            // Loop through them
+      var container, image, location, city, newline;      // Declare variables
 }

@@ -18,4 +18,5 @@ xhr.onload = function(){           // When response has loaded
       container.className = 'event';                      // Add class attribute
 
       image = document.createElement('img');              // Add map image
+      image.setAttribute('src', getNodeValue(events[i], 'map'));
 }

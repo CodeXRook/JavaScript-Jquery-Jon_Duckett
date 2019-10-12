@@ -35,3 +35,5 @@ xhr.onload = function(){           // When response has loaded
   }
 // }
   function getNodeValue(obj, tag) {       // Gets content from XML
+    return obj.getElementsByTagName(tag)[0].firstChild.nodeValue;
+}

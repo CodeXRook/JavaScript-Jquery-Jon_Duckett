@@ -30,4 +30,8 @@ xhr.onload = function(){           // When response has loaded
       location.insertBefore(city, newline);
       location.appendChild(document.createTextNode(getNodeValue(events[i], 'date')));
       container.appendChild(location);
-}
+
+      document.getElementById('content').appendChild(container);
+  }
+// }
+  function getNodeValue(obj, tag) {       // Gets content from XML

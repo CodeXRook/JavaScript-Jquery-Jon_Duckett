@@ -37,3 +37,8 @@ xhr.onload = function(){           // When response has loaded
   function getNodeValue(obj, tag) {       // Gets content from XML
     return obj.getElementsByTagName(tag)[0].firstChild.nodeValue;
 }
+
+// THE FINAL PART IS THE SAME AS THE HTML EXAMPLE BUT IT REQUESTS AN XML FILE
+};
+
+

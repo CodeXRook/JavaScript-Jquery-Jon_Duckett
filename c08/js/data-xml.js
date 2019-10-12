@@ -24,4 +24,5 @@ xhr.onload = function(){           // When response has loaded
 
       location = document.createElement('p');             // Add location data
       city = document.createElement('b');
+      newline = document.createElement('br');
 }

@@ -14,4 +14,5 @@ xhr.onload = function(){           // When response has loaded
 
     for (var i = 0; i < events.length; i++) {            // Loop through them
       var container, image, location, city, newline;      // Declare variables
+      container = document.createElement('div');          // Create <div> container
 }

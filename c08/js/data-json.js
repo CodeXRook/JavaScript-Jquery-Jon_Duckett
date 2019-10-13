@@ -11,3 +11,4 @@ xhr.onload = function() {                       // When readystate changes
 
     // BUILD UP STRING WITH NEW CONTENT (could also use DOM manipulation)
     var newContent = '';
+    for (var i = 0; i < responseObject.events.length; i++) { // Loop through object

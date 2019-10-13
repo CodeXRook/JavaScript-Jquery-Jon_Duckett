@@ -19,3 +19,9 @@ xhr.onload = function() {                       // When readystate changes
         newContent += responseObject.events[i].date + '</p>';
         newContent += '</div>';
     }
+
+    // Update the page with the new content
+    document.getElementById('content').innerHTML = newContent;
+
+  //}
+};

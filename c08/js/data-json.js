@@ -25,3 +25,6 @@ xhr.onload = function() {                       // When readystate changes
 
   //}
 };
+
+xhr.open('GET', 'data/data.json', true);        // Prepare the request
+xhr.send(null);                                 // Send the request

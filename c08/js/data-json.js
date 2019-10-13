@@ -5,3 +5,9 @@
 var xhr = new XMLHttpRequest();                 // Create XMLHttpRequest object
 
 xhr.onload = function() {                       // When readystate changes
+    // The following conditional check will not work locally - only on a server
+    //if(xhr.status === 200) {                      // If server status was ok
+    responseObject = JSON.parse(xhr.responseText);
+
+    // BUILD UP STRING WITH NEW CONTENT (could also use DOM manipulation)
+    var newContent = '';

@@ -15,3 +15,4 @@ xhr.onload = function() {                       // When readystate changes
         newContent += '<div class="event">';
         newContent += '<img src="' + responseObject.events[i].map + '" ';
         newContent += 'alt="' + responseObject.events[i].location + '" />';
+        newContent += '<p><b>' + responseObject.events[i].location + '</b><br>';

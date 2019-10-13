@@ -13,3 +13,4 @@ xhr.onload = function() {                       // When readystate changes
     var newContent = '';
     for (var i = 0; i < responseObject.events.length; i++) { // Loop through object
         newContent += '<div class="event">';
+        newContent += '<img src="' + responseObject.events[i].map + '" ';

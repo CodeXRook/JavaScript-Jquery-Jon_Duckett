@@ -7,5 +7,5 @@ function showEvents(data){       // Callback when JSON loads
         newContent += '<img src="' + data.events[i].map + '" ';
         newContent += '<p><b>' + data.events[i].location + '</b><br>';
         newContent += data.events[i].date + '</p>';
-
+        newContent += '</div>';
 }

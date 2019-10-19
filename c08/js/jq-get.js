@@ -6,3 +6,5 @@ href="http://example.org?tshirt=yellow" id="yellow"><img src="img/t-yellow.png" 
 $('#selector').append(vote);
 
 // This adds ratings to the side bar
+$('#selector a').on('click', function(e) {
+    e.preventDefault();

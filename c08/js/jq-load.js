@@ -12,3 +12,5 @@ $('nav a').on('click', function(e) {                 // User clicks nav link
     $(this).addClass('current');                       // New current indicator
 
     $('#container').remove();                          // Remove old content
+    $('#content').load(url + ' #container').hide().fadeIn('slow'); // New content
+});

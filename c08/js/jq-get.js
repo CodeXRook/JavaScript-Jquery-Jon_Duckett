@@ -1,4 +1,4 @@
 // NOTE: This example will only work if you run it on a web server (it will not work locally)
 
 // This first variable creates the t-shirt options, the HTML for it is shown on p393
-var
+var  vote = '<div id="vote"><div class="third"><a href="http://example.org?tshirt=gray"><img src="img/t-gray.png" id="gray" alt="gray" /></a></div><div class="third"><a 

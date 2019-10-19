@@ -8,3 +8,8 @@ $('#selector').append(vote);
 // This adds ratings to the side bar
 $('#selector a').on('click', function(e) {
     e.preventDefault();
+    var queryString = 'vote=' + $(e.target).attr('id');
+    $.get('votes.php', queryString, function(data) {
+      $('#selector').html(data);
+    });
+  });

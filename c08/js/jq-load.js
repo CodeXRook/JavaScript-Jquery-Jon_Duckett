@@ -5,3 +5,4 @@
 // or run it on your own server.
 
 $('nav a').on('click', function(e) {                 // User clicks nav link
+    e.preventDefault();                                // Stop loading new link

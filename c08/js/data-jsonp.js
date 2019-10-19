@@ -9,3 +9,7 @@ function showEvents(data){       // Callback when JSON loads
         newContent += data.events[i].date + '</p>';
         newContent += '</div>';
 }
+
+// Update the page with the new content
+document.getElementById('content').innerHTML = newContent;
+}

@@ -16,4 +16,6 @@ $.ajax({
 },
 complete: function() {                                  // Once finished
     $('#load').remove();                                  // Clear message
- 
+},
+success: function(data) {                               // Show content
+    $content.html( $(data).find('#container') ).hide().fadeIn(400);

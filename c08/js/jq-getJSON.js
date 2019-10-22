@@ -19,3 +19,8 @@ $('#rates').html(msg);                               // Add rates to page
     reload += '<img src="img/refresh.png" alt="refresh" /></a>';
     $('#reload').html(reload);                          // Add refresh link
     $('#refresh').on('click', function(e) {             // Add click handler
+        e.preventDefault();                               // Stop link
+        loadRates();                                      // Call loadRates()
+      });
+   }); 
+ }

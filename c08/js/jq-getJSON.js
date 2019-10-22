@@ -16,3 +16,4 @@ $('#rates').html(msg);                               // Add rates to page
     $('#rates').text('Sorry, we cannot load rates.');   // Show error message 
 }).always( function() {                                // ALWAYS RUNS
     var reload = '<a id="refresh" href="#">';           // Add refresh link
+    reload += '<img src="img/refresh.png" alt="refresh" /></a>';

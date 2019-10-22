@@ -9,4 +9,5 @@ function loadRates(){
         var msg = '<h2>Exchange Rates</h2>';          // Start message
         $.each(data, function(key, val) {             // Add each rate
             msg += '<div class="' + key + '">' + key + ': ' + val + '</div>';
-}
+});
+msg += '<br>Last update: ' + hrs + ':' + mins + '<br>';   // Show update time

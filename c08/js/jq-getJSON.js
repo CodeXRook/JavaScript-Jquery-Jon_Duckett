@@ -5,4 +5,5 @@ function loadRates(){
     .done( function(data){                            // SERVER RETURNS DATA
         var d = new Date();                           // Create date object
         var hrs = d.getHours();                              // Get hours
+        var mins = d.getMinutes();                           // Get mins
 }

@@ -24,3 +24,8 @@ $('#rates').html(msg);                               // Add rates to page
       });
    }); 
  }
+ loadRates();                                             // Call loadRates()
+
+// When working locally in Firefox, you may see an error saying that the JSON is not well-formed.
+// This is because Firefox is not reading the correct MIME type (and it can safely be ignored).
+// If you get it on a server, you may need to se the MIME type for JSON on the server (application/JSON).

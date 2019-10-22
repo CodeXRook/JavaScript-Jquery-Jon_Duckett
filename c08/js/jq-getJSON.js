@@ -13,3 +13,4 @@ function loadRates(){
 msg += '<br>Last update: ' + hrs + ':' + mins + '<br>';   // Show update time
 $('#rates').html(msg);                               // Add rates to page
 }).fail( function() {                                  // THERE IS AN ERROR
+    $('#rates').text('Sorry, we cannot load rates.');   // Show error message 

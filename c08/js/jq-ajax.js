@@ -8,4 +8,5 @@ $(this).addClass('current');
 $('#container').remove();                                 // Remove content
 
 $.ajax({
+    type: "GET",                                            // GET or POST
 }

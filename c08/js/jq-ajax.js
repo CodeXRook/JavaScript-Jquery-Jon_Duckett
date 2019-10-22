@@ -5,4 +5,5 @@ var $content = $('#content');                             // Cache selection
 
 $('nav a.current').removeClass('current');                // Update links
 $(this).addClass('current');
+$('#container').remove();                                 // Remove content
 }

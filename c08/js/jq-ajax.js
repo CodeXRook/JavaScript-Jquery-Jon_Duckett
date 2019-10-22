@@ -15,3 +15,5 @@ $.ajax({
         $content.append('<div id="load">Loading</div>');      // Load message
 },
 complete: function() {                                  // Once finished
+    $('#load').remove();                                  // Clear message
+ 

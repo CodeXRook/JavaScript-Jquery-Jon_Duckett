@@ -12,4 +12,5 @@ $.ajax({
     url: url,                                               // Path to file
     timeout: 2000,                                          // Waiting time
     beforeSend: function() {                                // Before Ajax 
+        $content.append('<div id="load">Loading</div>');      // Load message
 }

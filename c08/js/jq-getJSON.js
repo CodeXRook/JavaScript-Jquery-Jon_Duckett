@@ -11,3 +11,4 @@ function loadRates(){
             msg += '<div class="' + key + '">' + key + ': ' + val + '</div>';
 });
 msg += '<br>Last update: ' + hrs + ':' + mins + '<br>';   // Show update time
+$('#rates').html(msg);                               // Add rates to page

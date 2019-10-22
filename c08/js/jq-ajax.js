@@ -10,4 +10,5 @@ $('#container').remove();                                 // Remove content
 $.ajax({
     type: "GET",                                            // GET or POST
     url: url,                                               // Path to file
+    timeout: 2000,                                          // Waiting time
 }

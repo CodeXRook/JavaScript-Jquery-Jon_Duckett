@@ -17,3 +17,4 @@ $('#rates').html(msg);                               // Add rates to page
 }).always( function() {                                // ALWAYS RUNS
     var reload = '<a id="refresh" href="#">';           // Add refresh link
     reload += '<img src="img/refresh.png" alt="refresh" /></a>';
+    $('#reload').html(reload);                          // Add refresh link

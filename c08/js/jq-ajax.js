@@ -26,3 +26,14 @@ error: function() {                                     // Show error msg
 });
 
 });
+
+
+/*
+ Here is some further information on what happens when the call is successful:
+
+ success: function(data) {...  The data parameter holds the Ajax response with the new content
+ $content was stored on line 10 it is the element whose id attribut has a value of content
+ $content.html() updates the HTML inside this element
+ $(data) creates a jQuery object containing the response.
+ .find('#container') gets the container element from that response hides it and fades it in
+*/

@@ -6,4 +6,5 @@ function loadRates(){
         var d = new Date();                           // Create date object
         var hrs = d.getHours();                              // Get hours
         var mins = d.getMinutes();                           // Get mins
+        var msg = '<h2>Exchange Rates</h2>';                 // Start message
 }

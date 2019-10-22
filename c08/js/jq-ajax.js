@@ -19,3 +19,10 @@ complete: function() {                                  // Once finished
 },
 success: function(data) {                               // Show content
     $content.html( $(data).find('#container') ).hide().fadeIn(400);
+},
+error: function() {                                     // Show error msg 
+  $content.html('<div id="container">Please try again soon.</div>');
+}
+});
+
+});

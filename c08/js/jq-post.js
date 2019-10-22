@@ -1,0 +1,1 @@
+$('#register').on('submit', function(e) 

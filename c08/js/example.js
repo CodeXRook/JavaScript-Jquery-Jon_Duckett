@@ -1,3 +1,3 @@
-$(function(){
-    
+$(function(){             // When the DOM is ready
+
 }

@@ -25,5 +25,7 @@ $(function(){             // When the DOM is ready
 
     e.preventDefault();                                // Prevent loading page
     var loc = this.id.toUpperCase();                   // Get value of id attr
+
+    var newContent = '';                               // Build up timetable by
   }
 }

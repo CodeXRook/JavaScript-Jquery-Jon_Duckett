@@ -11,6 +11,6 @@ $(function(){             // When the DOM is ready
 
   // FUNCTION THAT COLLECTS DATA FROM THE JSON FILE
   function loadTimetable(){          // Declare function
-
+    $.getJSON('data/example.json')              // Try to collect JSON data
   }
 }

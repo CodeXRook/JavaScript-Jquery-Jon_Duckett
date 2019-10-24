@@ -44,6 +44,7 @@ $(function(){             // When the DOM is ready
   // CLICK ON A SESSION TO LOAD THE DESCRIPTION
   $('#content').on('click', '#sessions li a', function(e) { // Click on session
     e.preventDefault();                                     // Prevent loading
+    var fragment = this.href;                               // Title is in href
 
   }
 }

@@ -53,6 +53,7 @@ $(function(){             // When the DOM is ready
     $(this).addClass('current');
   });
 
-
+ // CLICK ON PRIMARY NAVIGATION
+ $('nav a').on('click', function(e) {                       // Click on nav
   }
 }

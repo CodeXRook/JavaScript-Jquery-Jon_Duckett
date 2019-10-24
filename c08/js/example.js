@@ -47,6 +47,12 @@ $(function(){             // When the DOM is ready
     var fragment = this.href;                               // Title is in href
 
     fragment = fragment.replace('#', ' #');                 // Add space after#
+    $('#details').load(fragment);                           // To load info
+
+    $('#sessions a.current').removeClass('current');        // Update selected
+    $(this).addClass('current');
+  });
+
 
   }
 }

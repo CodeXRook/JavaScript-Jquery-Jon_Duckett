@@ -55,5 +55,6 @@ $(function(){             // When the DOM is ready
 
  // CLICK ON PRIMARY NAVIGATION
  $('nav a').on('click', function(e) {                       // Click on nav
+    e.preventDefault();                                      // Prevent loading
   }
 }

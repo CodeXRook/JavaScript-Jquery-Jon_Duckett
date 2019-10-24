@@ -13,5 +13,6 @@ $(function(){             // When the DOM is ready
   function loadTimetable(){          // Declare function
     $.getJSON('data/example.json')              // Try to collect JSON data
     .done( function(data){                      // If successful
+      times = data;                             // Store it in a variable
   }
 }

@@ -46,5 +46,7 @@ $(function(){             // When the DOM is ready
     e.preventDefault();                                     // Prevent loading
     var fragment = this.href;                               // Title is in href
 
+    fragment = fragment.replace('#', ' #');                 // Add space after#
+
   }
 }

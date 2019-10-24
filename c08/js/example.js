@@ -10,7 +10,7 @@ $(function(){             // When the DOM is ready
     });
 
   // FUNCTION THAT COLLECTS DATA FROM THE JSON FILE
-  function loadTimetable(){
-      
+  function loadTimetable(){          // Declare function
+
   }
 }

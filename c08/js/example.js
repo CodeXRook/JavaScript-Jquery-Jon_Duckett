@@ -28,5 +28,6 @@ $(function(){             // When the DOM is ready
 
     var newContent = '';                               // Build up timetable by
     for (var i = 0; i < times[loc].length; i++) {      // looping through events
+        newContent += '<li><span class="time">' + times[loc][i].time + '</span>';
   }
 }

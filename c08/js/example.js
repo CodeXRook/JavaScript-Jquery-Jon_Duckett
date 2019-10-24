@@ -17,6 +17,8 @@ $(function(){             // When the DOM is ready
     }).fail( function() {                       // If a problem: show message
         $('#event').html('Sorry! We could not load the timetable at the moment');
     });
-  }
+ }
+ loadTimetable();                              // Call the function
+
   }
 }

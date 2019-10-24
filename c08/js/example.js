@@ -59,5 +59,6 @@ $(function(){             // When the DOM is ready
     var url = this.href;                                     // Get URL to load
 
     $('nav a.current').removeClass('current');               // Update nav
+    $(this).addClass('current');
   }
 }

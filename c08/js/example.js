@@ -30,5 +30,6 @@ $(function(){             // When the DOM is ready
     for (var i = 0; i < times[loc].length; i++) {      // looping through events
         newContent += '<li><span class="time">' + times[loc][i].time + '</span>';
         newContent += '<a href="descriptions.html#';
+        newContent += times[loc][i].title.replace(/ /g, '-') + '">';
   }
 }

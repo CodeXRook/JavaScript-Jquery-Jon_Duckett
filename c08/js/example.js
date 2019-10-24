@@ -34,5 +34,9 @@ $(function(){             // When the DOM is ready
         newContent += times[loc][i].title + '</a></li>';
     }
     $('#sessions').html('<ul>' + newContent + '</ul>'); // Display times on page
+
+    $('#event a.current').removeClass('current');       // Update selected item
+    $(this).addClass('current');
+
   }
 }

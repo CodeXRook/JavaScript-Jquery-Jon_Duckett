@@ -27,5 +27,6 @@ $(function(){             // When the DOM is ready
     var loc = this.id.toUpperCase();                   // Get value of id attr
 
     var newContent = '';                               // Build up timetable by
+    for (var i = 0; i < times[loc].length; i++) {      // looping through events
   }
 }

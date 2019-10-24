@@ -38,5 +38,8 @@ $(function(){             // When the DOM is ready
     $('#event a.current').removeClass('current');       // Update selected item
     $(this).addClass('current');
 
+    $('#details').text('');                             // Clear third column
+  });
+
   }
 }

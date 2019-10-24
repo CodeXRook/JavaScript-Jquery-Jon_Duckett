@@ -4,4 +4,9 @@ $(function(){             // When the DOM is ready
   $.ajax({
     beforeSend: function(xhr) {         // Before requesting data
         if (xhr.overrideMimeType) {                 // If supported
+            xhr.overrideMimeType("application/json"); // set MIME to prevent errors
+        }
+      }
+    });
+  
 }

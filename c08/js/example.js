@@ -20,5 +20,7 @@ $(function(){             // When the DOM is ready
  }
  loadTimetable();                              // Call the function
 
+ // CLICK ON THE EVENT TO LOAD A TIMETABLE 
+ 
   }
 }

@@ -15,5 +15,8 @@ $(function(){             // When the DOM is ready
     .done( function(data){                      // If successful
       times = data;                             // Store it in a variable
     }).fail( function() {                       // If a problem: show message
+        $('#event').html('Sorry! We could not load the timetable at the moment');
+    });
+  }
   }
 }

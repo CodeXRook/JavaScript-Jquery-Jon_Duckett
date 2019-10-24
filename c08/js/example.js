@@ -24,5 +24,6 @@ $(function(){             // When the DOM is ready
  $('#content').on('click', '#event a', function(e) {  // User clicks on event
 
     e.preventDefault();                                // Prevent loading page
+    var loc = this.id.toUpperCase();                   // Get value of id attr
   }
 }

@@ -60,5 +60,9 @@ $(function(){             // When the DOM is ready
 
     $('nav a.current').removeClass('current');               // Update nav
     $(this).addClass('current');
+
+    $('#container').remove();                                // Remove old part
+    $('#content').load(url + ' #container').hide().fadeIn('slow'); // Add new
+  });
   }
 }

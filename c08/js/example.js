@@ -14,5 +14,6 @@ $(function(){             // When the DOM is ready
     $.getJSON('data/example.json')              // Try to collect JSON data
     .done( function(data){                      // If successful
       times = data;                             // Store it in a variable
+    }).fail( function() {                       // If a problem: show message
   }
 }

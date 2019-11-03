@@ -20,3 +20,4 @@ $(function() {                                  // DOM has loaded
     var path = location.pathname;               // Get file path
     loadContent(path);                          // Call function to load page
     var page = path.substring(location.pathname.lastIndexOf('/')+1);
+    $('a').removeClass('current');              // Remove current from links

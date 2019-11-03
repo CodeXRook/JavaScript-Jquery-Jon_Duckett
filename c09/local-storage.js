@@ -2,4 +2,5 @@
 if (Modernizr.localstorage){
 
     var txtUsername = document.getElementById('username'); // Get form elements
+    var txtAnswer = document.getElementById('answer');
 }

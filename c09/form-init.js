@@ -6,4 +6,5 @@ $(function() {
     var $range = $('#price-range');  // Cache the <div> for the price range
     $('#price-range').slider({       // Turn price-range input into a slider
         range: true,                   // If it is a range it gets two handles
+        min: 0,                        // Minimum value
 }

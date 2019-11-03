@@ -10,4 +10,7 @@ $(function() {
         max: 400,                      // Maximum value
         values: [175, 300],            // Values to use when the page loads 
         slide: function(event, ui) {   // When slider used update amount element
+            $amount.val('$' + ui.values[0] + ' - $' + ui.values[1]);
+        }
+      });
 }

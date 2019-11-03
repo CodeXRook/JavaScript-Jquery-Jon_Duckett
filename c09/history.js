@@ -9,3 +9,4 @@ $(function() {                                  // DOM has loaded
   $('nav a').on('click', function(e) {          // Click handler 
     e.preventDefault();                         // Stop link loading new page
     var href = this.href;                       // Get href attribute of link
+    var $this = $(this);                        // Store link in jQuery object

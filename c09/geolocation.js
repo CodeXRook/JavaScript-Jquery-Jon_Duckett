@@ -15,6 +15,7 @@ if (Modernizr.geolocation) {                                // Is geo supported
 function success(position) {                                // Got location
     msg = '<h3>Longitude:<br>';                               // Create message
     msg += position.coords.longitude + '</h3>';               // Add longitude
+    msg += '<h3>Latitude:<br>';                               // Create message
     
   
   

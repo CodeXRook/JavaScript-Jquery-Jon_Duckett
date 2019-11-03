@@ -10,6 +10,8 @@ if (Modernizr.geolocation) {                                // Is geo supported
   elMap.textContent = 'Checking location...';               // Say checking...
 } else {                                                    // Not supported
     elMap.textContent = msg;                                  // Add manual entry
-  }
+}
+
+function success(position) {                                // Got location
   
   

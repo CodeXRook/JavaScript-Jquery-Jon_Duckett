@@ -63,6 +63,6 @@ $(function(){             // When the DOM is ready
 
     $('#container').remove();                                // Remove old part
     $('#content').load(url + ' #container').hide().fadeIn('slow'); // Add new
-  });
-  }
-}
+  });  
+  
+});

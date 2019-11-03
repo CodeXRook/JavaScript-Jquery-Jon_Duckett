@@ -6,4 +6,6 @@ if (Modernizr.sessionstorage) {
 
     txtUsername.value = sessionStorage.getItem('username'); // Elements populated
     txtAnswer.value = sessionStorage.getItem('answer');     // by sessionStorage
+
+    txtUsername.addEventListener('input', function () {     // Save data on keyup
 }

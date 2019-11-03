@@ -10,6 +10,8 @@
         <table ng-controller="BaseketCtrl">
             <tr><td>Item:</td><td>{{ description}}</td></tr>
             <tr><td>Cost:</td><td>${{ cost }}</td></tr>
+            <tr><td>Qty:</td><td><input type="number" ng-model="qty"></td></tr>
+            <tr><td>Subtotal:</td><td>{{qty * cost | currency }}</td></tr>
         </table>
     </body>
 </html>

@@ -19,4 +19,4 @@ $(function() {                                  // DOM has loaded
   window.onpopstate = function() {              // Handle back/forward buttons
     var path = location.pathname;               // Get file path
     loadContent(path);                          // Call function to load page
-    
+    var page = path.substring(location.pathname.lastIndexOf('/')+1);

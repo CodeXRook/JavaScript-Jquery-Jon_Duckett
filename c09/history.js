@@ -13,3 +13,5 @@ $(function() {                                  // DOM has loaded
     $('a').removeClass('current');              // Remove current from links
     $this.addClass('current');                  // Update current link
     loadContent(href);                          // Call function: loads content
+    history.pushState('', $this.text, href);    // Update history
+  });

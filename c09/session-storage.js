@@ -8,4 +8,5 @@ if (Modernizr.sessionstorage) {
     txtAnswer.value = sessionStorage.getItem('answer');     // by sessionStorage
 
     txtUsername.addEventListener('input', function () {     // Save data on keyup
+        sessionStorage.setItem('username', txtUsername.value);
 }

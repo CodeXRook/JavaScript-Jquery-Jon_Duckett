@@ -12,4 +12,6 @@ if (Modernizr.localstorage){
   }, false);
 
   txtAnswer.addEventListener('input', function () {      // Data saved on keyup
+    localStorage.setItem('answer', txtAnswer.value);
+}, false);
 }

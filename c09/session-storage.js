@@ -5,4 +5,5 @@ if (Modernizr.sessionstorage) {
     txtAnswer = document.getElementById('answer');
 
     txtUsername.value = sessionStorage.getItem('username'); // Elements populated
+    txtAnswer.value = sessionStorage.getItem('answer');     // by sessionStorage
 }

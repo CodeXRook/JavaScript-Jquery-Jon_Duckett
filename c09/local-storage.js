@@ -8,4 +8,7 @@ if (Modernizr.localstorage){
     txtAnswer.value = localStorage.getItem('answer');      // by localStorage data
 
     txtUsername.addEventListener('input', function () {    // Data saved on keyup
+        localStorage.setItem('username', txtUsername.value);
+  }, false);
+
 }

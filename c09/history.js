@@ -2,3 +2,4 @@
 // It will not work locally in some browsers 
 // or run it on your own web server
 $(function() {                                  // DOM has loaded
+    function loadContent(url){                    // Load new content into page

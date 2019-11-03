@@ -21,3 +21,6 @@ $(function() {                                  // DOM has loaded
     loadContent(path);                          // Call function to load page
     var page = path.substring(location.pathname.lastIndexOf('/')+1);
     $('a').removeClass('current');              // Remove current from links
+    $('[href="' + page + '"]').addClass('current'); // Update current link
+};
+});

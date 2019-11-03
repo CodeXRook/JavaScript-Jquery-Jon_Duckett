@@ -13,4 +13,8 @@ $(function() {
             $amount.val('$' + ui.values[0] + ' - $' + ui.values[1]);
         }
       });
-}
+      $amount                          // Set initial values of amount element
+      .val('$' + $range.slider('values', 0)     // A $ sign then lower range
+      + ' - $' + $range.slider('values', 1)); // A $ sign then higher range
+  
+  });

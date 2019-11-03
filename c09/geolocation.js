@@ -6,3 +6,5 @@ var elMap  = document.getElementById('loc');                 // HTML element
 var msg = 'Sorry, we were unable to get your location.';    // No location msg
 
 if (Modernizr.geolocation) {                                // Is geo supported
+    navigator.geolocation.getCurrentPosition(success, fail);  // Ask for location
+  elMap.textContent = 'Checking location...';               // Say checking...

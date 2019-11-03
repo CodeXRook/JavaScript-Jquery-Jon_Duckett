@@ -15,3 +15,5 @@ $(function() {                                  // DOM has loaded
     loadContent(href);                          // Call function: loads content
     history.pushState('', $this.text, href);    // Update history
   });
+
+  window.onpopstate = function() {              // Handle back/forward buttons

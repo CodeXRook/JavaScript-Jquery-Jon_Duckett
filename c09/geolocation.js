@@ -17,6 +17,8 @@ function success(position) {                                // Got location
     msg += position.coords.longitude + '</h3>';               // Add longitude
     msg += '<h3>Latitude:<br>';                               // Create message
     msg += position.coords.latitude + '</h3>';                // Add latitude
+    elMap.innerHTML = msg;                                    // Show location
+}
     
   
   

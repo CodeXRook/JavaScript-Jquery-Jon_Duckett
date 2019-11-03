@@ -17,3 +17,4 @@ $(function() {                                  // DOM has loaded
   });
 
   window.onpopstate = function() {              // Handle back/forward buttons
+    var path = location.pathname;               // Get file path

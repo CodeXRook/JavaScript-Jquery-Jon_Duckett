@@ -3,3 +3,4 @@
 // It may take the browser a while to determine your location (his demonstrates why you should not depend on this information before loading the entire page).
 
 var elMap  = document.getElementById('loc');                 // HTML element
+var msg = 'Sorry, we were unable to get your location.';    // No location msg

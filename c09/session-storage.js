@@ -12,4 +12,5 @@ if (Modernizr.sessionstorage) {
     }, false);
 
     txtAnswer.addEventListener('input', function () {       // Save data on keyup
+        sessionStorage.setItem('answer', txtAnswer.value);
 }

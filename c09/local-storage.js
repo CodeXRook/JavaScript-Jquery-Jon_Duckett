@@ -11,4 +11,5 @@ if (Modernizr.localstorage){
         localStorage.setItem('username', txtUsername.value);
   }, false);
 
+  txtAnswer.addEventListener('input', function () {      // Data saved on keyup
 }

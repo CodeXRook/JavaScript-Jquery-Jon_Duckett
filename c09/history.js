@@ -11,3 +11,4 @@ $(function() {                                  // DOM has loaded
     var href = this.href;                       // Get href attribute of link
     var $this = $(this);                        // Store link in jQuery object
     $('a').removeClass('current');              // Remove current from links
+    $this.addClass('current');                  // Update current link

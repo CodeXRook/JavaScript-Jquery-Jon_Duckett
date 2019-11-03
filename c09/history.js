@@ -5,3 +5,6 @@ $(function() {                                  // DOM has loaded
     function loadContent(url){                    // Load new content into page
         $('#content').load(url + ' #container').hide().fadeIn('slow');
   }
+
+  $('nav a').on('click', function(e) {          // Click handler 
+    e.preventDefault();                         // Stop link loading new page

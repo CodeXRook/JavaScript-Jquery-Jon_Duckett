@@ -9,4 +9,5 @@ if (Modernizr.sessionstorage) {
 
     txtUsername.addEventListener('input', function () {     // Save data on keyup
         sessionStorage.setItem('username', txtUsername.value);
+    }, false);
 }

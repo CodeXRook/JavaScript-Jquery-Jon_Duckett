@@ -5,4 +5,5 @@ if (Modernizr.localstorage){
     var txtAnswer = document.getElementById('answer');
 
     txtUsername.value = localStorage.getItem('username');  // Elements populated
+    txtAnswer.value = localStorage.getItem('answer');      // by localStorage data
 }

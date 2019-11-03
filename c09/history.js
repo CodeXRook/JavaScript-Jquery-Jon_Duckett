@@ -12,3 +12,4 @@ $(function() {                                  // DOM has loaded
     var $this = $(this);                        // Store link in jQuery object
     $('a').removeClass('current');              // Remove current from links
     $this.addClass('current');                  // Update current link
+    loadContent(href);                          // Call function: loads content

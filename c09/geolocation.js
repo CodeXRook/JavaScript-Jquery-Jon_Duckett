@@ -21,6 +21,8 @@ function success(position) {                                // Got location
 }
 
 function fail(msg) {                                        // Not got location
+    elMap.textContent = msg;                                  // Show text input
+ 
     
   
   

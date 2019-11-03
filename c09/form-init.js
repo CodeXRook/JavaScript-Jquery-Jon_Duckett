@@ -8,4 +8,5 @@ $(function() {
         range: true,                   // If it is a range it gets two handles
         min: 0,                        // Minimum value
         max: 400,                      // Maximum value
+        values: [175, 300],            // Values to use when the page loads 
 }

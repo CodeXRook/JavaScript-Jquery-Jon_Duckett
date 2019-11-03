@@ -1,1 +1,3 @@
-function  BasketCtrl($scope) 
+function  BasketCtrl($scope) {
+    $scope.description = 'Single ticket';
+}

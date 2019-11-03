@@ -6,4 +6,6 @@ if (Modernizr.localstorage){
 
     txtUsername.value = localStorage.getItem('username');  // Elements populated
     txtAnswer.value = localStorage.getItem('answer');      // by localStorage data
+
+    txtUsername.addEventListener('input', function () {    // Data saved on keyup
 }

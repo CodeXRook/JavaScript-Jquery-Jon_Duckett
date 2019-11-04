@@ -12,5 +12,9 @@ function  init() {
             position: google.maps.ControlPosition.TOP_RIGHT
         },
         mapTypeControl: true,
+        mapTypeControlOptions: {
+            style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
+            position: google.maps.ControlPosition.TOP_LEFT
+        }
     }
 }

@@ -8,4 +8,10 @@ $('#calculator').on('submit', function(e) {
   width = $('#width').val();
   height = $('#height').val();
   area = (width * height);
-}
+
+  if (area < 100) {
+    debugger;             // A breakpoint is set if the developer tools are open
+  }
+
+  $form.append('<p>' + area + '</p>');
+});

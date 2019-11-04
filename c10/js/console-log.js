@@ -12,3 +12,5 @@ $('#calculator').on('submit', function(e) {     // When the user clicks submit
 
     width = $('#width').val();
     console.log('Width ' + width);                // Write width to console
+
+    height = $('#height').val();

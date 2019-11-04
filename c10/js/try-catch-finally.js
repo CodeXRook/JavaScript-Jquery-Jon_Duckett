@@ -27,4 +27,6 @@ function showContent(dealData) {
   newContent += '<div class="deal">';
   newContent += '<h2>' + dealData.deals[i].title + '</h2>';
   newContent += '<p>' + dealData.deals[i].description + '</p>';
+  newContent += '<a href="' + dealData.deals[i].link + '">';
+  newContent += ' ' + dealData.deals[i].link;
 }

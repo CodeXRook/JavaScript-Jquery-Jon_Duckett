@@ -91,4 +91,6 @@ var startPosition = new google.maps.Marker ({    // Create a new marker
 
 }
 
-function
+function loadScript(){
+    
+}

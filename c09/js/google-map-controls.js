@@ -21,5 +21,11 @@ function  init() {
             position: google.maps.ControlPosition.TOP_CENTER
         },
         streetViewControl: false,
-    }
+        overviewMapControl: false
+    };
+    var venueMap = new google.maps.Map(document.getElementById('map'), mapOptions);
+}
+
+function loadScript() {
+    var script = document.createElement('script');
 }

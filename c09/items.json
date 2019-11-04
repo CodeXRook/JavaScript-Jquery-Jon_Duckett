@@ -26,5 +26,7 @@
 {
     "time": "14.00",
     "title": "Droning On",
+    "detail": "We have ways of keeping you awake after lunch. This session will be policed by a set of quadcopters remotely controlled via many different types of sensor hooked up to an Arduino board. Snoozing could result in a visit from the drones..."
+    
 },
 ]

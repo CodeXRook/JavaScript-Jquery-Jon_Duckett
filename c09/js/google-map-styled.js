@@ -87,3 +87,8 @@ var startPosition = new google.maps.Marker ({    // Create a new marker
     position: pinLocation,                        // Set its position
     map: venueMap,                                // Specify the map
     icon: "img/go.png"                            // Path to image from HTML
+});
+
+}
+
+function

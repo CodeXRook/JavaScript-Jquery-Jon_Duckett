@@ -23,5 +23,7 @@ if (response) {
 
 function showContent(dealData) {
   var newContent = '';
-  for (var i in dealData.deals) 
+  for (var i in dealData.deals) {
+  newContent += '<div class="deal">';
+ 
 }

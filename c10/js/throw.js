@@ -1,2 +1,4 @@
-var width = 12;     // width variable
-var height = 'test';                                // height variable
+var width = 12;        // width variable
+var height = 'test';  // height variable
+
+function calculateArea(width, height) {}

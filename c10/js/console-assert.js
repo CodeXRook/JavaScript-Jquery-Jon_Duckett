@@ -13,4 +13,8 @@ $('#calculator').on('submit', function(e) {
     width = $('#width').val();
     height = $('#height').val();
     area = width * height;
-}
+    // The message only shows if user has not entered a number
+    console.assert($.isNumeric(area), 'User entered non-numeric value');
+
+    $form.append('<p>' + area + '</p>');
+});

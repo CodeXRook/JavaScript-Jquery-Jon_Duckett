@@ -68,3 +68,5 @@ var mapOptions = {
 }, {
   featureType: "water",
   elementType: "geometry",
+  stylers: [
+    { hue: "#c4f4f4" }

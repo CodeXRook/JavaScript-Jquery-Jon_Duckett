@@ -9,6 +9,7 @@ function  init() {
         zoomControl: true,
         zoomControlOptions: {
             style: google.maps.ZoomControlStyle.SMALL,
-        }
+            position: google.maps.ControlPosition.TOP_RIGHT
+        },
     }
 }

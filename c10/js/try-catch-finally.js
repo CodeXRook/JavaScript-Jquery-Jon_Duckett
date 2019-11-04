@@ -14,3 +14,4 @@ if (response) {
       var errorMessage = e.name + ' ' + e.message;  // Create error msg
       console.log(errorMessage);                    // Show devs msg
       feed.innerHTML = '<em>Sorry, could not load deals</em>';// Show users msg
+    } finally {

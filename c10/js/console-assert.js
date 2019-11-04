@@ -6,4 +6,6 @@ $('form input[type="text"]').on('blur', function() {
    console.assert(this.value > 10, 'User entered less than 10');
 });
 
-$('#calculator').on('submit', function(e)
+$('#calculator').on('submit', function(e) {
+    e.preventDefault();
+}

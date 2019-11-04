@@ -11,3 +11,4 @@ $('#calculator').on('submit', function(e) {     // When the user clicks submit
     console.log('Clicked submit...');             // Indicate button was clicked
 
     width = $('#width').val();
+    console.log('Width ' + width);                // Write width to console

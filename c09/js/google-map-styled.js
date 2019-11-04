@@ -42,3 +42,6 @@ var mapOptions = {
     }, {
       featureType: "transit",
       elementType: "geometry",
+      stylers: [
+        { hue: "#ff6600" },
+        { saturation: +80 }

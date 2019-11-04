@@ -16,7 +16,9 @@
 {
     "time": "11.30",
     "title": "Arduino Antics",
-    "detail": "Learn how to program and use an Arduino! This easy-to-learn open source microcontroller board takes all sorts of sensor inputs, follows user-generated programs, and outputs data and power. Arduinos are commonly used in robotics, mechatronics, and all manners of electronics projects around the world. Taught by Elsie Denney, professional software developer with a long previous career as a technical artist in the video game industry, electronics enthusiast and instructor."
-    
+    "detail": "Learn how to program and use an Arduino! This easy-to-learn open source microcontroller board takes all sorts of sensor inputs, follows user-generated programs, and outputs data and power. Arduinos are commonly used in robotics, mechatronics, and all manners of electronics projects around the world. Taught by Elsie Denney, professional software developer with a long previous career as a technical artist in the video game industry, electronics enthusiast and instructor."  
+},
+{
+    "time": "13.00",
 }
 ]

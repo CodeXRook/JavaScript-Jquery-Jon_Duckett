@@ -4,5 +4,6 @@ var contacts  = {                 // Store contact info in an object literal
         "Country": "UK"},
     "Sydney":{
         "Tel": "+61 (0)2 7010 1212",
+        "Country": "Australia"},
     }
     }

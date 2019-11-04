@@ -16,3 +16,4 @@ if (response) {
       feed.innerHTML = '<em>Sorry, could not load deals</em>';// Show users msg
     } finally {
       var link = document.createElement('a');       // Add refresh link
+      link.innerHTML = ' <a href="try-catch-finally.html">reload</a>';

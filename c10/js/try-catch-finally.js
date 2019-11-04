@@ -9,4 +9,7 @@ response = '{"deals": [{"title": "Farrow and Ball","description": "New season 2.
 if (response) {
   try {
     var dealData = JSON.parse(response);              // Try to parse JSON
-    }
+    showContent(dealData);                            // Show JSON data
+    } catch(e) {
+      var errorMessage = e.name + ' ' + e.message;  // Create error msg
+      console.log(errorMessage);                    // Show devs msg

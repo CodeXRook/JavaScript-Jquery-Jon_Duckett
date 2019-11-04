@@ -10,4 +10,5 @@ try {
       throw new Error('calculateArea() received invalid number');
     }
   } catch(e) {                                     // If there was an error
+    console.log(e.name + ' ' + e.message);          // Show error in console
  

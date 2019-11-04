@@ -12,4 +12,7 @@ try {
   } catch(e) {                                     // If there was an error
     console.log(e.name + ' ' + e.message);          // Show error in console
     return 'We were unable to calculate the area.'; // Show users a message
- 
+ }
+}
+// TRY TO SHOW THE AREA ON THE PAGE
+document.getElementById('area').innerHTML = calculateArea(width, height);

@@ -30,4 +30,6 @@ function showContent(dealData) {
   newContent += '<a href="' + dealData.deals[i].link + '">';
   newContent += ' ' + dealData.deals[i].link;
   newContent +='</a>';
+  newContent += '</div>';
+ 
 }

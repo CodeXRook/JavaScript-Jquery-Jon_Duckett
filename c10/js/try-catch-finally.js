@@ -31,5 +31,6 @@ function showContent(dealData) {
   newContent += ' ' + dealData.deals[i].link;
   newContent +='</a>';
   newContent += '</div>';
- 
+ }
+feed.innerHTML = newContent;
 }

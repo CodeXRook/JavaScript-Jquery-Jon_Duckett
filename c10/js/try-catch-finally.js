@@ -15,3 +15,4 @@ if (response) {
       console.log(errorMessage);                    // Show devs msg
       feed.innerHTML = '<em>Sorry, could not load deals</em>';// Show users msg
     } finally {
+      var link = document.createElement('a');       // Add refresh link

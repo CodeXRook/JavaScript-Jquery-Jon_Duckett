@@ -1,1 +1,1 @@
-var feed 
+var feed = document.getElementById('feed');

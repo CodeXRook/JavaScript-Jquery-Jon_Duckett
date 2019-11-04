@@ -1,1 +1,5 @@
-function
+function init() {
+    var mapOptions ={
+        
+    }
+}

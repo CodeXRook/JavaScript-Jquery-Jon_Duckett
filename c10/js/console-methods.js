@@ -1,0 +1,1 @@
+console.info('And we\'re off...');                    // Info: script running

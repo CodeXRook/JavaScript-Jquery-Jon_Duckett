@@ -1,1 +1,1 @@
-$
+$('.accordion').on('click', '.accordion-control', function(e){ // When clicked

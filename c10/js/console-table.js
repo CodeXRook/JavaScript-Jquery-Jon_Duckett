@@ -8,5 +8,6 @@ var contacts  = {                 // Store contact info in an object literal
         "New York": {
             "Tel": "+1 (0)1 555 2104",
             "Country": "USA"}
-    }
-    }
+    };
+
+console.table(contacts);                   // Write data content to console

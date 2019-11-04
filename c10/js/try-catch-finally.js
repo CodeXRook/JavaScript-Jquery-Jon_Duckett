@@ -20,3 +20,7 @@ if (response) {
       feed.appendChild(link);
   }
 }
+
+function showContent(dealData) {
+    
+}

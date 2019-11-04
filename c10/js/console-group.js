@@ -14,3 +14,6 @@ $form.on('submit', function(e) {                 // Runs when submit is pressed
     console.info('Height ', height);             // Write out the height
     console.log(area);                           // Write out the area
     console.groupEnd();                            // End group
+
+    $form.append('<p>' + area + '</p>');
+});

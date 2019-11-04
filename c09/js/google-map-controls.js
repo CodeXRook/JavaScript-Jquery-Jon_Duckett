@@ -20,6 +20,6 @@ function  init() {
         scaleControlOptions: {
             position: google.maps.ControlPosition.TOP_CENTER
         },
-        scaleControl: true,
+        streetViewControl: false,
     }
 }

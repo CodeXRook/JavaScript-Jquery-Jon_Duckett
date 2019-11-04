@@ -15,3 +15,6 @@ var mapOptions = {
     },
 
     mapTypeControl: true,
+    mapTypeControlOptions: {
+        
+    }

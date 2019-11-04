@@ -7,5 +7,8 @@ function  init() {
 
         panControl: false,
         zoomControl: true,
+        zoomControlOptions: {
+            style: google.maps.ZoomControlStyle.SMALL,
+        }
     }
 }

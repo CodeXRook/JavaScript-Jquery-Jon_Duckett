@@ -1,1 +1,1 @@
-console.log
+console.log('And we\'re off...');               // Indicates script is running

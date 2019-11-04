@@ -73,3 +73,4 @@ var mapOptions = {
 ]
 }, {
     featureType: "road",
+    elementType: "labels",

@@ -7,4 +7,5 @@ try {
     if (!isNaN(area)) {                             // If it is a number
         return area;                                  // Return the area
     } else {                                        // Otherwise throw an error
+      throw new Error('calculateArea() received invalid number');
 }

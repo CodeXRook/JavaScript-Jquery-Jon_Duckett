@@ -72,3 +72,4 @@ var mapOptions = {
     { hue: "#c4f4f4" }
 ]
 }, {
+    featureType: "road",

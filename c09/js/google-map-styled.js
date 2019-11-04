@@ -53,3 +53,9 @@ var mapOptions = {
     { hue: "#ff0066" },
     { saturation: +80 }
   ]
+}, {
+    featureType: "poi",
+    elementType: "labels",
+    stylers: [
+      { visibility: "off" }
+      

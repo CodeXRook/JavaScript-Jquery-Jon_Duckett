@@ -8,3 +8,5 @@ $form.on('submit', function(e) {                 // Runs when submit is pressed
     width = $('#width').val();
     height = $('#height').val();
     area = width * height;
+
+    console.group('Area calculations');            // Start grouping

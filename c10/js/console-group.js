@@ -10,3 +10,4 @@ $form.on('submit', function(e) {                 // Runs when submit is pressed
     area = width * height;
 
     console.group('Area calculations');            // Start grouping
+    console.info('Width ', width);               // Write out the width

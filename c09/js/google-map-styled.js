@@ -20,5 +20,17 @@ var mapOptions = {
       position: google.maps.ControlPosition.TOP_LEFT
     },
     scaleControl: true,
-    scaleControlOptions:
-    }
+    scaleControlOptions: [
+     position: google.maps.ControlPosition.TOP_CENTER
+    },
+    streetViewControl: false,
+    overviewMapControl: false,
+
+    styles:[
+        {
+          stylers: [
+            { hue: "#00ff6f" },
+            { saturation: -50 }
+        ]
+    }, {
+        featureType: "road",

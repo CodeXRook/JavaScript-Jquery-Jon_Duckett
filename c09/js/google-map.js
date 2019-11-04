@@ -8,4 +8,7 @@ function init() {
     venueMap = new google.maps.Map(document.getElementById('map'), mapOptions);
 }
 
-function loadScript() 
+function loadScript() {
+    var script = document.createElement('script');     // Create <script> element
+ 
+}

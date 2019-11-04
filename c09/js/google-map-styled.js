@@ -93,4 +93,5 @@ var startPosition = new google.maps.Marker ({    // Create a new marker
 
 function loadScript(){
     var script = document.createElement('script')
+    script.src = 'http://maps.googleapis.com/maps/api/js?sensor=false&callback=init';
 }

@@ -82,3 +82,5 @@ var mapOptions = {
 };
 
 var venueMap = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+var startPosition =

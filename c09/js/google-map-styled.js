@@ -41,3 +41,4 @@ var mapOptions = {
         ]
     }, {
       featureType: "transit",
+      elementType: "geometry",

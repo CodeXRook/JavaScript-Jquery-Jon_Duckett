@@ -1,1 +1,2 @@
 var venueMap;
+function init()

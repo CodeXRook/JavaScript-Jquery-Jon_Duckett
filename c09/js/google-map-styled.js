@@ -7,4 +7,5 @@ var mapOptions = {
     zoom: 15,
     center: pinLocation,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
+    panControl: false,
 }

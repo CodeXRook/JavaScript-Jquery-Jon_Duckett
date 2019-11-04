@@ -45,3 +45,7 @@ var mapOptions = {
       stylers: [
         { hue: "#ff6600" },
         { saturation: +80 }
+    ]
+}, {
+  featureType: "transit",
+  elementType: "labels",

@@ -5,5 +5,5 @@ function init() {
       zoom: 13
     };
     var venueMap;                                      // Map() draws a map
- 
+    venueMap = new google.maps.Map(document.getElementById('map'), mapOptions);
 }

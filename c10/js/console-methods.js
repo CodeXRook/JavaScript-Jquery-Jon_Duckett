@@ -9,3 +9,6 @@ $('form input[type="text"]').on('blur', function() {  // On blur event
 
 $('#calculator').on('submit', function(e) {           // When form is submitted
     e.preventDefault();
+
+    width = $('#width').val();
+    height = $('#height').val();

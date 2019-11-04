@@ -64,3 +64,6 @@ var mapOptions = {
   elementType: "labels",
   stylers: [
     { visibility: "on" }
+]
+}, {
+  featureType: "water",

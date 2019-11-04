@@ -5,3 +5,4 @@ $form.on('submit', function(e) {                 // Runs when submit is pressed
     console.log('Clicked submit...');              // Show the button was clicked
 
     var width, height, area;
+    width = $('#width').val();

@@ -19,6 +19,7 @@ function  init() {
         scaleControl: true,
         scaleControlOptions: {
             position: google.maps.ControlPosition.TOP_CENTER
-        }
+        },
+        scaleControl: true,
     }
 }

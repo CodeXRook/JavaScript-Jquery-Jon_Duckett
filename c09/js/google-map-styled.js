@@ -9,4 +9,6 @@ var mapOptions = {
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     panControl: false,
     zoomControl: true,
+    zoomControlOptions: {
+      style: google.maps.ZoomControlStyle.SMALL,
 }

@@ -1,0 +1,1 @@
+var $form, width, height, area;

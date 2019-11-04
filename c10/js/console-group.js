@@ -11,3 +11,4 @@ $form.on('submit', function(e) {                 // Runs when submit is pressed
 
     console.group('Area calculations');            // Start grouping
     console.info('Width ', width);               // Write out the width
+    console.info('Height ', height);             // Write out the height

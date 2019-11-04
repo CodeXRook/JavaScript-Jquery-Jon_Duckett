@@ -17,3 +17,6 @@ if (response) {
     } finally {
       var link = document.createElement('a');       // Add refresh link
       link.innerHTML = ' <a href="try-catch-finally.html">reload</a>';
+      feed.appendChild(link);
+  }
+}

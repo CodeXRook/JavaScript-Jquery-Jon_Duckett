@@ -5,4 +5,5 @@ function calculateArea(width, height) {}
 try {
     var area = width * height;                      // Try to calculate area
     if (!isNaN(area)) {                             // If it is a number
+        return area;                                  // Return the area
 }

@@ -22,5 +22,5 @@ if (response) {
 }
 
 function showContent(dealData) {
-    
+  var newContent = '';
 }

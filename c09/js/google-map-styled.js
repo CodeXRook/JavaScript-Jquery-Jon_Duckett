@@ -20,4 +20,5 @@ var mapOptions = {
       position: google.maps.ControlPosition.TOP_LEFT
     },
     scaleControl: true,
+    scaleControlOptions:
     }

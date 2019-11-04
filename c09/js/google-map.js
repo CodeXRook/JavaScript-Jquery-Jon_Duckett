@@ -14,4 +14,4 @@ function loadScript() {
     document.body.appendChild(script);                 // Add element to page
 }
  
-}
+window.onload = loadScript;                          // on load call loadScript()

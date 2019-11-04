@@ -17,3 +17,4 @@ $('#calculator').on('submit', function(e) {     // When the user clicks submit
     console.log('Height ', height);               // Write height to console
 
     area = width * height;
+    console.log(area);                            // Write area to console

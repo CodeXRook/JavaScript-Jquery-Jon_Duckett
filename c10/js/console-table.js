@@ -13,3 +13,4 @@ var contacts  = {                 // Store contact info in an object literal
 console.table(contacts);                   // Write data content to console
 
 var city, contactDetails;                  // Declare variables
+contactDetails = '';                       // Will hold details written to page

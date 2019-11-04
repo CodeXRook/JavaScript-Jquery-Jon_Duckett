@@ -6,5 +6,6 @@ function  init() {
         mapTypeId: google.maps.MapTypeId.ROADMAP,
 
         panControl: false,
+        zoomControl: true,
     }
 }

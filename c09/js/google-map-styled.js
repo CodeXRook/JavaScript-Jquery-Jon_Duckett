@@ -35,3 +35,6 @@ var mapOptions = {
     }, {
         featureType: "road",
         elementType: "geometry",
+        stylers: [
+            { lightness: 100 },
+            { visibility: "simplified" }

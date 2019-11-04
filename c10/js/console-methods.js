@@ -12,3 +12,5 @@ $('#calculator').on('submit', function(e) {           // When form is submitted
 
     width = $('#width').val();
     height = $('#height').val();
+
+    area = width * height;

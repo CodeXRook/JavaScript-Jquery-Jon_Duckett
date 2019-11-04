@@ -58,4 +58,9 @@ var mapOptions = {
     elementType: "labels",
     stylers: [
       { visibility: "off" }
-      
+    ]
+}, {
+  featureType: "poi.park",
+  elementType: "labels",
+  stylers: [
+    { visibility: "on" }

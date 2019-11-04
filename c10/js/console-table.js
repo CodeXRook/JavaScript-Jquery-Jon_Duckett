@@ -14,3 +14,8 @@ console.table(contacts);                   // Write data content to console
 
 var city, contactDetails;                  // Declare variables
 contactDetails = '';                       // Will hold details written to page
+
+$.each(contacts, function(city, contacts) {
+    contactDetails += city + ': ' + contacts.Tel + '<br />';
+  });
+  $('h2').after('<p>' + contactDetails + '</p>');

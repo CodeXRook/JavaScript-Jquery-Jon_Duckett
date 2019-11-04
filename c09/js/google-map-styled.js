@@ -67,3 +67,4 @@ var mapOptions = {
 ]
 }, {
   featureType: "water",
+  elementType: "geometry",

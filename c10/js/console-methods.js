@@ -6,3 +6,6 @@ $form = $('#calculator');
 $('form input[type="text"]').on('blur', function() {  // On blur event
     console.warn('You entered ', this.value);           // Warn: what was entered
 });
+
+$('#calculator').on('submit', function(e) {           // When form is submitted
+    e.preventDefault();

@@ -76,3 +76,9 @@ var mapOptions = {
     elementType: "labels",
     stylers: [
         { visibility: "off" }
+    ]
+  }
+ ]
+};
+
+var venueMap = new google.maps.Map(document.getElementById('map'), mapOptions);

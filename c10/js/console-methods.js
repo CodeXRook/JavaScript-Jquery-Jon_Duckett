@@ -15,3 +15,6 @@ $('#calculator').on('submit', function(e) {           // When form is submitted
 
     area = width * height;
     console.error(area);                                // Error: show area
+
+    $form.append('<p class="result">' + area + '</p>');
+});

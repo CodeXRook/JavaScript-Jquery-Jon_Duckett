@@ -38,3 +38,6 @@ var mapOptions = {
         stylers: [
             { lightness: 100 },
             { visibility: "simplified" }
+        ]
+    }, {
+      featureType: "transit",

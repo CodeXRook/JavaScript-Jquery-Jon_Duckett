@@ -1,1 +1,1 @@
-var  elDocument = 
+var  elDocument = document.documentElement;

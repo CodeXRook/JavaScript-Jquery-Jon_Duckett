@@ -11,5 +11,6 @@ function  init() {
             style: google.maps.ZoomControlStyle.SMALL,
             position: google.maps.ControlPosition.TOP_RIGHT
         },
+        mapTypeControl: true,
     }
 }

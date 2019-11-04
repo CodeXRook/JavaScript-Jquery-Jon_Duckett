@@ -8,4 +8,7 @@ $('form input[type="text"]').on('blur', function() {
 
 $('#calculator').on('submit', function(e) {
     e.preventDefault();
+    console.log('Clicked submit...');
+
+    width = $('#width').val();
 }

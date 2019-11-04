@@ -8,7 +8,12 @@
       "title": "Intro to 3D Modeling",
       "detail": "Come learn how to create 3D models of parts you can then make on our bus! You'll get to know the same 3D modeling software that is used worldwide in professional settings like engineering, product design, and more. Develop and test ideas in a fun and informative session hosted by Bella Stone, professional roboticist."
     },
-    }
+    {
      "time": "10.00",
      "title": "Circuit Hacking",
+     "detail": "Head to the Electro-Tent for a free introductory soldering lesson. There will be electronics kits on hand for those who wish to make things, and experienced hackers and engineers around to answer all your questions. Feel free to bring your own projects to work on if you have them! Run by Luke Seyfort, elite hacker and The Maker Bus' official lab monitor."
+},
+{
+    "time": "11.30",
+}
 ]

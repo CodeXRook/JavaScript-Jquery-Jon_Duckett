@@ -6,3 +6,5 @@ $form.on('submit', function(e) {                 // Runs when submit is pressed
 
     var width, height, area;
     width = $('#width').val();
+    height = $('#height').val();
+    area = width * height;

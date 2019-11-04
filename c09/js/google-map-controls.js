@@ -17,5 +17,8 @@ function  init() {
             position: google.maps.ControlPosition.TOP_LEFT
         },
         scaleControl: true,
+        scaleControlOptions: {
+            
+        }
     }
 }

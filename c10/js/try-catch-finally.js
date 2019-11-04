@@ -5,3 +5,8 @@ var response = '{"deals": [{"title": "Farrow and Ball","description": "New seaso
 {"title": "Siecle Paints from the UK","description": "Probably the best named paints in the world","price": 28,"link": "http://www.example.com/siecle/"},{"title": "Kelly Hoppen","description": "Now stocking paints by interior designer Kelly Hoppen","price": 42,"link": "http://www.example.com/kelly-hoppen/"}]}';
 // Feed with errors - comment the next line out to see it working
 response = '{"deals": [{"title": "Farrow and Ball","description": "New season 2.5l '; // JSON data
+
+if (response) {
+  try {
+    var dealData = JSON.parse(response);              // Try to parse JSON
+    }

@@ -11,3 +11,4 @@ $('.tab-list').each(function(){             // Find lists of tabs
 
     if (id && !$link.is('.active')) {             // If not currently active
         $panel.removeClass('active');               // Make panel inactive
+        $tab.removeClass('active');                 // Make tab inactive

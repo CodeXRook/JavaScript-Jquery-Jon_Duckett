@@ -5,3 +5,4 @@ $('.tab-list').each(function(){             // Find lists of tabs
   var $panel = $($link.attr('href'));             // Get active panel
 
   $this.on('click', '.tab-control', function(e) { // When click on a tab
+    e.preventDefault();                           // Prevent link behavior

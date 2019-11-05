@@ -1,1 +1,1 @@
-$('.tab-list').each(function()
+$('.tab-list').each(function(){             // Find lists of tabs

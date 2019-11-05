@@ -10,3 +10,4 @@ $('.tab-list').each(function(){             // Find lists of tabs
     id = this.hash;                           // Get href of clicked tab 
 
     if (id && !$link.is('.active')) {             // If not currently active
+        $panel.removeClass('active');               // Make panel inactive

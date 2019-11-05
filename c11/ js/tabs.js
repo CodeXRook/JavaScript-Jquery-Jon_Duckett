@@ -1,0 +1,1 @@
+$('.tab-list').each(function()

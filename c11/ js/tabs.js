@@ -8,3 +8,5 @@ $('.tab-list').each(function(){             // Find lists of tabs
     e.preventDefault();                           // Prevent link behavior
     var $link = $(this),                          // Store the current link
     id = this.hash;                           // Get href of clicked tab 
+
+    if (id && !$link.is('.active')) {             // If not currently active

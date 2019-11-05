@@ -12,3 +12,9 @@ $('.tab-list').each(function(){             // Find lists of tabs
     if (id && !$link.is('.active')) {             // If not currently active
         $panel.removeClass('active');               // Make panel inactive
         $tab.removeClass('active');                 // Make tab inactive
+
+        $panel = $(id).addClass('active');          // Make new panel active
+        $tab = $link.parent().addClass('active');   // Make new tab active 
+      }
+    });
+  });

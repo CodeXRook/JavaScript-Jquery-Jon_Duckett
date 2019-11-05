@@ -6,3 +6,4 @@ $('.tab-list').each(function(){             // Find lists of tabs
 
   $this.on('click', '.tab-control', function(e) { // When click on a tab
     e.preventDefault();                           // Prevent link behavior
+    var $link = $(this),                          // Store the current link

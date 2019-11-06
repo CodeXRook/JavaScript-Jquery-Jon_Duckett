@@ -47,3 +47,4 @@ if (cache.hasOwnProperty(src)) {        // If cache contains this image
         // Remove is-loading class from frame & append new image to it
         $frame.removeClass('is-loading').append($img);
         cache[src].isLoading = false;       // Update isLoading in cache
+        // If still most recently requested image then

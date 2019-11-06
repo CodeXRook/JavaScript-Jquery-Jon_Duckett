@@ -64,3 +64,10 @@ if (cache.hasOwnProperty(src)) {        // If cache contains this image
     $img.attr({                           // Set attributes on <img> element
         'src': src,                         // Add src attribute to load image
         'alt': this.title || ''             // Add title if one was given in link
+    });
+
+}
+
+});
+// Final line runs once when rest of script has loaded to show the first image
+$('.thumb').eq(0).click();                // Simulate click on first thumb

@@ -28,3 +28,5 @@ var modal = (function() {            // Declare modal object
         width: settings.width || 'auto',           // Set width
         height: settings.height || 'auto'          // Set height
     }).appendTo('body');                         // Add it to the page
+
+    modal.center();                              // Call center() method

@@ -1,0 +1,1 @@
+var request;   // Latest image to be requested

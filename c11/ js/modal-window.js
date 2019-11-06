@@ -31,3 +31,5 @@ var modal = (function() {            // Declare modal object
 
     modal.center();                              // Call center() method
     $(window).on('resize', modal.center);        // Call it if window resized
+},
+close: function() {                            // Define close() method

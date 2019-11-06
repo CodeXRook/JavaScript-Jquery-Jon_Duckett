@@ -30,3 +30,4 @@ var modal = (function() {            // Declare modal object
     }).appendTo('body');                         // Add it to the page
 
     modal.center();                              // Call center() method
+    $(window).on('resize', modal.center);        // Call it if window resized

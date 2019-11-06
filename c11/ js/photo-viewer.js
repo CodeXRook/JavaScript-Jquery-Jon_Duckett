@@ -7,3 +7,4 @@ var $thumbs = $('.thumb');           // Thumbnails
 function crossfade($img) {   // Function to fade between images
                              // Pass in new image as parameter
   if ($current) {            // If there is currently an image showing
+    $current.stop().fadeOut('slow'); // Stop any animation & fade it out

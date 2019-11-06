@@ -17,4 +17,5 @@ var modal = (function() {            // Declare modal object
         var top = Math.max($window.height() - $modal.outerHeight(), 0) / 2;
       var left = Math.max($window.width() - $modal.outerWidth(), 0) / 2;
       $modal.css({                                // Set CSS for the modal
+        top:top + $window.scrollTop(),            // Center vertically
 }

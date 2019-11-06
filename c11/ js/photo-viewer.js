@@ -11,3 +11,4 @@ function crossfade($img) {   // Function to fade between images
   }
 
   $img.css({                         // Set the CSS margins for the image
+    marginLeft: -$img.width() / 2,   // Negative margin of half image's width

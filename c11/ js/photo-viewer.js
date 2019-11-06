@@ -1,4 +1,4 @@
 var request;   // Latest image to be requested
 var $current;   // Image currently being shown 
 var cache = {};    // Cache object
-var $frame 
+var $frame = $('#photo-viewer');     // Container for image

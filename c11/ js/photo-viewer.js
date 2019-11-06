@@ -29,3 +29,5 @@ e.preventDefault();                     // Stop default link behavior
 
 $thumbs.removeClass('active');          // Remove active from all thumbs
 $(this).addClass('active');             // Add active to clicked thumb
+
+if (cache.hasOwnProperty(src)) {        // If cache contains this image

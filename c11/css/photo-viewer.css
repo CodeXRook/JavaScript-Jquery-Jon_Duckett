@@ -7,4 +7,8 @@
     content: url(images/load.gif);
     position: absolute;
     top: 0;
+    right: 0;}
+
+#photo-viewer img {
+    
 }

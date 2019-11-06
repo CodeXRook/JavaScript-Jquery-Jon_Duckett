@@ -35,3 +35,4 @@ if (cache.hasOwnProperty(src)) {        // If cache contains this image
         crossfade(cache[src].$img);         // Call crossfade() function
     }
 } else {                                // Otherwise it is not in cache
+    $img = $('<img/>');                   // Store empty <img/> element in $img

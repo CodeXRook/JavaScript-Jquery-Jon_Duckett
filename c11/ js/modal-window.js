@@ -33,3 +33,4 @@ var modal = (function() {            // Declare modal object
     $(window).on('resize', modal.center);        // Call it if window resized
 },
 close: function() {                            // Define close() method
+    $content.empty();                            // Remove content from modal

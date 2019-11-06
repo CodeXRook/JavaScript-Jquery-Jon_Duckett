@@ -48,3 +48,6 @@ if (cache.hasOwnProperty(src)) {        // If cache contains this image
         $frame.removeClass('is-loading').append($img);
         cache[src].isLoading = false;       // Update isLoading in cache
         // If still most recently requested image then
+        if (request === src) {
+            crossfade($img);                  // Call crossfade() function
+        }

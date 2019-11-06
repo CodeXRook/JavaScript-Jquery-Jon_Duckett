@@ -50,4 +50,6 @@ if (cache.hasOwnProperty(src)) {        // If cache contains this image
         // If still most recently requested image then
         if (request === src) {
             crossfade($img);                  // Call crossfade() function
-        }
+        }                                   // Solves asynchronous loading issue
+    });
+    $frame.addClass('is-loading');        // Add is-loading class to frame

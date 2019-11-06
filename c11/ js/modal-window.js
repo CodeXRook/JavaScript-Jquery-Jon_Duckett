@@ -18,4 +18,7 @@ var modal = (function() {            // Declare modal object
       var left = Math.max($window.width() - $modal.outerWidth(), 0) / 2;
       $modal.css({                                // Set CSS for the modal
         top:top + $window.scrollTop(),            // Center vertically
-}
+        left:left + $window.scrollLeft()          // Center horizontally
+    });
+  },
+  open: function(settings) {                     // Define open() method

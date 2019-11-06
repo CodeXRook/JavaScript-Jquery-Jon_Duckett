@@ -10,6 +10,7 @@ var modal = (function() {            // Declare modal object
         e.preventDefault();                           // Prevent link behavior
         modal.close();                                // Close the modal window
   });
-  
+
   return {                                        // Add code to modal
+    center: function() {                          // Define center() method
 }

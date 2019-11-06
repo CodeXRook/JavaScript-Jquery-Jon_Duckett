@@ -24,3 +24,5 @@ $(document).on('click', '.thumb', function(e){ // When a thumb is clicked on
     var $img,                               // Create local variable called $img
     src = this.href;                    // Store path to image
     request = src;                      // Store latest image request
+
+e.preventDefault();                     // Stop default link behavior

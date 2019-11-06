@@ -26,3 +26,4 @@ var modal = (function() {            // Declare modal object
 
     $modal.css({                                 // Set modal dimensions
         width: settings.width || 'auto',           // Set width
+        height: settings.height || 'auto'          // Set height

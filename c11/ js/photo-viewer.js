@@ -45,3 +45,4 @@ if (cache.hasOwnProperty(src)) {        // If cache contains this image
     $img.on('load', function(){           // When image has loaded
         $img.hide();                        // Hide it
         // Remove is-loading class from frame & append new image to it
+        $frame.removeClass('is-loading').append($img);

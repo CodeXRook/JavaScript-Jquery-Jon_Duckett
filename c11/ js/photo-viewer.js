@@ -58,3 +58,6 @@ if (cache.hasOwnProperty(src)) {        // If cache contains this image
     $img.attr({                           // Set attributes on <img> element
         'src': src,                         // Add src attribute to load image
         'alt': this.title || ''             // Add title if one was given in link
+    });
+    $frame.addClass('is-loading');        // Add is-loading class to frame
+

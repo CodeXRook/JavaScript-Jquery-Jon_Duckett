@@ -38,3 +38,5 @@ if (cache.hasOwnProperty(src)) {        // If cache contains this image
     $img = $('<img/>');                   // Store empty <img/> element in $img
     cache[src] = {                        // Store this image in cache
         $img: $img,                         // Add the path to the image
+        isLoading: true                     // Set isLoading property to false
+    };

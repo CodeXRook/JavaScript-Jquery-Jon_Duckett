@@ -35,3 +35,6 @@ var modal = (function() {            // Declare modal object
 close: function() {                            // Define close() method
     $content.empty();                            // Remove content from modal
     $modal.detach();                             // Remove modal from page
+}
+};
+}());

@@ -23,3 +23,5 @@ var modal = (function() {            // Declare modal object
   },
   open: function(settings) {                     // Define open() method
     $content.empty().append(settings.content);   // Set new content of modal
+
+    $modal.css({                                 // Set modal dimensions

@@ -26,3 +26,5 @@ $(document).on('click', '.thumb', function(e){ // When a thumb is clicked on
     request = src;                      // Store latest image request
 
 e.preventDefault();                     // Stop default link behavior
+
+$thumbs.removeClass('active');          // Remove active from all thumbs

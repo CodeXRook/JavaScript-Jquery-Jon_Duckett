@@ -5,3 +5,5 @@ var $frame = $('#photo-viewer');     // Container for image
 var $thumbs = $('.thumb');           // Thumbnails
 
 function crossfade($img) {   // Function to fade between images
+                             // Pass in new image as parameter
+  if ($current) {            // If there is currently an image showing

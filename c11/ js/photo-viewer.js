@@ -52,7 +52,8 @@ if (cache.hasOwnProperty(src)) {        // If cache contains this image
             crossfade($img);                  // Call crossfade() function
         }                                   // Solves asynchronous loading issue
     });
-    
+
     $frame.addClass('is-loading');        // Add is-loading class to frame
 
     $img.attr({                           // Set attributes on <img> element
+        'src': src,                         // Add src attribute to load image

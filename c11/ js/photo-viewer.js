@@ -28,3 +28,4 @@ $(document).on('click', '.thumb', function(e){ // When a thumb is clicked on
 e.preventDefault();                     // Stop default link behavior
 
 $thumbs.removeClass('active');          // Remove active from all thumbs
+$(this).addClass('active');             // Add active to clicked thumb

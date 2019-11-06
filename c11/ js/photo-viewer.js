@@ -40,3 +40,7 @@ if (cache.hasOwnProperty(src)) {        // If cache contains this image
         $img: $img,                         // Add the path to the image
         isLoading: true                     // Set isLoading property to false
     };
+
+    // Next few lines will run when image has loaded but are prepared first
+    $img.on('load', function(){           // When image has loaded
+ 

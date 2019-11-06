@@ -25,3 +25,4 @@ var modal = (function() {            // Declare modal object
     $content.empty().append(settings.content);   // Set new content of modal
 
     $modal.css({                                 // Set modal dimensions
+        width: settings.width || 'auto',           // Set width

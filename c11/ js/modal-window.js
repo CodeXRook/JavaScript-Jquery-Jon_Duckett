@@ -8,4 +8,6 @@ var modal = (function() {            // Declare modal object
 
     $close.on('click', function(e){                 // If user clicks on close
         e.preventDefault();                           // Prevent link behavior
+        modal.close();                                // Close the modal window
+  });
 }

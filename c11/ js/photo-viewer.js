@@ -16,3 +16,5 @@ function crossfade($img) {   // Function to fade between images
   });
 
   $img.stop().fadeTo('slow', 1);     // Stop animation on new image & fade in
+
+  $current = $img;                   // New image becomes current image

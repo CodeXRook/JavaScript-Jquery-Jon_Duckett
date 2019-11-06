@@ -5,4 +5,6 @@ var modal = (function() {            // Declare modal object
     var $close = $('<button role="button" class="modal-close">close</button>');
 
     $modal.append($content, $close);                // Add close button to modal
+    
+    $close.on('click', function(e){                 // If user clicks on close
 }

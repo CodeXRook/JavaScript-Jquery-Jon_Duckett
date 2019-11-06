@@ -1,1 +1,1 @@
-var modal
+var modal = (function()

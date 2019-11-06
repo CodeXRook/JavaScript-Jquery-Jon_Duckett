@@ -13,4 +13,6 @@ function crossfade($img) {   // Function to fade between images
   $img.css({                         // Set the CSS margins for the image
     marginLeft: -$img.width() / 2,   // Negative margin of half image's width
     marginTop: -$img.height() / 2    // Negative margin of half image's height
- 
+  });
+
+  $img.stop().fadeTo('slow', 1);     // Stop animation on new image & fade in

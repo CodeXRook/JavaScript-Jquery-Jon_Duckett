@@ -30,3 +30,4 @@ $('.slider').each(function() {              // For every slider
   $slides.eq(newIndex).css( {left: slideLeft, display: 'block'} );
 
   $group.animate( {left: animateLeft}, function() {    // Animate slides and
+    $slides.eq(currentIndex).css( {display: 'none'} ); // Hide previous slide 

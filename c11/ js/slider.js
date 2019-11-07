@@ -59,3 +59,7 @@ $button.on('click', function() { // Create event handler for the button
 }).appendTo('.slide-buttons');   // Add to the buttons holder
 buttonArray.push($button);       // Add it to the button array
 });
+advance();                          // Script is set up, advance() to move it
+
+
+});

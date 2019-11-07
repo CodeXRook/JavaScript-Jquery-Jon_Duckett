@@ -25,5 +25,5 @@ $('.slider').each(function() {              // For every slider
     } else {                           // Otherwise
         slideLeft = '-100%';           // Sit the new slide to the left
         animateLeft = '100%';          // Animate the current group to the right
-
   }
+  // Position new slide to left (if less) or right (if more) of current

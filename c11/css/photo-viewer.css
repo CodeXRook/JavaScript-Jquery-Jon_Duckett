@@ -3,7 +3,7 @@
     height: 300px;
     overflow: hidden;}
 
-#photo-viewer. is-loading:after {
+#photo-viewer.is-loading:after {
     content: url(images/load.gif);
     position: absolute;
     top: 0;

@@ -1,0 +1,1 @@
+$('.slider').each(function() {              // For every slider

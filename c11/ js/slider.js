@@ -16,4 +16,6 @@ $('.slider').each(function() {              // For every slider
         return;
     }
 
+    buttonArray[currentIndex].removeClass('active'); // Remove class from item
+
   }

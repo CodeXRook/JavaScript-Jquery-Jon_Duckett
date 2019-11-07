@@ -40,3 +40,4 @@ $('.slider').each(function() {              // For every slider
 function advance() {                     // Used to set 
   clearTimeout(timeout);                 // Clear previous timeout
   timeout = setTimeout(function() {      // Set new timer
+   if (currentIndex < ($slides.length - 1)) { // If slide < total slides

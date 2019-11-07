@@ -31,3 +31,4 @@ $('.slider').each(function() {              // For every slider
 
   $group.animate( {left: animateLeft}, function() {    // Animate slides and
     $slides.eq(currentIndex).css( {display: 'none'} ); // Hide previous slide 
+    $slides.eq(newIndex).css( {left: 0} ); // Set position of the new item

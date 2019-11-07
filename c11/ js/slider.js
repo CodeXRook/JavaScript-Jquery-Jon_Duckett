@@ -44,3 +44,8 @@ function advance() {                     // Used to set
     move(currentIndex + 1);            // Move to next slide
   } else {                             // Otherwise
     move(0);                           // Move to the first slide
+  }
+ }, 4000);     
+}                                      // Milliseconds timer will wait
+
+$.each($slides, function(index)

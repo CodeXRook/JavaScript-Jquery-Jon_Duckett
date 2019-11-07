@@ -11,4 +11,9 @@ $('.slider').each(function() {              // For every slider
 
     advance();                       // When slide moves, call advance() again
 
+    // If it is the current slide / animating do nothing
+    if ($group.is(':animated') || currentIndex === newIndex) {
+        return;
+    }
+
   }

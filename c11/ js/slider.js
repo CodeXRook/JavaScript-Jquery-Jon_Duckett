@@ -33,3 +33,6 @@ $('.slider').each(function() {              // For every slider
     $slides.eq(currentIndex).css( {display: 'none'} ); // Hide previous slide 
     $slides.eq(newIndex).css( {left: 0} ); // Set position of the new item
     $group.css( {left: 0} );               // Set position of group of slides
+    currentIndex = newIndex;               // Set currentIndex to the new image
+});
+}

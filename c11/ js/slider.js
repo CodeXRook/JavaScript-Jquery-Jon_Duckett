@@ -27,3 +27,6 @@ $('.slider').each(function() {              // For every slider
         animateLeft = '100%';          // Animate the current group to the right
   }
   // Position new slide to left (if less) or right (if more) of current
+  $slides.eq(newIndex).css( {left: slideLeft, display: 'block'} );
+
+  $group.animate( {left: animateLeft}, function() {    // Animate slides and

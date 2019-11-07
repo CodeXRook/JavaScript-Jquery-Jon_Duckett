@@ -19,4 +19,6 @@ $('.slider').each(function() {              // For every slider
     buttonArray[currentIndex].removeClass('active'); // Remove class from item
     buttonArray[newIndex].addClass('active');        // Add class to new item
 
+    if (newIndex > currentIndex) {   // If new item > current
+
   }

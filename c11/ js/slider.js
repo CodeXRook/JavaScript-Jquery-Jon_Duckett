@@ -36,3 +36,5 @@ $('.slider').each(function() {              // For every slider
     currentIndex = newIndex;               // Set currentIndex to the new image
 });
 }
+
+function advance() {                     // Used to set 

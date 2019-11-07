@@ -20,5 +20,6 @@ $('.slider').each(function() {              // For every slider
     buttonArray[newIndex].addClass('active');        // Add class to new item
 
     if (newIndex > currentIndex) {   // If new item > current
+        slideLeft = '100%';            // Sit the new slide to the right
 
   }

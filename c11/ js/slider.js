@@ -21,5 +21,6 @@ $('.slider').each(function() {              // For every slider
 
     if (newIndex > currentIndex) {   // If new item > current
         slideLeft = '100%';            // Sit the new slide to the right
+        animateLeft = '-100%';         // Animate the current group to the left
 
   }

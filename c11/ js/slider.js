@@ -52,4 +52,5 @@ $.each($slides, function(index) {
     // Create a button element for the button
 var $button = $('<button type="button" class="slide-btn">&bull;</button>');
 if (index === currentIndex) {    // If index is the current item
+    $button.addClass('active');    // Add the active class
 }

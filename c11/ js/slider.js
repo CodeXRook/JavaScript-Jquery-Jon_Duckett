@@ -6,7 +6,9 @@ $('.slider').each(function() {              // For every slider
   var currentIndex = 0;                     // Hold index number of the current slide
   var timeout;                              // Sets gap between auto-sliding
 
-  function move(newIndex){                 // Creates the slide from old to new one
-    var animateLeft, slideLeft;      // Declare variables
+  function move(newIndex){                  // Creates the slide from old to new one
+    var animateLeft, slideLeft;             // Declare variables
+
+    advance();                       // When slide moves, call advance() again
 
   }

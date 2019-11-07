@@ -43,3 +43,4 @@ function advance() {                     // Used to set
    if (currentIndex < ($slides.length - 1)) { // If slide < total slides
     move(currentIndex + 1);            // Move to next slide
   } else {                             // Otherwise
+    move(0);                           // Move to the first slide

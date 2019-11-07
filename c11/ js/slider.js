@@ -57,3 +57,5 @@ if (index === currentIndex) {    // If index is the current item
 $button.on('click', function() { // Create event handler for the button
     move(index);                   // It calls the move() function
 }).appendTo('.slide-buttons');   // Add to the buttons holder
+buttonArray.push($button);       // Add it to the button array
+});

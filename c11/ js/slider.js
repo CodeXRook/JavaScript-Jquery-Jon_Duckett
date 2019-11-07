@@ -42,3 +42,4 @@ function advance() {                     // Used to set
   timeout = setTimeout(function() {      // Set new timer
    if (currentIndex < ($slides.length - 1)) { // If slide < total slides
     move(currentIndex + 1);            // Move to next slide
+  } else {                             // Otherwise

@@ -19,9 +19,11 @@ $('.slider').each(function() {              // For every slider
     buttonArray[currentIndex].removeClass('active'); // Remove class from item
     buttonArray[newIndex].addClass('active');        // Add class to new item
 
-    if (newIndex > currentIndex) {   // If new item > current
+    if (newIndex > currentIndex) {     // If new item > current
         slideLeft = '100%';            // Sit the new slide to the right
         animateLeft = '-100%';         // Animate the current group to the left
-    } else {                         // Otherwise
+    } else {                           // Otherwise
+        slideLeft = '-100%';           // Sit the new slide to the left
+        animateLeft = '100%';          // Animate the current group to the right
 
   }

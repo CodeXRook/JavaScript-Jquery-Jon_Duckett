@@ -48,4 +48,7 @@ function advance() {                     // Used to set
  }, 4000);     
 }                                      // Milliseconds timer will wait
 
-$.each($slides, function(index)
+$.each($slides, function(index) {
+    // Create a button element for the button
+var $button = $('<button type="button" class="slide-btn">&bull;</button>');
+}

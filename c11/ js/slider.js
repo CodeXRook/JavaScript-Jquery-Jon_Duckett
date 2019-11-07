@@ -55,3 +55,4 @@ if (index === currentIndex) {    // If index is the current item
     $button.addClass('active');    // Add the active class
 }
 $button.on('click', function() { // Create event handler for the button
+    move(index);                   // It calls the move() function

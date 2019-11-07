@@ -5,3 +5,5 @@ $('.slider').each(function() {              // For every slider
   var buttonArray  = [];                    // Create array to hold navigation buttons
   var currentIndex = 0;                     // Hold index number of the current slide
   var timeout;                              // Sets gap between auto-sliding
+
+  function move(newIndex)

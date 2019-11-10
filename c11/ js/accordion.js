@@ -5,3 +5,4 @@ $('.accordion').on('click', '.accordion-control', function(e){ // When clicked
     .not(':animated')                    // If it is not currently animating
     .slideToggle();                      // Use slide toggle to show or hide it
 });
+return this;                            //  Return the jQuery selection 

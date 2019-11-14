@@ -25,6 +25,9 @@ $(function(){
 });
 
     // LOOP THROUGH NEW ARRAY AND ADD MATCHING PEOPLE TO THE RESULTS TABLE
-    var $tableBody = $('<tbody></tbody>');         //New table body
+    var $tableBody = $('<tbody></tbody>');         // New table body
+    for (var i = 0; i < results.length; i++) {      // Loop through matches
+
+    }
     
 })

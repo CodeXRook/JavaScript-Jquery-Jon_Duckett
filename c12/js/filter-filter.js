@@ -38,5 +38,6 @@ $(function () {
         $row.append($('<td></td>').text(person.name)); //Add their name
         $row.append($('<td><t/td>').text(person.rate)); // Add their rate
         $tableBody.append( $row );                      // Add row to new content
-    })
+    }
+    $('thead').after($tableBody);                       //Add tbody after thead
 });

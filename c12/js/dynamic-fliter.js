@@ -24,4 +24,15 @@
         $min = $('#value-min'),     // Minimum text input
         $max = $('#value-max'),     // Maximun text input
         $table = $('rates');        //The table that shows resutls
+
+        function makeRows() {       // Create table rows and the array
+            people.forEach(function(person) {  // For each person object in people
+                var $row = $('<tr></tr>');      // Create a row for them
+                $row.append( $ ('<td></td>').text(person.name) ) // Add their name
+                $row.append( $ ('<td></td>').text(person.rate) ); // Add their rate
+                
+ 
+            })
+
+        }
 })

@@ -15,7 +15,10 @@
            rate:75 
         },
         {
-
+            name:'Nigel',
+            rate:120
         }
-    ]
+    ];
+
+    var rows = [],
 })

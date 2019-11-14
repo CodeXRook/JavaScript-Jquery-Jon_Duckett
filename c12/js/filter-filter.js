@@ -36,5 +36,7 @@ $(function () {
         var person = results[i];                   // Store current person 
         var $row = $('<tr></tr>');                 // Create a row for them
         $row.append($('<td></td>').text(person.name)); //Add their name
+        $row.append($('<td><t/td>').text(person.rate)); // Add their rate
+        $tableBody.append( $row );                      // Add row to new content
     })
 });

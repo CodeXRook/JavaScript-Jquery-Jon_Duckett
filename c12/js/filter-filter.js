@@ -34,6 +34,7 @@ $(function () {
     var $tableBody =$('<tbody><tbody>');           // New table body
     for (var i = 0; i < results.length; i++) {     // Loop through matches
         var person = results[i];                   // Store current person 
-        var $row = $()
+        var $row = $('<tr></tr>');                 // Create a row for them
+        $row.append($('<td></td>').text(person.name)); //Add their name
     })
 });

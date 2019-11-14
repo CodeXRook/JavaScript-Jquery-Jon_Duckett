@@ -10,8 +10,14 @@ $(function () {
             rate:80
         },
         {
-            name: 'Gordon'
+            name: 'Gordon',
+            rate: 75
+        },
+        {
+            name: 'Nigel',
+            rate:120
         }
-    
-    ]
-})
+      ];
+
+
+});

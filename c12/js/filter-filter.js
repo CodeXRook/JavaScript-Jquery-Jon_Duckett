@@ -20,4 +20,10 @@ $(function () {
       ];
 
 
+    // THE FUNCTION ACTS AS A FILTER 
+    function priceRange(person) {                    // Declare priceRange()
+        return(person.rate >= 65) && (person.rate <=90);// IN range returns true
+    };
+
+
 });

@@ -24,6 +24,8 @@ $(function () {
     function priceRange(person) {                    // Declare priceRange()
         return(person.rate >= 65) && (person.rate <=90);// IN range returns true
     };
-
+    //FILTER THE PEOPLE ARRAY & ADDD MATCHES TO THE REUSLTS ARRAY
+    var results = [];                           // Array for matching people
+    results = people.filter(priceRange);        // filter(calls priceRange()
 
 });

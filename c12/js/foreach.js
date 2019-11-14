@@ -7,11 +7,12 @@ $(function(){
           rate: 60                           //It holds name and rate
         },
         {
-            name: 'Gordon',
-            rate:75
+            name: Camile,
+            rate:60
         },
         {
-            
+           name: 'Nigel',
+           rate: 120
         }
-    ]
+    ];
 })

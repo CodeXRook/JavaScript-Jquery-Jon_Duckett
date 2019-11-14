@@ -20,5 +20,8 @@
         }
     ];
 
-    var rows = [],
+    var rows = [],         // rows array
+        $min = $('#value-min'),     // Minimum text input
+        $max = $('#value-max'),     // Maximun text input
+        $table = $('rates');        //The table that shows resutls
 })

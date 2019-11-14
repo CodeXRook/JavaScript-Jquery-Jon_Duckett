@@ -24,8 +24,16 @@ $(function () {
     function priceRange(person) {                    // Declare priceRange()
         return(person.rate >= 65) && (person.rate <=90);// IN range returns true
     };
+
     //FILTER THE PEOPLE ARRAY & ADDD MATCHES TO THE REUSLTS ARRAY
     var results = [];                           // Array for matching people
     results = people.filter(priceRange);        // filter(calls priceRange()
 
+
+    //  LOOP THROUGH NEW ARRAY AND ADD MATCHING PEOPLE TO THE RESULTS TABLE
+    var $tableBody =$('<tbody><tbody>');           // New table body
+    for (var i = 0; i < results.length; i++) {     // Loop through matches
+        var person = results[i];                   // Store current person 
+        var $row = $()
+    })
 });

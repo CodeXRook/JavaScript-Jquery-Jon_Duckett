@@ -49,3 +49,20 @@ function update(min, max) {           // Update the table content
   rows.forEach(function(row) {        // For each row in the rows array
     if (row.person.rate >= min && row.person.rate <= max) { // If in range
         row.$element.show();            // Show the row
+    } else {                          // Otherwise
+        row.$element.hide();            // Hide the row
+      }
+    });
+  }
+  function init() {                     // Tasks when script first runs
+    $('#slider').noUiSlider({           // Set up the slide control
+      range: [0, 150], start: [65, 90], handles: 2, margin: 20, connect: true,
+      serialization: {to: [$min, $max],resolution: 1}
+    }).change(function() { update($min.val(), $max.val()); });
+    makeRows();                           // Create table rows and rows array
+    appendRows();                         // Add the rows to the table
+    update($min.val(), $max.val());     // Update table to show matches
+  }
+
+  $(init);                              // Call init() when DOM is ready
+}());

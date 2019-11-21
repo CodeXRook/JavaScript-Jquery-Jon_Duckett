@@ -46,3 +46,4 @@
 }
 
 function update(min, max) {           // Update the table content
+  rows.forEach(function(row) {        // For each row in the rows array

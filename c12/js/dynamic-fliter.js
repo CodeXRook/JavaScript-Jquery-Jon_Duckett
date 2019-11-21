@@ -30,9 +30,10 @@
                 var $row = $('<tr></tr>');      // Create a row for them
                 $row.append( $ ('<td></td>').text(person.name) ) // Add their name
                 $row.append( $ ('<td></td>').text(person.rate) ); // Add their rate
-                
+                rows.push({ //Create rows arrat which link people objects to table rows})
+                   person: person,                 // Reference to the person object
  
             })
 
         }
-})
+});

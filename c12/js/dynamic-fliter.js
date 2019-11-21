@@ -37,6 +37,6 @@
         });
 }
 
- function appendRows(){
-     
+ function appendRows(){                         // Adds rows to the table
+    var $tbody = $('<tbody></tbody>');  // Create <tbody> element
  }

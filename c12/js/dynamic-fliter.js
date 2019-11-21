@@ -40,4 +40,5 @@
  function appendRows(){                         // Adds rows to the table
     var $tbody = $('<tbody></tbody>');          // Create <tbody> element
     rows.forEach(function(row) {                // For each object in the rows array
+        $tbody.append(row.$element);      // Add the HTML for the row
  }

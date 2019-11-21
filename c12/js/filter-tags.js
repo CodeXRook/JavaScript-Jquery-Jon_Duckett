@@ -4,5 +4,6 @@
     var tagged = {};                                // Create tagged object
 
     $imgs.each(function() {                         // Loop through images and
+        var img = this;                               // Store img in variable
 
 }

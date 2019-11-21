@@ -5,5 +5,6 @@
 
     $imgs.each(function() {                         // Loop through images and
         var img = this;                               // Store img in variable
+        var tags = $(this).data('tags');              // Get this element's tags
 
 }

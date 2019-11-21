@@ -3,4 +3,6 @@
     var $buttons = $('#buttons');                   // Store buttons element
     var tagged = {};                                // Create tagged object
 
+    $imgs.each(function() {                         // Loop through images and
+
 }

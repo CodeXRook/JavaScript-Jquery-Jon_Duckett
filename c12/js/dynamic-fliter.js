@@ -32,7 +32,7 @@
                 $row.append( $ ('<td></td>').text(person.rate) ); // Add their rate
                 rows.push({ //Create rows arrat which link people objects to table rows})
                    person: person,                 // Reference to the person object
- 
+                   $element: $row                  // Reference to row as jQuery selection
             })
 
         }

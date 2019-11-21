@@ -48,3 +48,4 @@
 function update(min, max) {           // Update the table content
   rows.forEach(function(row) {        // For each row in the rows array
     if (row.person.rate >= min && row.person.rate <= max) { // If in range
+        row.$element.show();            // Show the row

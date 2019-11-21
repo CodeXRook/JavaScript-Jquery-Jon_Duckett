@@ -43,3 +43,6 @@
         $tbody.append(row.$element);      // Add the HTML for the row
  });
  $table.append($tbody);              // Add the rows to the table
+}
+
+function update(min, max) {           // Update the table content

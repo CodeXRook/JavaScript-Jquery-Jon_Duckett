@@ -12,4 +12,5 @@
                 if (tagged[tagName] == null) {            // If object doesn't have tag
                 tagged[tagName] = [];                   // Add empty array to object
         }
+        tagged[tagName].push(img);                // Add the image to the array
 }

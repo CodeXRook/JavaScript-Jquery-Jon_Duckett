@@ -7,4 +7,7 @@
         var img = this;                               // Store img in variable
         var tags = $(this).data('tags');              // Get this element's tags
 
+        if (tags){                                   // If the element had tags
+            tags.split(',').forEach(function(tagName) { // Split at comma and
+        }
 }

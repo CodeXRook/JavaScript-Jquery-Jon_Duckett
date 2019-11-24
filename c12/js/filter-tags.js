@@ -10,5 +10,6 @@
         if (tags){                                   // If the element had tags
             tags.split(',').forEach(function(tagName) { // Split at comma and
                 if (tagged[tagName] == null) {            // If object doesn't have tag
+                tagged[tagName] = [];                   // Add empty array to object
         }
 }

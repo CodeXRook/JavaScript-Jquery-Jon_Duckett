@@ -28,3 +28,5 @@ click: function() {                            // Add onclick handler to
 }
 }).appendTo($buttons);                           // Add to buttons
 $.each(tagged, function(tagName) {               // For each tag name
+    $('<button/>', {                               // Create empty button
+        text: tagName + ' (' + tagged[tagName].length + ')', // Add tag name

@@ -14,7 +14,8 @@
         }
         tagged[tagName].push(img);                      // Add the image to the array
     });
-  }
+  }x
 });
 $('<button/>', {                                       // Create empty button
 ]text: 'Show All',                                     // Add text 'show all'
+class: 'active',                               // Make it active

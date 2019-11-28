@@ -25,3 +25,6 @@ click: function() {                            // Add onclick handler to
     .siblings()                                // Get its siblings
     .removeClass('active');                    // Remove active from siblings
     $imgs.show();                                // Show all images
+}
+}).appendTo($buttons);                           // Add to buttons
+$.each(tagged, function(tagName) {               // For each tag name

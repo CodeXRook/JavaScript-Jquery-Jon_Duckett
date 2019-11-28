@@ -22,3 +22,4 @@ class: 'active',                               // Make it active
 click: function() {                            // Add onclick handler to
     $(this)                                      // Get the clicked on button
     .addClass('active')                        // Add the class of active
+    .siblings()                                // Get its siblings

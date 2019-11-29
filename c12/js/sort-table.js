@@ -50,3 +50,4 @@ $('.sortable').each(function() {
 
         rows.sort(function(a, b) {               // Call sort() on rows array
             a = $(a).find('td').eq(column).text(); // Get text of column in row a
+            b = $(b).find('td').eq(column).text(); // Get text of column in row b

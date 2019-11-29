@@ -7,5 +7,8 @@ var compare = {                             // Declare compare object
             return -1;                          // Return -1
         } else {                              // Otherwise
           return a > b ? 1 : 0;               // If a is greater than b return 1 OR
+        }                                     // if they are the same return 0
+    },
+    duration: function(a, b) {              // Add a method called duration
 
 }

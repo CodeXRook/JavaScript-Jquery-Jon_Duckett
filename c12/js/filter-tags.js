@@ -30,3 +30,5 @@ click: function() {                            // Add onclick handler to
 $.each(tagged, function(tagName) {               // For each tag name
     $('<button/>', {                               // Create empty button
         text: tagName + ' (' + tagged[tagName].length + ')', // Add tag name
+        click: function() {                          // Add click handler
+            $(this)                                    // The button clicked on

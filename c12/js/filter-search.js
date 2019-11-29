@@ -13,4 +13,6 @@
   function filter() {                     // Declare filter() function
     var query = this.value.trim().toLowerCase();  // Get the query
     cache.forEach(function(img) {         // For each entry in cache pass image 
+        var index = 0;                      // Set index to 0
+
 }

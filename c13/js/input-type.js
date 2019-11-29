@@ -6,4 +6,5 @@
     addEvent(chk, 'change', function(e)  {        // When user clicks on checkbox
         var target = e.target || e.srcElement;      // Get that element
         try {                                       // Try the following code block
+            if (target.checked) {                     // If the checkbox is checked
     }

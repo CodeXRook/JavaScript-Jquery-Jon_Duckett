@@ -13,6 +13,8 @@ var compare = {                             // Declare compare object
         a = a.split(':');                     // Split the time at the colon
         b = b.split(':');                     // Split the time at the colon
 
+        a = Number(a[0]) * 60 + Number(a[1]); // Convert the time to seconds
+
 
 
 }

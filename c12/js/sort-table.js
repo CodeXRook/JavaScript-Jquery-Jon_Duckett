@@ -19,4 +19,5 @@ var compare = {                             // Declare compare object
         return a - b;                         // Return a minus b
 },
   date: function(a, b) {                  // Add a method called date
+    a = new Date(a);                      // New Date object to hold the date
 }

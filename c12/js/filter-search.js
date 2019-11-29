@@ -6,4 +6,7 @@
     $imgs.each(function() {                 // For each image
         cache.push({                          // Add an object to the cache array
             element: this,                      // This image
+            text: this.alt.trim().toLowerCase() // Its alt text (lowercase trimmed)
+    });
+  });
 }

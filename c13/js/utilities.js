@@ -6,3 +6,6 @@ if ('addEventListener' in el) {                  // If addEventListener works
     el['e' + event + callback] = callback;         // CreateIE fallback el[event + callback] = function () {
         el['e' + event + callback](window.event);
       };
+      el.attachEvent('on' + event, el[event + callback]);
+    }
+  }

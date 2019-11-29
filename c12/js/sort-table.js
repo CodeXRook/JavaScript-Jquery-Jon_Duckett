@@ -41,3 +41,5 @@ $('.sortable').each(function() {
      if ($header.is('.ascending') || $header.is('.descending')) {
         $header.toggleClass('ascending descending');    // Toggle to other class
         $tbody.append(rows.reverse());                // Reverse the array
+    } else {                                        // Otherwise perform a sort                            
+        $header.addClass('ascending');                // Add class to header

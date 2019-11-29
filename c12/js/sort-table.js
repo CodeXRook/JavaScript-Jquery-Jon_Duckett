@@ -15,6 +15,7 @@ var compare = {                             // Declare compare object
 
         a = Number(a[0]) * 60 + Number(a[1]); // Convert the time to seconds
         b = Number(b[0]) * 60 + Number(b[1]); // Convert the time to seconds
-
+        
+        return a - b;                         // Return a minus b
 
 }

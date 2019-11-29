@@ -31,3 +31,5 @@ $('.sortable').each(function() {
     var $tbody = $table.find('tbody');        // Store table body
     var $controls = $table.find('th');        // Store table headers
     var rows = $tbody.find('tr').toArray();   // Store array containing rows
+
+ $controls.on('click', function() {        // When user clicks on a header

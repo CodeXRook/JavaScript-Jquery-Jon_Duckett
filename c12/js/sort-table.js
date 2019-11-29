@@ -23,6 +23,8 @@ var compare = {                             // Declare compare object
     b = new Date(b);                      // New Date object to hold the date
 
     return a - b;                         // Return a minus b
-}
+  }
 };
 
+$('.sortable').each(function() {
+    var $table = $(this);                     // This sortable table

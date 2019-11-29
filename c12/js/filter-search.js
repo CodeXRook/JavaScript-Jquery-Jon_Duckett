@@ -16,4 +16,5 @@
         var index = 0;                      // Set index to 0
 
     if (query) {                        // If there is some query text
+        index = img.text.indexOf(query);  // Find if query text is in there
 }

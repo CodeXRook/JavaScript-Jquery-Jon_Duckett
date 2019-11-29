@@ -38,4 +38,5 @@ $.each(tagged, function(tagName) {               // For each tag name
             $imgs                                      // With all of the images
             .hide()                                  // Hide them
             .filter(tagged[tagName])                 // Find ones with this tag
+            .show();                                 // Show just those images
  

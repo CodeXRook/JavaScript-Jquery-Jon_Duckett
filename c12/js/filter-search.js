@@ -5,4 +5,5 @@
 
     $imgs.each(function() {                 // For each image
         cache.push({                          // Add an object to the cache array
+            element: this,                      // This image
 }

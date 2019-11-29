@@ -30,3 +30,4 @@ $('.sortable').each(function() {
     var $table = $(this);                     // This sortable table
     var $tbody = $table.find('tbody');        // Store table body
     var $controls = $table.find('th');        // Store table headers
+    var rows = $tbody.find('tr').toArray();   // Store array containing rows

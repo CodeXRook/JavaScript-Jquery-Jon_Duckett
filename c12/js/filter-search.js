@@ -11,4 +11,5 @@
   });
 
   function filter() {                     // Declare filter() function
+    var query = this.value.trim().toLowerCase();  // Get the query
 }

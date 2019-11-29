@@ -34,3 +34,4 @@ $('.sortable').each(function() {
 
  $controls.on('click', function() {        // When user clicks on a header
     var $header = $(this);                  // Get the header
+    var order = $header.data('sort');       // Get value of data-sort attribute

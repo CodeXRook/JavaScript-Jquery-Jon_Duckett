@@ -45,3 +45,5 @@ $('.sortable').each(function() {
         $header.addClass('ascending');                // Add class to header
         // Remove asc or desc from all other headers
       $header.siblings().removeClass('ascending descending'); 
+      if (compare.hasOwnProperty(order)) {  // If compare object has method
+        column = $controls.index(this);         // Search for columnâ€™s index no

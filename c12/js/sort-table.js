@@ -49,3 +49,4 @@ $('.sortable').each(function() {
         column = $controls.index(this);         // Search for columnâ€™s index no
 
         rows.sort(function(a, b) {               // Call sort() on rows array
+            a = $(a).find('td').eq(column).text(); // Get text of column in row a

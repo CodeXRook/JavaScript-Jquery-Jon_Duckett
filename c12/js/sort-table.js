@@ -1,3 +1,3 @@
-var compare = {
-    
+var compare = {                   // Declare compare object
+
 }

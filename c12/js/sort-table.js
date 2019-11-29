@@ -6,5 +6,6 @@ var compare = {                             // Declare compare object
         if (a < b) {                          // If value a is less than value b
             return -1;                          // Return -1
         } else {                              // Otherwise
+          return a > b ? 1 : 0;               // If a is greater than b return 1 OR
 
 }

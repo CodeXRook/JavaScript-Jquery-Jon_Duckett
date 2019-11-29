@@ -10,5 +10,6 @@ var compare = {                             // Declare compare object
         }                                     // if they are the same return 0
     },
     duration: function(a, b) {              // Add a method called duration
+        a = a.split(':');                     // Split the time at the colon
 
 }

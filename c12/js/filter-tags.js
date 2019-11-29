@@ -36,3 +36,6 @@ $.each(tagged, function(tagName) {               // For each tag name
             .siblings()                              // Get its siblings
             .removeClass('active');                  // Remove active from siblings
             $imgs                                      // With all of the images
+            .hide()                                  // Hide them
+            .filter(tagged[tagName])                 // Find ones with this tag
+ 

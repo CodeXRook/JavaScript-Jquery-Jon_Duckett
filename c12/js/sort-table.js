@@ -20,4 +20,6 @@ var compare = {                             // Declare compare object
 },
   date: function(a, b) {                  // Add a method called date
     a = new Date(a);                      // New Date object to hold the date
+    b = new Date(b);                      // New Date object to hold the date
+
 }

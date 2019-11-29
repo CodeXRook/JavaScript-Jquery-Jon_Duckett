@@ -33,3 +33,4 @@ $('.sortable').each(function() {
     var rows = $tbody.find('tr').toArray();   // Store array containing rows
 
  $controls.on('click', function() {        // When user clicks on a header
+    var $header = $(this);                  // Get the header

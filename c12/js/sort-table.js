@@ -43,3 +43,5 @@ $('.sortable').each(function() {
         $tbody.append(rows.reverse());                // Reverse the array
     } else {                                        // Otherwise perform a sort                            
         $header.addClass('ascending');                // Add class to header
+        // Remove asc or desc from all other headers
+      $header.siblings().removeClass('ascending descending'); 

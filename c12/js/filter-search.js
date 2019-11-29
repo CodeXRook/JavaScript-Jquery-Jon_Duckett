@@ -15,4 +15,5 @@
     cache.forEach(function(img) {         // For each entry in cache pass image 
         var index = 0;                      // Set index to 0
 
+    if (query) {                        // If there is some query text
 }

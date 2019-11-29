@@ -36,3 +36,6 @@ $('.sortable').each(function() {
     var $header = $(this);                  // Get the header
     var order = $header.data('sort');       // Get value of data-sort attribute
     var column;                             // Declare variable called column
+
+     // If selected item has ascending or descending class, reverse contents
+     if ($header.is('.ascending') || $header.is('.descending')) {

@@ -29,3 +29,4 @@ var compare = {                             // Declare compare object
 $('.sortable').each(function() {
     var $table = $(this);                     // This sortable table
     var $tbody = $table.find('tbody');        // Store table body
+    var $controls = $table.find('th');        // Store table headers

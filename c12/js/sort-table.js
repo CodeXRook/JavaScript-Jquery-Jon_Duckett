@@ -22,4 +22,7 @@ var compare = {                             // Declare compare object
     a = new Date(a);                      // New Date object to hold the date
     b = new Date(b);                      // New Date object to hold the date
 
+    return a - b;                         // Return a minus b
 }
+};
+

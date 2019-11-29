@@ -47,3 +47,5 @@ $('.sortable').each(function() {
       $header.siblings().removeClass('ascending descending'); 
       if (compare.hasOwnProperty(order)) {  // If compare object has method
         column = $controls.index(this);         // Search for columnâ€™s index no
+
+        rows.sort(function(a, b) {               // Call sort() on rows array

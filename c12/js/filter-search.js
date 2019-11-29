@@ -1,3 +1,3 @@
-(function(){
-    
+(function(){                              // Lives in an IIFE
+
 }

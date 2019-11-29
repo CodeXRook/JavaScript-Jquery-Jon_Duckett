@@ -9,4 +9,6 @@
             text: this.alt.trim().toLowerCase() // Its alt text (lowercase trimmed)
     });
   });
+
+  function filter() {                     // Declare filter() function
 }

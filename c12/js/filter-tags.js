@@ -34,3 +34,5 @@ $.each(tagged, function(tagName) {               // For each tag name
             $(this)                                    // The button clicked on
             .addClass('active')                      // Make clicked item active
             .siblings()                              // Get its siblings
+            .removeClass('active');                  // Remove active from siblings
+            $imgs                                      // With all of the images

@@ -3,4 +3,6 @@ function addEvent (el, event, callback)
 if ('addEventListener' in el) {                  // If addEventListener works
     el.addEventListener(event, callback, false);   // Use it
 } else {                                         // Otherwise
-    el['e' + event + callback] = callback;         // CreateIE fallback
+    el['e' + event + callback] = callback;         // CreateIE fallback el[event + callback] = function () {
+        el['e' + event + callback](window.event);
+      };

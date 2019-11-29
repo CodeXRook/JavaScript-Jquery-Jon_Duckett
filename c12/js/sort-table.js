@@ -39,3 +39,5 @@ $('.sortable').each(function() {
 
      // If selected item has ascending or descending class, reverse contents
      if ($header.is('.ascending') || $header.is('.descending')) {
+        $header.toggleClass('ascending descending');    // Toggle to other class
+        $tbody.append(rows.reverse());                // Reverse the array

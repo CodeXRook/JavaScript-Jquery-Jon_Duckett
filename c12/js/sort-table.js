@@ -3,4 +3,6 @@ var compare = {                             // Declare compare object
         a = a.replace(/^the /i, '');        // Remove The from start of parameter
         b = b.replace(/^the /i, '');          // Remove The from start of parameter
 
+        if (a < b) {                          // If value a is less than value b
+
 }

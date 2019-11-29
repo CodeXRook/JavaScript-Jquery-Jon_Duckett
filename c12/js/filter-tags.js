@@ -32,3 +32,5 @@ $.each(tagged, function(tagName) {               // For each tag name
         text: tagName + ' (' + tagged[tagName].length + ')', // Add tag name
         click: function() {                          // Add click handler
             $(this)                                    // The button clicked on
+            .addClass('active')                      // Make clicked item active
+            .siblings()                              // Get its siblings
